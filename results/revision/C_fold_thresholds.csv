@@ -1,0 +1,2701 @@
+repeat,fold,n_val_controls,threshold,variant,checkpoint_minutes,model,target_fpr
+1,1,57,0.751007,ckfilter,10.0,LR CTG-only,0.1
+1,2,57,0.754448,ckfilter,10.0,LR CTG-only,0.1
+1,3,57,0.65303,ckfilter,10.0,LR CTG-only,0.1
+1,4,56,0.61411,ckfilter,10.0,LR CTG-only,0.1
+1,5,56,0.657779,ckfilter,10.0,LR CTG-only,0.1
+2,1,57,0.709247,ckfilter,10.0,LR CTG-only,0.1
+2,2,57,0.553773,ckfilter,10.0,LR CTG-only,0.1
+2,3,57,0.646754,ckfilter,10.0,LR CTG-only,0.1
+2,4,56,0.746155,ckfilter,10.0,LR CTG-only,0.1
+2,5,56,0.739729,ckfilter,10.0,LR CTG-only,0.1
+3,1,57,0.673484,ckfilter,10.0,LR CTG-only,0.1
+3,2,57,0.790843,ckfilter,10.0,LR CTG-only,0.1
+3,3,57,0.713589,ckfilter,10.0,LR CTG-only,0.1
+3,4,56,0.679288,ckfilter,10.0,LR CTG-only,0.1
+3,5,56,0.72004,ckfilter,10.0,LR CTG-only,0.1
+1,1,57,0.59018,ckfilter,10.0,LR CTG-only,0.2
+1,2,57,0.660044,ckfilter,10.0,LR CTG-only,0.2
+1,3,57,0.573458,ckfilter,10.0,LR CTG-only,0.2
+1,4,56,0.52374,ckfilter,10.0,LR CTG-only,0.2
+1,5,56,0.616945,ckfilter,10.0,LR CTG-only,0.2
+2,1,57,0.630421,ckfilter,10.0,LR CTG-only,0.2
+2,2,57,0.493611,ckfilter,10.0,LR CTG-only,0.2
+2,3,57,0.517663,ckfilter,10.0,LR CTG-only,0.2
+2,4,56,0.606276,ckfilter,10.0,LR CTG-only,0.2
+2,5,56,0.593727,ckfilter,10.0,LR CTG-only,0.2
+3,1,57,0.535063,ckfilter,10.0,LR CTG-only,0.2
+3,2,57,0.633686,ckfilter,10.0,LR CTG-only,0.2
+3,3,57,0.603289,ckfilter,10.0,LR CTG-only,0.2
+3,4,56,0.571835,ckfilter,10.0,LR CTG-only,0.2
+3,5,56,0.628177,ckfilter,10.0,LR CTG-only,0.2
+1,1,57,0.785432,ckfilter,10.0,LR CTG+maternal,0.1
+1,2,57,0.879259,ckfilter,10.0,LR CTG+maternal,0.1
+1,3,57,0.805646,ckfilter,10.0,LR CTG+maternal,0.1
+1,4,56,0.695147,ckfilter,10.0,LR CTG+maternal,0.1
+1,5,56,0.699754,ckfilter,10.0,LR CTG+maternal,0.1
+2,1,57,0.73127,ckfilter,10.0,LR CTG+maternal,0.1
+2,2,57,0.660374,ckfilter,10.0,LR CTG+maternal,0.1
+2,3,57,0.682494,ckfilter,10.0,LR CTG+maternal,0.1
+2,4,56,0.866855,ckfilter,10.0,LR CTG+maternal,0.1
+2,5,56,0.745236,ckfilter,10.0,LR CTG+maternal,0.1
+3,1,57,0.781144,ckfilter,10.0,LR CTG+maternal,0.1
+3,2,57,0.824833,ckfilter,10.0,LR CTG+maternal,0.1
+3,3,57,0.85451,ckfilter,10.0,LR CTG+maternal,0.1
+3,4,56,0.700427,ckfilter,10.0,LR CTG+maternal,0.1
+3,5,56,0.741747,ckfilter,10.0,LR CTG+maternal,0.1
+1,1,57,0.601407,ckfilter,10.0,LR CTG+maternal,0.2
+1,2,57,0.702004,ckfilter,10.0,LR CTG+maternal,0.2
+1,3,57,0.715466,ckfilter,10.0,LR CTG+maternal,0.2
+1,4,56,0.575029,ckfilter,10.0,LR CTG+maternal,0.2
+1,5,56,0.623242,ckfilter,10.0,LR CTG+maternal,0.2
+2,1,57,0.625725,ckfilter,10.0,LR CTG+maternal,0.2
+2,2,57,0.574036,ckfilter,10.0,LR CTG+maternal,0.2
+2,3,57,0.514919,ckfilter,10.0,LR CTG+maternal,0.2
+2,4,56,0.72036,ckfilter,10.0,LR CTG+maternal,0.2
+2,5,56,0.576387,ckfilter,10.0,LR CTG+maternal,0.2
+3,1,57,0.590528,ckfilter,10.0,LR CTG+maternal,0.2
+3,2,57,0.710686,ckfilter,10.0,LR CTG+maternal,0.2
+3,3,57,0.652914,ckfilter,10.0,LR CTG+maternal,0.2
+3,4,56,0.593286,ckfilter,10.0,LR CTG+maternal,0.2
+3,5,56,0.69112,ckfilter,10.0,LR CTG+maternal,0.2
+1,1,57,0.158,ckfilter,10.0,RF CTG-only,0.1
+1,2,57,0.148,ckfilter,10.0,RF CTG-only,0.1
+1,3,57,0.1368,ckfilter,10.0,RF CTG-only,0.1
+1,4,56,0.137,ckfilter,10.0,RF CTG-only,0.1
+1,5,56,0.161,ckfilter,10.0,RF CTG-only,0.1
+2,1,57,0.1992,ckfilter,10.0,RF CTG-only,0.1
+2,2,57,0.14,ckfilter,10.0,RF CTG-only,0.1
+2,3,57,0.174,ckfilter,10.0,RF CTG-only,0.1
+2,4,56,0.125,ckfilter,10.0,RF CTG-only,0.1
+2,5,56,0.243,ckfilter,10.0,RF CTG-only,0.1
+3,1,57,0.1904,ckfilter,10.0,RF CTG-only,0.1
+3,2,57,0.2576,ckfilter,10.0,RF CTG-only,0.1
+3,3,57,0.1868,ckfilter,10.0,RF CTG-only,0.1
+3,4,56,0.151,ckfilter,10.0,RF CTG-only,0.1
+3,5,56,0.219,ckfilter,10.0,RF CTG-only,0.1
+1,1,57,0.1176,ckfilter,10.0,RF CTG-only,0.2
+1,2,57,0.0988,ckfilter,10.0,RF CTG-only,0.2
+1,3,57,0.0992,ckfilter,10.0,RF CTG-only,0.2
+1,4,56,0.104,ckfilter,10.0,RF CTG-only,0.2
+1,5,56,0.112,ckfilter,10.0,RF CTG-only,0.2
+2,1,57,0.1448,ckfilter,10.0,RF CTG-only,0.2
+2,2,57,0.0952,ckfilter,10.0,RF CTG-only,0.2
+2,3,57,0.108,ckfilter,10.0,RF CTG-only,0.2
+2,4,56,0.106,ckfilter,10.0,RF CTG-only,0.2
+2,5,56,0.14,ckfilter,10.0,RF CTG-only,0.2
+3,1,57,0.148,ckfilter,10.0,RF CTG-only,0.2
+3,2,57,0.1428,ckfilter,10.0,RF CTG-only,0.2
+3,3,57,0.1164,ckfilter,10.0,RF CTG-only,0.2
+3,4,56,0.122,ckfilter,10.0,RF CTG-only,0.2
+3,5,56,0.128,ckfilter,10.0,RF CTG-only,0.2
+1,1,57,0.1576,ckfilter,10.0,RF CTG+maternal,0.1
+1,2,57,0.1348,ckfilter,10.0,RF CTG+maternal,0.1
+1,3,57,0.1352,ckfilter,10.0,RF CTG+maternal,0.1
+1,4,56,0.196,ckfilter,10.0,RF CTG+maternal,0.1
+1,5,56,0.163,ckfilter,10.0,RF CTG+maternal,0.1
+2,1,57,0.17,ckfilter,10.0,RF CTG+maternal,0.1
+2,2,57,0.1248,ckfilter,10.0,RF CTG+maternal,0.1
+2,3,57,0.1736,ckfilter,10.0,RF CTG+maternal,0.1
+2,4,56,0.122,ckfilter,10.0,RF CTG+maternal,0.1
+2,5,56,0.157,ckfilter,10.0,RF CTG+maternal,0.1
+3,1,57,0.1712,ckfilter,10.0,RF CTG+maternal,0.1
+3,2,57,0.2004,ckfilter,10.0,RF CTG+maternal,0.1
+3,3,57,0.1624,ckfilter,10.0,RF CTG+maternal,0.1
+3,4,56,0.16,ckfilter,10.0,RF CTG+maternal,0.1
+3,5,56,0.186,ckfilter,10.0,RF CTG+maternal,0.1
+1,1,57,0.1232,ckfilter,10.0,RF CTG+maternal,0.2
+1,2,57,0.1156,ckfilter,10.0,RF CTG+maternal,0.2
+1,3,57,0.0996,ckfilter,10.0,RF CTG+maternal,0.2
+1,4,56,0.124,ckfilter,10.0,RF CTG+maternal,0.2
+1,5,56,0.114,ckfilter,10.0,RF CTG+maternal,0.2
+2,1,57,0.124,ckfilter,10.0,RF CTG+maternal,0.2
+2,2,57,0.1056,ckfilter,10.0,RF CTG+maternal,0.2
+2,3,57,0.1148,ckfilter,10.0,RF CTG+maternal,0.2
+2,4,56,0.1,ckfilter,10.0,RF CTG+maternal,0.2
+2,5,56,0.12,ckfilter,10.0,RF CTG+maternal,0.2
+3,1,57,0.1292,ckfilter,10.0,RF CTG+maternal,0.2
+3,2,57,0.158,ckfilter,10.0,RF CTG+maternal,0.2
+3,3,57,0.132,ckfilter,10.0,RF CTG+maternal,0.2
+3,4,56,0.12,ckfilter,10.0,RF CTG+maternal,0.2
+3,5,56,0.134,ckfilter,10.0,RF CTG+maternal,0.2
+1,1,58,0.456809,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,2,57,0.439482,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,3,51,0.427062,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,4,50,0.411421,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,5,57,0.42207,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,1,54,0.49171,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,2,57,0.359938,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,3,58,0.425136,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,4,52,0.510335,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,5,55,0.4446,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,1,58,0.500442,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,2,51,0.374657,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,3,54,0.397619,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,4,61,0.440008,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,5,57,0.456946,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,1,58,0.444194,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,2,57,0.414847,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,3,51,0.404323,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,4,50,0.405194,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,5,57,0.403136,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,1,54,0.450637,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,2,57,0.342623,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,3,58,0.415587,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,4,52,0.476863,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,5,55,0.434467,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,1,58,0.456098,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,2,51,0.347548,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,3,54,0.391002,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,4,61,0.36077,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,5,57,0.436465,ckfilter,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,1,58,0.500185,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,2,57,0.44853,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,3,51,0.411293,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,4,50,0.432596,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,5,57,0.46169,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,1,54,0.501882,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,2,57,0.447394,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,3,58,0.399188,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,4,52,0.432409,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,5,55,0.455739,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,1,58,0.480641,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,2,51,0.531973,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,3,54,0.438389,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,4,61,0.464807,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,5,57,0.477379,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,1,58,0.472925,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,2,57,0.437835,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,3,51,0.406107,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,4,50,0.412582,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,5,57,0.433013,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,1,54,0.484919,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,2,57,0.445339,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,3,58,0.391916,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,4,52,0.414096,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,5,55,0.436912,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,1,58,0.450363,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,2,51,0.435221,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,3,54,0.407901,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,4,61,0.381117,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,5,57,0.449792,ckfilter,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,1,60,0.70666,ckfilter,20.0,LR CTG-only,0.1
+1,2,60,0.623682,ckfilter,20.0,LR CTG-only,0.1
+1,3,60,0.63542,ckfilter,20.0,LR CTG-only,0.1
+1,4,60,0.85258,ckfilter,20.0,LR CTG-only,0.1
+1,5,60,0.823877,ckfilter,20.0,LR CTG-only,0.1
+2,1,60,0.764129,ckfilter,20.0,LR CTG-only,0.1
+2,2,60,0.710874,ckfilter,20.0,LR CTG-only,0.1
+2,3,60,0.661719,ckfilter,20.0,LR CTG-only,0.1
+2,4,60,0.67234,ckfilter,20.0,LR CTG-only,0.1
+2,5,60,0.759453,ckfilter,20.0,LR CTG-only,0.1
+3,1,60,0.752561,ckfilter,20.0,LR CTG-only,0.1
+3,2,60,0.734649,ckfilter,20.0,LR CTG-only,0.1
+3,3,60,0.716412,ckfilter,20.0,LR CTG-only,0.1
+3,4,60,0.722475,ckfilter,20.0,LR CTG-only,0.1
+3,5,60,0.699043,ckfilter,20.0,LR CTG-only,0.1
+1,1,60,0.556431,ckfilter,20.0,LR CTG-only,0.2
+1,2,60,0.510365,ckfilter,20.0,LR CTG-only,0.2
+1,3,60,0.573749,ckfilter,20.0,LR CTG-only,0.2
+1,4,60,0.720072,ckfilter,20.0,LR CTG-only,0.2
+1,5,60,0.555708,ckfilter,20.0,LR CTG-only,0.2
+2,1,60,0.607273,ckfilter,20.0,LR CTG-only,0.2
+2,2,60,0.559436,ckfilter,20.0,LR CTG-only,0.2
+2,3,60,0.589856,ckfilter,20.0,LR CTG-only,0.2
+2,4,60,0.576047,ckfilter,20.0,LR CTG-only,0.2
+2,5,60,0.55335,ckfilter,20.0,LR CTG-only,0.2
+3,1,60,0.666707,ckfilter,20.0,LR CTG-only,0.2
+3,2,60,0.622732,ckfilter,20.0,LR CTG-only,0.2
+3,3,60,0.657089,ckfilter,20.0,LR CTG-only,0.2
+3,4,60,0.651875,ckfilter,20.0,LR CTG-only,0.2
+3,5,60,0.581637,ckfilter,20.0,LR CTG-only,0.2
+1,1,60,0.7392,ckfilter,20.0,LR CTG+maternal,0.1
+1,2,60,0.721727,ckfilter,20.0,LR CTG+maternal,0.1
+1,3,60,0.775225,ckfilter,20.0,LR CTG+maternal,0.1
+1,4,60,0.893707,ckfilter,20.0,LR CTG+maternal,0.1
+1,5,60,0.83918,ckfilter,20.0,LR CTG+maternal,0.1
+2,1,60,0.711447,ckfilter,20.0,LR CTG+maternal,0.1
+2,2,60,0.595761,ckfilter,20.0,LR CTG+maternal,0.1
+2,3,60,0.679551,ckfilter,20.0,LR CTG+maternal,0.1
+2,4,60,0.720145,ckfilter,20.0,LR CTG+maternal,0.1
+2,5,60,0.713356,ckfilter,20.0,LR CTG+maternal,0.1
+3,1,60,0.736592,ckfilter,20.0,LR CTG+maternal,0.1
+3,2,60,0.775709,ckfilter,20.0,LR CTG+maternal,0.1
+3,3,60,0.789669,ckfilter,20.0,LR CTG+maternal,0.1
+3,4,60,0.730248,ckfilter,20.0,LR CTG+maternal,0.1
+3,5,60,0.706169,ckfilter,20.0,LR CTG+maternal,0.1
+1,1,60,0.538912,ckfilter,20.0,LR CTG+maternal,0.2
+1,2,60,0.507909,ckfilter,20.0,LR CTG+maternal,0.2
+1,3,60,0.619213,ckfilter,20.0,LR CTG+maternal,0.2
+1,4,60,0.761599,ckfilter,20.0,LR CTG+maternal,0.2
+1,5,60,0.617302,ckfilter,20.0,LR CTG+maternal,0.2
+2,1,60,0.66164,ckfilter,20.0,LR CTG+maternal,0.2
+2,2,60,0.431719,ckfilter,20.0,LR CTG+maternal,0.2
+2,3,60,0.504007,ckfilter,20.0,LR CTG+maternal,0.2
+2,4,60,0.543475,ckfilter,20.0,LR CTG+maternal,0.2
+2,5,60,0.564064,ckfilter,20.0,LR CTG+maternal,0.2
+3,1,60,0.668797,ckfilter,20.0,LR CTG+maternal,0.2
+3,2,60,0.661094,ckfilter,20.0,LR CTG+maternal,0.2
+3,3,60,0.687549,ckfilter,20.0,LR CTG+maternal,0.2
+3,4,60,0.619624,ckfilter,20.0,LR CTG+maternal,0.2
+3,5,60,0.552289,ckfilter,20.0,LR CTG+maternal,0.2
+1,1,60,0.134,ckfilter,20.0,RF CTG-only,0.1
+1,2,60,0.1558,ckfilter,20.0,RF CTG-only,0.1
+1,3,60,0.1884,ckfilter,20.0,RF CTG-only,0.1
+1,4,60,0.1782,ckfilter,20.0,RF CTG-only,0.1
+1,5,60,0.1862,ckfilter,20.0,RF CTG-only,0.1
+2,1,60,0.162,ckfilter,20.0,RF CTG-only,0.1
+2,2,60,0.1342,ckfilter,20.0,RF CTG-only,0.1
+2,3,60,0.167,ckfilter,20.0,RF CTG-only,0.1
+2,4,60,0.1364,ckfilter,20.0,RF CTG-only,0.1
+2,5,60,0.179,ckfilter,20.0,RF CTG-only,0.1
+3,1,60,0.1828,ckfilter,20.0,RF CTG-only,0.1
+3,2,60,0.1586,ckfilter,20.0,RF CTG-only,0.1
+3,3,60,0.201,ckfilter,20.0,RF CTG-only,0.1
+3,4,60,0.1524,ckfilter,20.0,RF CTG-only,0.1
+3,5,60,0.13,ckfilter,20.0,RF CTG-only,0.1
+1,1,60,0.0808,ckfilter,20.0,RF CTG-only,0.2
+1,2,60,0.0992,ckfilter,20.0,RF CTG-only,0.2
+1,3,60,0.1384,ckfilter,20.0,RF CTG-only,0.2
+1,4,60,0.1304,ckfilter,20.0,RF CTG-only,0.2
+1,5,60,0.142,ckfilter,20.0,RF CTG-only,0.2
+2,1,60,0.1288,ckfilter,20.0,RF CTG-only,0.2
+2,2,60,0.1084,ckfilter,20.0,RF CTG-only,0.2
+2,3,60,0.1144,ckfilter,20.0,RF CTG-only,0.2
+2,4,60,0.0916,ckfilter,20.0,RF CTG-only,0.2
+2,5,60,0.1152,ckfilter,20.0,RF CTG-only,0.2
+3,1,60,0.122,ckfilter,20.0,RF CTG-only,0.2
+3,2,60,0.1064,ckfilter,20.0,RF CTG-only,0.2
+3,3,60,0.1316,ckfilter,20.0,RF CTG-only,0.2
+3,4,60,0.1004,ckfilter,20.0,RF CTG-only,0.2
+3,5,60,0.0924,ckfilter,20.0,RF CTG-only,0.2
+1,1,60,0.1518,ckfilter,20.0,RF CTG+maternal,0.1
+1,2,60,0.1182,ckfilter,20.0,RF CTG+maternal,0.1
+1,3,60,0.184,ckfilter,20.0,RF CTG+maternal,0.1
+1,4,60,0.2082,ckfilter,20.0,RF CTG+maternal,0.1
+1,5,60,0.1888,ckfilter,20.0,RF CTG+maternal,0.1
+2,1,60,0.1622,ckfilter,20.0,RF CTG+maternal,0.1
+2,2,60,0.1106,ckfilter,20.0,RF CTG+maternal,0.1
+2,3,60,0.1966,ckfilter,20.0,RF CTG+maternal,0.1
+2,4,60,0.1372,ckfilter,20.0,RF CTG+maternal,0.1
+2,5,60,0.1666,ckfilter,20.0,RF CTG+maternal,0.1
+3,1,60,0.1524,ckfilter,20.0,RF CTG+maternal,0.1
+3,2,60,0.1132,ckfilter,20.0,RF CTG+maternal,0.1
+3,3,60,0.2002,ckfilter,20.0,RF CTG+maternal,0.1
+3,4,60,0.1528,ckfilter,20.0,RF CTG+maternal,0.1
+3,5,60,0.113,ckfilter,20.0,RF CTG+maternal,0.1
+1,1,60,0.0732,ckfilter,20.0,RF CTG+maternal,0.2
+1,2,60,0.104,ckfilter,20.0,RF CTG+maternal,0.2
+1,3,60,0.1504,ckfilter,20.0,RF CTG+maternal,0.2
+1,4,60,0.1816,ckfilter,20.0,RF CTG+maternal,0.2
+1,5,60,0.118,ckfilter,20.0,RF CTG+maternal,0.2
+2,1,60,0.118,ckfilter,20.0,RF CTG+maternal,0.2
+2,2,60,0.0948,ckfilter,20.0,RF CTG+maternal,0.2
+2,3,60,0.11,ckfilter,20.0,RF CTG+maternal,0.2
+2,4,60,0.116,ckfilter,20.0,RF CTG+maternal,0.2
+2,5,60,0.1152,ckfilter,20.0,RF CTG+maternal,0.2
+3,1,60,0.116,ckfilter,20.0,RF CTG+maternal,0.2
+3,2,60,0.0944,ckfilter,20.0,RF CTG+maternal,0.2
+3,3,60,0.1112,ckfilter,20.0,RF CTG+maternal,0.2
+3,4,60,0.104,ckfilter,20.0,RF CTG+maternal,0.2
+3,5,60,0.0964,ckfilter,20.0,RF CTG+maternal,0.2
+1,1,60,0.469649,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,2,56,0.48281,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,3,56,0.469728,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,4,58,0.480872,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,5,61,0.478083,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,1,58,0.525084,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,2,58,0.424426,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,3,59,0.470001,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,4,57,0.567882,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,5,58,0.50542,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,1,56,0.609731,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,2,59,0.474358,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,3,58,0.445342,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,4,62,0.473678,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,5,61,0.490048,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,1,60,0.452904,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,2,56,0.453471,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,3,56,0.432616,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,4,58,0.45126,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,5,61,0.454787,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,1,58,0.466767,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,2,58,0.363355,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,3,59,0.444927,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,4,57,0.529614,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,5,58,0.464632,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,1,56,0.548518,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,2,59,0.433543,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,3,58,0.424798,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,4,62,0.429573,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,5,61,0.467197,ckfilter,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,1,60,0.513203,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,2,56,0.479559,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,3,56,0.431217,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,4,58,0.545109,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,5,61,0.472336,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,1,58,0.527842,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,2,58,0.457101,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,3,59,0.439252,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,4,57,0.557043,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,5,58,0.488558,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,1,56,0.524683,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,2,59,0.602624,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,3,58,0.500924,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,4,62,0.5464,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,5,61,0.549137,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,1,60,0.492698,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,2,56,0.453074,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,3,56,0.426897,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,4,58,0.495773,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,5,61,0.455706,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,1,58,0.484425,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,2,58,0.452981,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,3,59,0.418034,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,4,57,0.512848,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,5,58,0.47366,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,1,56,0.503314,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,2,59,0.520025,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,3,58,0.465236,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,4,62,0.46755,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,5,61,0.489218,ckfilter,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,1,63,0.646216,ckfilter,30.0,LR CTG-only,0.1
+1,2,63,0.725789,ckfilter,30.0,LR CTG-only,0.1
+1,3,63,0.69529,ckfilter,30.0,LR CTG-only,0.1
+1,4,63,0.668503,ckfilter,30.0,LR CTG-only,0.1
+1,5,63,0.644883,ckfilter,30.0,LR CTG-only,0.1
+2,1,63,0.680647,ckfilter,30.0,LR CTG-only,0.1
+2,2,63,0.67715,ckfilter,30.0,LR CTG-only,0.1
+2,3,63,0.625954,ckfilter,30.0,LR CTG-only,0.1
+2,4,63,0.636324,ckfilter,30.0,LR CTG-only,0.1
+2,5,63,0.702246,ckfilter,30.0,LR CTG-only,0.1
+3,1,63,0.734255,ckfilter,30.0,LR CTG-only,0.1
+3,2,63,0.722133,ckfilter,30.0,LR CTG-only,0.1
+3,3,63,0.631128,ckfilter,30.0,LR CTG-only,0.1
+3,4,63,0.70447,ckfilter,30.0,LR CTG-only,0.1
+3,5,63,0.678684,ckfilter,30.0,LR CTG-only,0.1
+1,1,63,0.536956,ckfilter,30.0,LR CTG-only,0.2
+1,2,63,0.585893,ckfilter,30.0,LR CTG-only,0.2
+1,3,63,0.553163,ckfilter,30.0,LR CTG-only,0.2
+1,4,63,0.521056,ckfilter,30.0,LR CTG-only,0.2
+1,5,63,0.577463,ckfilter,30.0,LR CTG-only,0.2
+2,1,63,0.601098,ckfilter,30.0,LR CTG-only,0.2
+2,2,63,0.601033,ckfilter,30.0,LR CTG-only,0.2
+2,3,63,0.518245,ckfilter,30.0,LR CTG-only,0.2
+2,4,63,0.540065,ckfilter,30.0,LR CTG-only,0.2
+2,5,63,0.597069,ckfilter,30.0,LR CTG-only,0.2
+3,1,63,0.564116,ckfilter,30.0,LR CTG-only,0.2
+3,2,63,0.533561,ckfilter,30.0,LR CTG-only,0.2
+3,3,63,0.534779,ckfilter,30.0,LR CTG-only,0.2
+3,4,63,0.546434,ckfilter,30.0,LR CTG-only,0.2
+3,5,63,0.593996,ckfilter,30.0,LR CTG-only,0.2
+1,1,63,0.635148,ckfilter,30.0,LR CTG+maternal,0.1
+1,2,63,0.773882,ckfilter,30.0,LR CTG+maternal,0.1
+1,3,63,0.644331,ckfilter,30.0,LR CTG+maternal,0.1
+1,4,63,0.634556,ckfilter,30.0,LR CTG+maternal,0.1
+1,5,63,0.637558,ckfilter,30.0,LR CTG+maternal,0.1
+2,1,63,0.781336,ckfilter,30.0,LR CTG+maternal,0.1
+2,2,63,0.817874,ckfilter,30.0,LR CTG+maternal,0.1
+2,3,63,0.64394,ckfilter,30.0,LR CTG+maternal,0.1
+2,4,63,0.663196,ckfilter,30.0,LR CTG+maternal,0.1
+2,5,63,0.765401,ckfilter,30.0,LR CTG+maternal,0.1
+3,1,63,0.780445,ckfilter,30.0,LR CTG+maternal,0.1
+3,2,63,0.769357,ckfilter,30.0,LR CTG+maternal,0.1
+3,3,63,0.778305,ckfilter,30.0,LR CTG+maternal,0.1
+3,4,63,0.73064,ckfilter,30.0,LR CTG+maternal,0.1
+3,5,63,0.738661,ckfilter,30.0,LR CTG+maternal,0.1
+1,1,63,0.521078,ckfilter,30.0,LR CTG+maternal,0.2
+1,2,63,0.590929,ckfilter,30.0,LR CTG+maternal,0.2
+1,3,63,0.578571,ckfilter,30.0,LR CTG+maternal,0.2
+1,4,63,0.554223,ckfilter,30.0,LR CTG+maternal,0.2
+1,5,63,0.578977,ckfilter,30.0,LR CTG+maternal,0.2
+2,1,63,0.622876,ckfilter,30.0,LR CTG+maternal,0.2
+2,2,63,0.699539,ckfilter,30.0,LR CTG+maternal,0.2
+2,3,63,0.476021,ckfilter,30.0,LR CTG+maternal,0.2
+2,4,63,0.581699,ckfilter,30.0,LR CTG+maternal,0.2
+2,5,63,0.636456,ckfilter,30.0,LR CTG+maternal,0.2
+3,1,63,0.576702,ckfilter,30.0,LR CTG+maternal,0.2
+3,2,63,0.49045,ckfilter,30.0,LR CTG+maternal,0.2
+3,3,63,0.647327,ckfilter,30.0,LR CTG+maternal,0.2
+3,4,63,0.550614,ckfilter,30.0,LR CTG+maternal,0.2
+3,5,63,0.454732,ckfilter,30.0,LR CTG+maternal,0.2
+1,1,63,0.1048,ckfilter,30.0,RF CTG-only,0.1
+1,2,63,0.1536,ckfilter,30.0,RF CTG-only,0.1
+1,3,63,0.1532,ckfilter,30.0,RF CTG-only,0.1
+1,4,63,0.1768,ckfilter,30.0,RF CTG-only,0.1
+1,5,63,0.1776,ckfilter,30.0,RF CTG-only,0.1
+2,1,63,0.1236,ckfilter,30.0,RF CTG-only,0.1
+2,2,63,0.1616,ckfilter,30.0,RF CTG-only,0.1
+2,3,63,0.1036,ckfilter,30.0,RF CTG-only,0.1
+2,4,63,0.1376,ckfilter,30.0,RF CTG-only,0.1
+2,5,63,0.1096,ckfilter,30.0,RF CTG-only,0.1
+3,1,63,0.15,ckfilter,30.0,RF CTG-only,0.1
+3,2,63,0.1712,ckfilter,30.0,RF CTG-only,0.1
+3,3,63,0.156,ckfilter,30.0,RF CTG-only,0.1
+3,4,63,0.1256,ckfilter,30.0,RF CTG-only,0.1
+3,5,63,0.1612,ckfilter,30.0,RF CTG-only,0.1
+1,1,63,0.0624,ckfilter,30.0,RF CTG-only,0.2
+1,2,63,0.1332,ckfilter,30.0,RF CTG-only,0.2
+1,3,63,0.0976,ckfilter,30.0,RF CTG-only,0.2
+1,4,63,0.1144,ckfilter,30.0,RF CTG-only,0.2
+1,5,63,0.104,ckfilter,30.0,RF CTG-only,0.2
+2,1,63,0.1104,ckfilter,30.0,RF CTG-only,0.2
+2,2,63,0.106,ckfilter,30.0,RF CTG-only,0.2
+2,3,63,0.0832,ckfilter,30.0,RF CTG-only,0.2
+2,4,63,0.0964,ckfilter,30.0,RF CTG-only,0.2
+2,5,63,0.0892,ckfilter,30.0,RF CTG-only,0.2
+3,1,63,0.1044,ckfilter,30.0,RF CTG-only,0.2
+3,2,63,0.116,ckfilter,30.0,RF CTG-only,0.2
+3,3,63,0.0936,ckfilter,30.0,RF CTG-only,0.2
+3,4,63,0.0812,ckfilter,30.0,RF CTG-only,0.2
+3,5,63,0.1136,ckfilter,30.0,RF CTG-only,0.2
+1,1,63,0.1,ckfilter,30.0,RF CTG+maternal,0.1
+1,2,63,0.1512,ckfilter,30.0,RF CTG+maternal,0.1
+1,3,63,0.1472,ckfilter,30.0,RF CTG+maternal,0.1
+1,4,63,0.1116,ckfilter,30.0,RF CTG+maternal,0.1
+1,5,63,0.16,ckfilter,30.0,RF CTG+maternal,0.1
+2,1,63,0.1332,ckfilter,30.0,RF CTG+maternal,0.1
+2,2,63,0.1592,ckfilter,30.0,RF CTG+maternal,0.1
+2,3,63,0.0868,ckfilter,30.0,RF CTG+maternal,0.1
+2,4,63,0.126,ckfilter,30.0,RF CTG+maternal,0.1
+2,5,63,0.1196,ckfilter,30.0,RF CTG+maternal,0.1
+3,1,63,0.1644,ckfilter,30.0,RF CTG+maternal,0.1
+3,2,63,0.1412,ckfilter,30.0,RF CTG+maternal,0.1
+3,3,63,0.1464,ckfilter,30.0,RF CTG+maternal,0.1
+3,4,63,0.128,ckfilter,30.0,RF CTG+maternal,0.1
+3,5,63,0.152,ckfilter,30.0,RF CTG+maternal,0.1
+1,1,63,0.068,ckfilter,30.0,RF CTG+maternal,0.2
+1,2,63,0.1024,ckfilter,30.0,RF CTG+maternal,0.2
+1,3,63,0.1092,ckfilter,30.0,RF CTG+maternal,0.2
+1,4,63,0.0852,ckfilter,30.0,RF CTG+maternal,0.2
+1,5,63,0.0872,ckfilter,30.0,RF CTG+maternal,0.2
+2,1,63,0.108,ckfilter,30.0,RF CTG+maternal,0.2
+2,2,63,0.102,ckfilter,30.0,RF CTG+maternal,0.2
+2,3,63,0.0672,ckfilter,30.0,RF CTG+maternal,0.2
+2,4,63,0.0888,ckfilter,30.0,RF CTG+maternal,0.2
+2,5,63,0.0912,ckfilter,30.0,RF CTG+maternal,0.2
+3,1,63,0.0904,ckfilter,30.0,RF CTG+maternal,0.2
+3,2,63,0.1116,ckfilter,30.0,RF CTG+maternal,0.2
+3,3,63,0.118,ckfilter,30.0,RF CTG+maternal,0.2
+3,4,63,0.0924,ckfilter,30.0,RF CTG+maternal,0.2
+3,5,63,0.0984,ckfilter,30.0,RF CTG+maternal,0.2
+1,1,63,0.482009,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,2,61,0.553071,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,3,55,0.508939,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,4,59,0.505278,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,5,64,0.527171,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,1,63,0.570435,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,2,66,0.510374,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,3,62,0.504172,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,4,64,0.61127,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,5,65,0.548819,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,1,60,0.632833,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,2,62,0.591926,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,3,66,0.501124,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,4,66,0.526554,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,5,64,0.506983,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,1,63,0.47455,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,2,61,0.481114,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,3,55,0.46708,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,4,59,0.483978,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,5,64,0.493724,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,1,63,0.496651,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,2,66,0.443512,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,3,62,0.487777,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,4,64,0.578307,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,5,65,0.514319,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,1,60,0.569657,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,2,62,0.501494,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,3,66,0.480265,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,4,66,0.482047,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,5,64,0.47721,ckfilter,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,1,63,0.517747,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,2,61,0.50814,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,3,55,0.450461,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,4,59,0.56101,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,5,64,0.484867,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,1,63,0.560879,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,2,66,0.476953,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,3,62,0.487175,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,4,64,0.649031,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,5,65,0.526468,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,1,60,0.540086,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,2,62,0.62679,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,3,66,0.547628,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,4,66,0.578475,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,5,64,0.562667,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,1,63,0.491841,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,2,61,0.495591,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,3,55,0.444456,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,4,59,0.536513,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,5,64,0.456193,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,1,63,0.497914,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,2,66,0.467133,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,3,62,0.470465,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,4,64,0.587617,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,5,65,0.507202,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,1,60,0.510433,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,2,62,0.559489,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,3,66,0.528883,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,4,66,0.531624,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,5,64,0.515858,ckfilter,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,1,69,0.739694,ckfilter,45.0,LR CTG-only,0.1
+1,2,69,0.626493,ckfilter,45.0,LR CTG-only,0.1
+1,3,69,0.679976,ckfilter,45.0,LR CTG-only,0.1
+1,4,69,0.691314,ckfilter,45.0,LR CTG-only,0.1
+1,5,69,0.729249,ckfilter,45.0,LR CTG-only,0.1
+2,1,69,0.767301,ckfilter,45.0,LR CTG-only,0.1
+2,2,69,0.710752,ckfilter,45.0,LR CTG-only,0.1
+2,3,69,0.735863,ckfilter,45.0,LR CTG-only,0.1
+2,4,69,0.621771,ckfilter,45.0,LR CTG-only,0.1
+2,5,69,0.684382,ckfilter,45.0,LR CTG-only,0.1
+3,1,69,0.719371,ckfilter,45.0,LR CTG-only,0.1
+3,2,69,0.751466,ckfilter,45.0,LR CTG-only,0.1
+3,3,69,0.688485,ckfilter,45.0,LR CTG-only,0.1
+3,4,69,0.722906,ckfilter,45.0,LR CTG-only,0.1
+3,5,69,0.655558,ckfilter,45.0,LR CTG-only,0.1
+1,1,69,0.625385,ckfilter,45.0,LR CTG-only,0.2
+1,2,69,0.553935,ckfilter,45.0,LR CTG-only,0.2
+1,3,69,0.59734,ckfilter,45.0,LR CTG-only,0.2
+1,4,69,0.541941,ckfilter,45.0,LR CTG-only,0.2
+1,5,69,0.663809,ckfilter,45.0,LR CTG-only,0.2
+2,1,69,0.662536,ckfilter,45.0,LR CTG-only,0.2
+2,2,69,0.613767,ckfilter,45.0,LR CTG-only,0.2
+2,3,69,0.67961,ckfilter,45.0,LR CTG-only,0.2
+2,4,69,0.560193,ckfilter,45.0,LR CTG-only,0.2
+2,5,69,0.600928,ckfilter,45.0,LR CTG-only,0.2
+3,1,69,0.615818,ckfilter,45.0,LR CTG-only,0.2
+3,2,69,0.606312,ckfilter,45.0,LR CTG-only,0.2
+3,3,69,0.505699,ckfilter,45.0,LR CTG-only,0.2
+3,4,69,0.648042,ckfilter,45.0,LR CTG-only,0.2
+3,5,69,0.539777,ckfilter,45.0,LR CTG-only,0.2
+1,1,69,0.641882,ckfilter,45.0,LR CTG+maternal,0.1
+1,2,69,0.67607,ckfilter,45.0,LR CTG+maternal,0.1
+1,3,69,0.749022,ckfilter,45.0,LR CTG+maternal,0.1
+1,4,69,0.648539,ckfilter,45.0,LR CTG+maternal,0.1
+1,5,69,0.824577,ckfilter,45.0,LR CTG+maternal,0.1
+2,1,69,0.777133,ckfilter,45.0,LR CTG+maternal,0.1
+2,2,69,0.78021,ckfilter,45.0,LR CTG+maternal,0.1
+2,3,69,0.773716,ckfilter,45.0,LR CTG+maternal,0.1
+2,4,69,0.690521,ckfilter,45.0,LR CTG+maternal,0.1
+2,5,69,0.709753,ckfilter,45.0,LR CTG+maternal,0.1
+3,1,69,0.747575,ckfilter,45.0,LR CTG+maternal,0.1
+3,2,69,0.822032,ckfilter,45.0,LR CTG+maternal,0.1
+3,3,69,0.671496,ckfilter,45.0,LR CTG+maternal,0.1
+3,4,69,0.726895,ckfilter,45.0,LR CTG+maternal,0.1
+3,5,69,0.669768,ckfilter,45.0,LR CTG+maternal,0.1
+1,1,69,0.530636,ckfilter,45.0,LR CTG+maternal,0.2
+1,2,69,0.572758,ckfilter,45.0,LR CTG+maternal,0.2
+1,3,69,0.587215,ckfilter,45.0,LR CTG+maternal,0.2
+1,4,69,0.533825,ckfilter,45.0,LR CTG+maternal,0.2
+1,5,69,0.742205,ckfilter,45.0,LR CTG+maternal,0.2
+2,1,69,0.647963,ckfilter,45.0,LR CTG+maternal,0.2
+2,2,69,0.675384,ckfilter,45.0,LR CTG+maternal,0.2
+2,3,69,0.617727,ckfilter,45.0,LR CTG+maternal,0.2
+2,4,69,0.53738,ckfilter,45.0,LR CTG+maternal,0.2
+2,5,69,0.598921,ckfilter,45.0,LR CTG+maternal,0.2
+3,1,69,0.591859,ckfilter,45.0,LR CTG+maternal,0.2
+3,2,69,0.631722,ckfilter,45.0,LR CTG+maternal,0.2
+3,3,69,0.579904,ckfilter,45.0,LR CTG+maternal,0.2
+3,4,69,0.52755,ckfilter,45.0,LR CTG+maternal,0.2
+3,5,69,0.555484,ckfilter,45.0,LR CTG+maternal,0.2
+1,1,69,0.1948,ckfilter,45.0,RF CTG-only,0.1
+1,2,69,0.162,ckfilter,45.0,RF CTG-only,0.1
+1,3,69,0.1488,ckfilter,45.0,RF CTG-only,0.1
+1,4,69,0.1556,ckfilter,45.0,RF CTG-only,0.1
+1,5,69,0.154,ckfilter,45.0,RF CTG-only,0.1
+2,1,69,0.17,ckfilter,45.0,RF CTG-only,0.1
+2,2,69,0.1972,ckfilter,45.0,RF CTG-only,0.1
+2,3,69,0.1428,ckfilter,45.0,RF CTG-only,0.1
+2,4,69,0.1248,ckfilter,45.0,RF CTG-only,0.1
+2,5,69,0.1808,ckfilter,45.0,RF CTG-only,0.1
+3,1,69,0.1652,ckfilter,45.0,RF CTG-only,0.1
+3,2,69,0.1936,ckfilter,45.0,RF CTG-only,0.1
+3,3,69,0.1188,ckfilter,45.0,RF CTG-only,0.1
+3,4,69,0.1536,ckfilter,45.0,RF CTG-only,0.1
+3,5,69,0.1652,ckfilter,45.0,RF CTG-only,0.1
+1,1,69,0.1264,ckfilter,45.0,RF CTG-only,0.2
+1,2,69,0.128,ckfilter,45.0,RF CTG-only,0.2
+1,3,69,0.0904,ckfilter,45.0,RF CTG-only,0.2
+1,4,69,0.074,ckfilter,45.0,RF CTG-only,0.2
+1,5,69,0.0988,ckfilter,45.0,RF CTG-only,0.2
+2,1,69,0.0904,ckfilter,45.0,RF CTG-only,0.2
+2,2,69,0.1304,ckfilter,45.0,RF CTG-only,0.2
+2,3,69,0.092,ckfilter,45.0,RF CTG-only,0.2
+2,4,69,0.078,ckfilter,45.0,RF CTG-only,0.2
+2,5,69,0.108,ckfilter,45.0,RF CTG-only,0.2
+3,1,69,0.1012,ckfilter,45.0,RF CTG-only,0.2
+3,2,69,0.1536,ckfilter,45.0,RF CTG-only,0.2
+3,3,69,0.0964,ckfilter,45.0,RF CTG-only,0.2
+3,4,69,0.0912,ckfilter,45.0,RF CTG-only,0.2
+3,5,69,0.0828,ckfilter,45.0,RF CTG-only,0.2
+1,1,69,0.1536,ckfilter,45.0,RF CTG+maternal,0.1
+1,2,69,0.1624,ckfilter,45.0,RF CTG+maternal,0.1
+1,3,69,0.1164,ckfilter,45.0,RF CTG+maternal,0.1
+1,4,69,0.1548,ckfilter,45.0,RF CTG+maternal,0.1
+1,5,69,0.156,ckfilter,45.0,RF CTG+maternal,0.1
+2,1,69,0.1584,ckfilter,45.0,RF CTG+maternal,0.1
+2,2,69,0.186,ckfilter,45.0,RF CTG+maternal,0.1
+2,3,69,0.142,ckfilter,45.0,RF CTG+maternal,0.1
+2,4,69,0.112,ckfilter,45.0,RF CTG+maternal,0.1
+2,5,69,0.1144,ckfilter,45.0,RF CTG+maternal,0.1
+3,1,69,0.122,ckfilter,45.0,RF CTG+maternal,0.1
+3,2,69,0.1596,ckfilter,45.0,RF CTG+maternal,0.1
+3,3,69,0.1364,ckfilter,45.0,RF CTG+maternal,0.1
+3,4,69,0.1628,ckfilter,45.0,RF CTG+maternal,0.1
+3,5,69,0.1364,ckfilter,45.0,RF CTG+maternal,0.1
+1,1,69,0.0992,ckfilter,45.0,RF CTG+maternal,0.2
+1,2,69,0.1252,ckfilter,45.0,RF CTG+maternal,0.2
+1,3,69,0.0936,ckfilter,45.0,RF CTG+maternal,0.2
+1,4,69,0.1208,ckfilter,45.0,RF CTG+maternal,0.2
+1,5,69,0.1288,ckfilter,45.0,RF CTG+maternal,0.2
+2,1,69,0.0944,ckfilter,45.0,RF CTG+maternal,0.2
+2,2,69,0.108,ckfilter,45.0,RF CTG+maternal,0.2
+2,3,69,0.0968,ckfilter,45.0,RF CTG+maternal,0.2
+2,4,69,0.0748,ckfilter,45.0,RF CTG+maternal,0.2
+2,5,69,0.0932,ckfilter,45.0,RF CTG+maternal,0.2
+3,1,69,0.0788,ckfilter,45.0,RF CTG+maternal,0.2
+3,2,69,0.1072,ckfilter,45.0,RF CTG+maternal,0.2
+3,3,69,0.096,ckfilter,45.0,RF CTG+maternal,0.2
+3,4,69,0.086,ckfilter,45.0,RF CTG+maternal,0.2
+3,5,69,0.1096,ckfilter,45.0,RF CTG+maternal,0.2
+1,1,70,0.488011,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,2,71,0.621958,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,3,69,0.612298,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,4,67,0.577337,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,5,69,0.580193,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,1,70,0.623148,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,2,71,0.620063,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,3,70,0.561069,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,4,69,0.627436,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,5,69,0.586661,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,1,68,0.702148,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,2,69,0.671704,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,3,66,0.542037,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,4,69,0.64125,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,5,70,0.520148,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,1,70,0.477892,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,2,71,0.574047,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,3,69,0.545807,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,4,67,0.526104,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,5,69,0.537951,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,1,70,0.561448,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,2,71,0.48936,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,3,70,0.530741,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,4,69,0.602472,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,5,69,0.552623,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,1,68,0.603232,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,2,69,0.615661,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,3,66,0.510546,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,4,69,0.512066,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,5,70,0.491118,ckfilter,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,1,70,0.528968,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,2,71,0.567978,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,3,69,0.48389,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,4,67,0.620718,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,5,69,0.495233,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,1,70,0.606355,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,2,71,0.492367,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,3,70,0.529478,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,4,69,0.701781,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,5,69,0.573436,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,1,68,0.562356,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,2,69,0.664413,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,3,66,0.57846,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,4,69,0.649896,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,5,70,0.576942,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,1,70,0.512094,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,2,71,0.525632,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,3,69,0.47405,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,4,67,0.582729,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,5,69,0.47577,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,1,70,0.554945,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,2,71,0.480659,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,3,70,0.514298,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,4,69,0.652739,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,5,69,0.553409,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,1,68,0.531262,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,2,69,0.616103,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,3,66,0.550459,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,4,69,0.56452,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,5,70,0.537513,ckfilter,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,1,71,0.721245,ckfilter,60.0,LR CTG-only,0.1
+1,2,71,0.665382,ckfilter,60.0,LR CTG-only,0.1
+1,3,71,0.76078,ckfilter,60.0,LR CTG-only,0.1
+1,4,71,0.619895,ckfilter,60.0,LR CTG-only,0.1
+1,5,71,0.744386,ckfilter,60.0,LR CTG-only,0.1
+2,1,71,0.822328,ckfilter,60.0,LR CTG-only,0.1
+2,2,71,0.817174,ckfilter,60.0,LR CTG-only,0.1
+2,3,71,0.822711,ckfilter,60.0,LR CTG-only,0.1
+2,4,71,0.723415,ckfilter,60.0,LR CTG-only,0.1
+2,5,71,0.68939,ckfilter,60.0,LR CTG-only,0.1
+3,1,71,0.741853,ckfilter,60.0,LR CTG-only,0.1
+3,2,71,0.650176,ckfilter,60.0,LR CTG-only,0.1
+3,3,71,0.638464,ckfilter,60.0,LR CTG-only,0.1
+3,4,71,0.681871,ckfilter,60.0,LR CTG-only,0.1
+3,5,71,0.545568,ckfilter,60.0,LR CTG-only,0.1
+1,1,71,0.572562,ckfilter,60.0,LR CTG-only,0.2
+1,2,71,0.577683,ckfilter,60.0,LR CTG-only,0.2
+1,3,71,0.6488,ckfilter,60.0,LR CTG-only,0.2
+1,4,71,0.475894,ckfilter,60.0,LR CTG-only,0.2
+1,5,71,0.621423,ckfilter,60.0,LR CTG-only,0.2
+2,1,71,0.620129,ckfilter,60.0,LR CTG-only,0.2
+2,2,71,0.630901,ckfilter,60.0,LR CTG-only,0.2
+2,3,71,0.601258,ckfilter,60.0,LR CTG-only,0.2
+2,4,71,0.612905,ckfilter,60.0,LR CTG-only,0.2
+2,5,71,0.518553,ckfilter,60.0,LR CTG-only,0.2
+3,1,71,0.65787,ckfilter,60.0,LR CTG-only,0.2
+3,2,71,0.516178,ckfilter,60.0,LR CTG-only,0.2
+3,3,71,0.504007,ckfilter,60.0,LR CTG-only,0.2
+3,4,71,0.516591,ckfilter,60.0,LR CTG-only,0.2
+3,5,71,0.443102,ckfilter,60.0,LR CTG-only,0.2
+1,1,71,0.827941,ckfilter,60.0,LR CTG+maternal,0.1
+1,2,71,0.655555,ckfilter,60.0,LR CTG+maternal,0.1
+1,3,71,0.837458,ckfilter,60.0,LR CTG+maternal,0.1
+1,4,71,0.723808,ckfilter,60.0,LR CTG+maternal,0.1
+1,5,71,0.732609,ckfilter,60.0,LR CTG+maternal,0.1
+2,1,71,0.846912,ckfilter,60.0,LR CTG+maternal,0.1
+2,2,71,0.834521,ckfilter,60.0,LR CTG+maternal,0.1
+2,3,71,0.717864,ckfilter,60.0,LR CTG+maternal,0.1
+2,4,71,0.783943,ckfilter,60.0,LR CTG+maternal,0.1
+2,5,71,0.709115,ckfilter,60.0,LR CTG+maternal,0.1
+3,1,71,0.726533,ckfilter,60.0,LR CTG+maternal,0.1
+3,2,71,0.704115,ckfilter,60.0,LR CTG+maternal,0.1
+3,3,71,0.576927,ckfilter,60.0,LR CTG+maternal,0.1
+3,4,71,0.735949,ckfilter,60.0,LR CTG+maternal,0.1
+3,5,71,0.661434,ckfilter,60.0,LR CTG+maternal,0.1
+1,1,71,0.604023,ckfilter,60.0,LR CTG+maternal,0.2
+1,2,71,0.508916,ckfilter,60.0,LR CTG+maternal,0.2
+1,3,71,0.63477,ckfilter,60.0,LR CTG+maternal,0.2
+1,4,71,0.429614,ckfilter,60.0,LR CTG+maternal,0.2
+1,5,71,0.581424,ckfilter,60.0,LR CTG+maternal,0.2
+2,1,71,0.682946,ckfilter,60.0,LR CTG+maternal,0.2
+2,2,71,0.577613,ckfilter,60.0,LR CTG+maternal,0.2
+2,3,71,0.45505,ckfilter,60.0,LR CTG+maternal,0.2
+2,4,71,0.541814,ckfilter,60.0,LR CTG+maternal,0.2
+2,5,71,0.499784,ckfilter,60.0,LR CTG+maternal,0.2
+3,1,71,0.63743,ckfilter,60.0,LR CTG+maternal,0.2
+3,2,71,0.530783,ckfilter,60.0,LR CTG+maternal,0.2
+3,3,71,0.467276,ckfilter,60.0,LR CTG+maternal,0.2
+3,4,71,0.510427,ckfilter,60.0,LR CTG+maternal,0.2
+3,5,71,0.471027,ckfilter,60.0,LR CTG+maternal,0.2
+1,1,71,0.202,ckfilter,60.0,RF CTG-only,0.1
+1,2,71,0.2,ckfilter,60.0,RF CTG-only,0.1
+1,3,71,0.138,ckfilter,60.0,RF CTG-only,0.1
+1,4,71,0.152,ckfilter,60.0,RF CTG-only,0.1
+1,5,71,0.166,ckfilter,60.0,RF CTG-only,0.1
+2,1,71,0.214,ckfilter,60.0,RF CTG-only,0.1
+2,2,71,0.18,ckfilter,60.0,RF CTG-only,0.1
+2,3,71,0.202,ckfilter,60.0,RF CTG-only,0.1
+2,4,71,0.194,ckfilter,60.0,RF CTG-only,0.1
+2,5,71,0.13,ckfilter,60.0,RF CTG-only,0.1
+3,1,71,0.124,ckfilter,60.0,RF CTG-only,0.1
+3,2,71,0.202,ckfilter,60.0,RF CTG-only,0.1
+3,3,71,0.17,ckfilter,60.0,RF CTG-only,0.1
+3,4,71,0.134,ckfilter,60.0,RF CTG-only,0.1
+3,5,71,0.138,ckfilter,60.0,RF CTG-only,0.1
+1,1,71,0.094,ckfilter,60.0,RF CTG-only,0.2
+1,2,71,0.088,ckfilter,60.0,RF CTG-only,0.2
+1,3,71,0.08,ckfilter,60.0,RF CTG-only,0.2
+1,4,71,0.096,ckfilter,60.0,RF CTG-only,0.2
+1,5,71,0.134,ckfilter,60.0,RF CTG-only,0.2
+2,1,71,0.138,ckfilter,60.0,RF CTG-only,0.2
+2,2,71,0.104,ckfilter,60.0,RF CTG-only,0.2
+2,3,71,0.106,ckfilter,60.0,RF CTG-only,0.2
+2,4,71,0.098,ckfilter,60.0,RF CTG-only,0.2
+2,5,71,0.096,ckfilter,60.0,RF CTG-only,0.2
+3,1,71,0.064,ckfilter,60.0,RF CTG-only,0.2
+3,2,71,0.1,ckfilter,60.0,RF CTG-only,0.2
+3,3,71,0.104,ckfilter,60.0,RF CTG-only,0.2
+3,4,71,0.09,ckfilter,60.0,RF CTG-only,0.2
+3,5,71,0.082,ckfilter,60.0,RF CTG-only,0.2
+1,1,71,0.164,ckfilter,60.0,RF CTG+maternal,0.1
+1,2,71,0.204,ckfilter,60.0,RF CTG+maternal,0.1
+1,3,71,0.136,ckfilter,60.0,RF CTG+maternal,0.1
+1,4,71,0.148,ckfilter,60.0,RF CTG+maternal,0.1
+1,5,71,0.128,ckfilter,60.0,RF CTG+maternal,0.1
+2,1,71,0.232,ckfilter,60.0,RF CTG+maternal,0.1
+2,2,71,0.186,ckfilter,60.0,RF CTG+maternal,0.1
+2,3,71,0.144,ckfilter,60.0,RF CTG+maternal,0.1
+2,4,71,0.154,ckfilter,60.0,RF CTG+maternal,0.1
+2,5,71,0.126,ckfilter,60.0,RF CTG+maternal,0.1
+3,1,71,0.15,ckfilter,60.0,RF CTG+maternal,0.1
+3,2,71,0.194,ckfilter,60.0,RF CTG+maternal,0.1
+3,3,71,0.206,ckfilter,60.0,RF CTG+maternal,0.1
+3,4,71,0.14,ckfilter,60.0,RF CTG+maternal,0.1
+3,5,71,0.114,ckfilter,60.0,RF CTG+maternal,0.1
+1,1,71,0.102,ckfilter,60.0,RF CTG+maternal,0.2
+1,2,71,0.098,ckfilter,60.0,RF CTG+maternal,0.2
+1,3,71,0.092,ckfilter,60.0,RF CTG+maternal,0.2
+1,4,71,0.074,ckfilter,60.0,RF CTG+maternal,0.2
+1,5,71,0.092,ckfilter,60.0,RF CTG+maternal,0.2
+2,1,71,0.148,ckfilter,60.0,RF CTG+maternal,0.2
+2,2,71,0.09,ckfilter,60.0,RF CTG+maternal,0.2
+2,3,71,0.102,ckfilter,60.0,RF CTG+maternal,0.2
+2,4,71,0.09,ckfilter,60.0,RF CTG+maternal,0.2
+2,5,71,0.082,ckfilter,60.0,RF CTG+maternal,0.2
+3,1,71,0.09,ckfilter,60.0,RF CTG+maternal,0.2
+3,2,71,0.094,ckfilter,60.0,RF CTG+maternal,0.2
+3,3,71,0.084,ckfilter,60.0,RF CTG+maternal,0.2
+3,4,71,0.088,ckfilter,60.0,RF CTG+maternal,0.2
+3,5,71,0.082,ckfilter,60.0,RF CTG+maternal,0.2
+1,1,71,0.49176,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,2,72,0.677886,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,3,70,0.646252,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,4,71,0.597546,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,5,71,0.615171,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,1,71,0.625153,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,2,72,0.639217,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,3,71,0.589114,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,4,72,0.642094,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,5,70,0.622691,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,1,71,0.721529,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,2,71,0.6986,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,3,71,0.592114,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,4,69,0.68647,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,5,71,0.528147,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,1,71,0.474599,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,2,72,0.59459,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,3,70,0.601896,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,4,71,0.54581,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,5,71,0.59882,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,1,71,0.586897,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,2,72,0.581081,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,3,71,0.556009,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,4,72,0.625047,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,5,70,0.58305,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,1,71,0.592698,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,2,71,0.617393,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,3,71,0.563238,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,4,69,0.55281,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,5,71,0.491524,ckfilter,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,1,71,0.535694,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,2,72,0.57783,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,3,70,0.49768,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,4,71,0.629872,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,5,71,0.510332,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,1,71,0.624859,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,2,72,0.501843,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,3,71,0.550058,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,4,72,0.704626,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,5,70,0.606043,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,1,71,0.553458,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,2,71,0.650368,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,3,71,0.598468,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,4,69,0.657969,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,5,71,0.58784,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,1,71,0.496708,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,2,72,0.560196,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,3,70,0.493348,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,4,71,0.613517,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,5,71,0.496472,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,1,71,0.581685,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,2,72,0.495151,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,3,71,0.538264,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,4,72,0.679684,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,5,70,0.590384,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,1,71,0.532245,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,2,71,0.614301,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,3,71,0.581239,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,4,69,0.618391,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,5,71,0.542469,ckfilter,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,1,72,0.758641,unfiltered,10.0,LR CTG-only,0.1
+1,2,72,0.646515,unfiltered,10.0,LR CTG-only,0.1
+1,3,72,0.702278,unfiltered,10.0,LR CTG-only,0.1
+1,4,72,0.555394,unfiltered,10.0,LR CTG-only,0.1
+1,5,72,0.654281,unfiltered,10.0,LR CTG-only,0.1
+2,1,72,0.616725,unfiltered,10.0,LR CTG-only,0.1
+2,2,72,0.648001,unfiltered,10.0,LR CTG-only,0.1
+2,3,72,0.610296,unfiltered,10.0,LR CTG-only,0.1
+2,4,72,0.669919,unfiltered,10.0,LR CTG-only,0.1
+2,5,72,0.703835,unfiltered,10.0,LR CTG-only,0.1
+3,1,72,0.636498,unfiltered,10.0,LR CTG-only,0.1
+3,2,72,0.563485,unfiltered,10.0,LR CTG-only,0.1
+3,3,72,0.627932,unfiltered,10.0,LR CTG-only,0.1
+3,4,72,0.773451,unfiltered,10.0,LR CTG-only,0.1
+3,5,72,0.704506,unfiltered,10.0,LR CTG-only,0.1
+1,1,72,0.659794,unfiltered,10.0,LR CTG-only,0.2
+1,2,72,0.570155,unfiltered,10.0,LR CTG-only,0.2
+1,3,72,0.625227,unfiltered,10.0,LR CTG-only,0.2
+1,4,72,0.482052,unfiltered,10.0,LR CTG-only,0.2
+1,5,72,0.602133,unfiltered,10.0,LR CTG-only,0.2
+2,1,72,0.556937,unfiltered,10.0,LR CTG-only,0.2
+2,2,72,0.592606,unfiltered,10.0,LR CTG-only,0.2
+2,3,72,0.527868,unfiltered,10.0,LR CTG-only,0.2
+2,4,72,0.562565,unfiltered,10.0,LR CTG-only,0.2
+2,5,72,0.606047,unfiltered,10.0,LR CTG-only,0.2
+3,1,72,0.591151,unfiltered,10.0,LR CTG-only,0.2
+3,2,72,0.534737,unfiltered,10.0,LR CTG-only,0.2
+3,3,72,0.537821,unfiltered,10.0,LR CTG-only,0.2
+3,4,72,0.633111,unfiltered,10.0,LR CTG-only,0.2
+3,5,72,0.606288,unfiltered,10.0,LR CTG-only,0.2
+1,1,72,0.834851,unfiltered,10.0,LR CTG+maternal,0.1
+1,2,72,0.734371,unfiltered,10.0,LR CTG+maternal,0.1
+1,3,72,0.716144,unfiltered,10.0,LR CTG+maternal,0.1
+1,4,72,0.681236,unfiltered,10.0,LR CTG+maternal,0.1
+1,5,72,0.689783,unfiltered,10.0,LR CTG+maternal,0.1
+2,1,72,0.669415,unfiltered,10.0,LR CTG+maternal,0.1
+2,2,72,0.711595,unfiltered,10.0,LR CTG+maternal,0.1
+2,3,72,0.66689,unfiltered,10.0,LR CTG+maternal,0.1
+2,4,72,0.799076,unfiltered,10.0,LR CTG+maternal,0.1
+2,5,72,0.792446,unfiltered,10.0,LR CTG+maternal,0.1
+3,1,72,0.819919,unfiltered,10.0,LR CTG+maternal,0.1
+3,2,72,0.60541,unfiltered,10.0,LR CTG+maternal,0.1
+3,3,72,0.727008,unfiltered,10.0,LR CTG+maternal,0.1
+3,4,72,0.771734,unfiltered,10.0,LR CTG+maternal,0.1
+3,5,72,0.826198,unfiltered,10.0,LR CTG+maternal,0.1
+1,1,72,0.724489,unfiltered,10.0,LR CTG+maternal,0.2
+1,2,72,0.650859,unfiltered,10.0,LR CTG+maternal,0.2
+1,3,72,0.630549,unfiltered,10.0,LR CTG+maternal,0.2
+1,4,72,0.591587,unfiltered,10.0,LR CTG+maternal,0.2
+1,5,72,0.595955,unfiltered,10.0,LR CTG+maternal,0.2
+2,1,72,0.583524,unfiltered,10.0,LR CTG+maternal,0.2
+2,2,72,0.634227,unfiltered,10.0,LR CTG+maternal,0.2
+2,3,72,0.614521,unfiltered,10.0,LR CTG+maternal,0.2
+2,4,72,0.684834,unfiltered,10.0,LR CTG+maternal,0.2
+2,5,72,0.598442,unfiltered,10.0,LR CTG+maternal,0.2
+3,1,72,0.660179,unfiltered,10.0,LR CTG+maternal,0.2
+3,2,72,0.550608,unfiltered,10.0,LR CTG+maternal,0.2
+3,3,72,0.617099,unfiltered,10.0,LR CTG+maternal,0.2
+3,4,72,0.612655,unfiltered,10.0,LR CTG+maternal,0.2
+3,5,72,0.699867,unfiltered,10.0,LR CTG+maternal,0.2
+1,1,72,0.293317,unfiltered,10.0,RF CTG-only,0.1
+1,2,72,0.423092,unfiltered,10.0,RF CTG-only,0.1
+1,3,72,0.335634,unfiltered,10.0,RF CTG-only,0.1
+1,4,72,0.749645,unfiltered,10.0,RF CTG-only,0.1
+1,5,72,0.188557,unfiltered,10.0,RF CTG-only,0.1
+2,1,72,0.214345,unfiltered,10.0,RF CTG-only,0.1
+2,2,72,0.164439,unfiltered,10.0,RF CTG-only,0.1
+2,3,72,0.212163,unfiltered,10.0,RF CTG-only,0.1
+2,4,72,0.289299,unfiltered,10.0,RF CTG-only,0.1
+2,5,72,0.297963,unfiltered,10.0,RF CTG-only,0.1
+3,1,72,0.308149,unfiltered,10.0,RF CTG-only,0.1
+3,2,72,0.1982,unfiltered,10.0,RF CTG-only,0.1
+3,3,72,0.202158,unfiltered,10.0,RF CTG-only,0.1
+3,4,72,0.165328,unfiltered,10.0,RF CTG-only,0.1
+3,5,72,0.2806,unfiltered,10.0,RF CTG-only,0.1
+1,1,72,0.205715,unfiltered,10.0,RF CTG-only,0.2
+1,2,72,0.176246,unfiltered,10.0,RF CTG-only,0.2
+1,3,72,0.137015,unfiltered,10.0,RF CTG-only,0.2
+1,4,72,0.143789,unfiltered,10.0,RF CTG-only,0.2
+1,5,72,0.145437,unfiltered,10.0,RF CTG-only,0.2
+2,1,72,0.141312,unfiltered,10.0,RF CTG-only,0.2
+2,2,72,0.117904,unfiltered,10.0,RF CTG-only,0.2
+2,3,72,0.161819,unfiltered,10.0,RF CTG-only,0.2
+2,4,72,0.160539,unfiltered,10.0,RF CTG-only,0.2
+2,5,72,0.185794,unfiltered,10.0,RF CTG-only,0.2
+3,1,72,0.161786,unfiltered,10.0,RF CTG-only,0.2
+3,2,72,0.137225,unfiltered,10.0,RF CTG-only,0.2
+3,3,72,0.1556,unfiltered,10.0,RF CTG-only,0.2
+3,4,72,0.116404,unfiltered,10.0,RF CTG-only,0.2
+3,5,72,0.179535,unfiltered,10.0,RF CTG-only,0.2
+1,1,72,0.21,unfiltered,10.0,RF CTG+maternal,0.1
+1,2,72,0.2256,unfiltered,10.0,RF CTG+maternal,0.1
+1,3,72,0.1888,unfiltered,10.0,RF CTG+maternal,0.1
+1,4,72,0.166,unfiltered,10.0,RF CTG+maternal,0.1
+1,5,72,0.1538,unfiltered,10.0,RF CTG+maternal,0.1
+2,1,72,0.1416,unfiltered,10.0,RF CTG+maternal,0.1
+2,2,72,0.1292,unfiltered,10.0,RF CTG+maternal,0.1
+2,3,72,0.2136,unfiltered,10.0,RF CTG+maternal,0.1
+2,4,72,0.21,unfiltered,10.0,RF CTG+maternal,0.1
+2,5,72,0.2244,unfiltered,10.0,RF CTG+maternal,0.1
+3,1,72,0.2088,unfiltered,10.0,RF CTG+maternal,0.1
+3,2,72,0.1488,unfiltered,10.0,RF CTG+maternal,0.1
+3,3,72,0.1958,unfiltered,10.0,RF CTG+maternal,0.1
+3,4,72,0.1194,unfiltered,10.0,RF CTG+maternal,0.1
+3,5,72,0.177,unfiltered,10.0,RF CTG+maternal,0.1
+1,1,72,0.1732,unfiltered,10.0,RF CTG+maternal,0.2
+1,2,72,0.1536,unfiltered,10.0,RF CTG+maternal,0.2
+1,3,72,0.1216,unfiltered,10.0,RF CTG+maternal,0.2
+1,4,72,0.1204,unfiltered,10.0,RF CTG+maternal,0.2
+1,5,72,0.1248,unfiltered,10.0,RF CTG+maternal,0.2
+2,1,72,0.1036,unfiltered,10.0,RF CTG+maternal,0.2
+2,2,72,0.0996,unfiltered,10.0,RF CTG+maternal,0.2
+2,3,72,0.1564,unfiltered,10.0,RF CTG+maternal,0.2
+2,4,72,0.138,unfiltered,10.0,RF CTG+maternal,0.2
+2,5,72,0.1644,unfiltered,10.0,RF CTG+maternal,0.2
+3,1,72,0.1716,unfiltered,10.0,RF CTG+maternal,0.2
+3,2,72,0.0852,unfiltered,10.0,RF CTG+maternal,0.2
+3,3,72,0.1356,unfiltered,10.0,RF CTG+maternal,0.2
+3,4,72,0.1036,unfiltered,10.0,RF CTG+maternal,0.2
+3,5,72,0.1336,unfiltered,10.0,RF CTG+maternal,0.2
+1,1,72,0.474182,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,2,72,0.575082,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,3,72,0.50673,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,4,72,0.525652,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,5,72,0.50607,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,1,72,0.521009,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,2,72,0.468313,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,3,72,0.480318,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,4,72,0.586526,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,5,72,0.539014,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,1,72,0.63113,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,2,72,0.593173,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,3,72,0.466572,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,4,72,0.471093,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,5,72,0.485251,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,1,72,0.457227,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,2,72,0.468017,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,3,72,0.445417,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,4,72,0.489272,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,5,72,0.427139,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,1,72,0.486257,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,2,72,0.381531,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,3,72,0.438761,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,4,72,0.561363,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,5,72,0.486056,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,1,72,0.522404,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,2,72,0.422213,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,3,72,0.409042,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,4,72,0.40475,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,5,72,0.464003,unfiltered,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,1,72,0.517813,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,2,72,0.534206,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,3,72,0.42571,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,4,72,0.55174,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,5,72,0.48096,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,1,72,0.512931,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,2,72,0.473297,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,3,72,0.456979,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,4,72,0.573975,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,5,72,0.496264,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,1,72,0.522516,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,2,72,0.584663,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,3,72,0.494454,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,4,72,0.48324,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,5,72,0.516607,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,1,72,0.500462,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,2,72,0.465455,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,3,72,0.413272,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,4,72,0.524345,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,5,72,0.46286,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,1,72,0.498858,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,2,72,0.44985,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,3,72,0.406512,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,4,72,0.533305,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,5,72,0.467371,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,1,72,0.4839,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,2,72,0.545474,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,3,72,0.456736,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,4,72,0.429713,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,5,72,0.49453,unfiltered,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,1,72,0.745771,unfiltered,20.0,LR CTG-only,0.1
+1,2,72,0.664834,unfiltered,20.0,LR CTG-only,0.1
+1,3,72,0.757687,unfiltered,20.0,LR CTG-only,0.1
+1,4,72,0.602936,unfiltered,20.0,LR CTG-only,0.1
+1,5,72,0.701563,unfiltered,20.0,LR CTG-only,0.1
+2,1,72,0.623192,unfiltered,20.0,LR CTG-only,0.1
+2,2,72,0.635959,unfiltered,20.0,LR CTG-only,0.1
+2,3,72,0.658706,unfiltered,20.0,LR CTG-only,0.1
+2,4,72,0.731752,unfiltered,20.0,LR CTG-only,0.1
+2,5,72,0.837055,unfiltered,20.0,LR CTG-only,0.1
+3,1,72,0.651609,unfiltered,20.0,LR CTG-only,0.1
+3,2,72,0.659131,unfiltered,20.0,LR CTG-only,0.1
+3,3,72,0.647606,unfiltered,20.0,LR CTG-only,0.1
+3,4,72,0.741596,unfiltered,20.0,LR CTG-only,0.1
+3,5,72,0.705234,unfiltered,20.0,LR CTG-only,0.1
+1,1,72,0.651947,unfiltered,20.0,LR CTG-only,0.2
+1,2,72,0.613385,unfiltered,20.0,LR CTG-only,0.2
+1,3,72,0.618971,unfiltered,20.0,LR CTG-only,0.2
+1,4,72,0.528992,unfiltered,20.0,LR CTG-only,0.2
+1,5,72,0.563786,unfiltered,20.0,LR CTG-only,0.2
+2,1,72,0.555846,unfiltered,20.0,LR CTG-only,0.2
+2,2,72,0.576491,unfiltered,20.0,LR CTG-only,0.2
+2,3,72,0.534568,unfiltered,20.0,LR CTG-only,0.2
+2,4,72,0.636648,unfiltered,20.0,LR CTG-only,0.2
+2,5,72,0.646473,unfiltered,20.0,LR CTG-only,0.2
+3,1,72,0.558181,unfiltered,20.0,LR CTG-only,0.2
+3,2,72,0.55043,unfiltered,20.0,LR CTG-only,0.2
+3,3,72,0.549497,unfiltered,20.0,LR CTG-only,0.2
+3,4,72,0.637888,unfiltered,20.0,LR CTG-only,0.2
+3,5,72,0.598736,unfiltered,20.0,LR CTG-only,0.2
+1,1,72,0.813329,unfiltered,20.0,LR CTG+maternal,0.1
+1,2,72,0.766724,unfiltered,20.0,LR CTG+maternal,0.1
+1,3,72,0.751704,unfiltered,20.0,LR CTG+maternal,0.1
+1,4,72,0.679821,unfiltered,20.0,LR CTG+maternal,0.1
+1,5,72,0.700469,unfiltered,20.0,LR CTG+maternal,0.1
+2,1,72,0.639187,unfiltered,20.0,LR CTG+maternal,0.1
+2,2,72,0.721004,unfiltered,20.0,LR CTG+maternal,0.1
+2,3,72,0.702887,unfiltered,20.0,LR CTG+maternal,0.1
+2,4,72,0.821765,unfiltered,20.0,LR CTG+maternal,0.1
+2,5,72,0.802762,unfiltered,20.0,LR CTG+maternal,0.1
+3,1,72,0.752575,unfiltered,20.0,LR CTG+maternal,0.1
+3,2,72,0.627515,unfiltered,20.0,LR CTG+maternal,0.1
+3,3,72,0.744045,unfiltered,20.0,LR CTG+maternal,0.1
+3,4,72,0.777755,unfiltered,20.0,LR CTG+maternal,0.1
+3,5,72,0.816584,unfiltered,20.0,LR CTG+maternal,0.1
+1,1,72,0.677224,unfiltered,20.0,LR CTG+maternal,0.2
+1,2,72,0.595616,unfiltered,20.0,LR CTG+maternal,0.2
+1,3,72,0.665125,unfiltered,20.0,LR CTG+maternal,0.2
+1,4,72,0.581504,unfiltered,20.0,LR CTG+maternal,0.2
+1,5,72,0.565442,unfiltered,20.0,LR CTG+maternal,0.2
+2,1,72,0.547834,unfiltered,20.0,LR CTG+maternal,0.2
+2,2,72,0.60473,unfiltered,20.0,LR CTG+maternal,0.2
+2,3,72,0.592094,unfiltered,20.0,LR CTG+maternal,0.2
+2,4,72,0.672071,unfiltered,20.0,LR CTG+maternal,0.2
+2,5,72,0.653244,unfiltered,20.0,LR CTG+maternal,0.2
+3,1,72,0.640324,unfiltered,20.0,LR CTG+maternal,0.2
+3,2,72,0.524286,unfiltered,20.0,LR CTG+maternal,0.2
+3,3,72,0.630414,unfiltered,20.0,LR CTG+maternal,0.2
+3,4,72,0.577449,unfiltered,20.0,LR CTG+maternal,0.2
+3,5,72,0.676885,unfiltered,20.0,LR CTG+maternal,0.2
+1,1,72,0.1738,unfiltered,20.0,RF CTG-only,0.1
+1,2,72,0.1824,unfiltered,20.0,RF CTG-only,0.1
+1,3,72,0.2076,unfiltered,20.0,RF CTG-only,0.1
+1,4,72,0.1356,unfiltered,20.0,RF CTG-only,0.1
+1,5,72,0.1996,unfiltered,20.0,RF CTG-only,0.1
+2,1,72,0.195,unfiltered,20.0,RF CTG-only,0.1
+2,2,72,0.128,unfiltered,20.0,RF CTG-only,0.1
+2,3,72,0.1418,unfiltered,20.0,RF CTG-only,0.1
+2,4,72,0.2048,unfiltered,20.0,RF CTG-only,0.1
+2,5,72,0.1692,unfiltered,20.0,RF CTG-only,0.1
+3,1,72,0.2144,unfiltered,20.0,RF CTG-only,0.1
+3,2,72,0.194,unfiltered,20.0,RF CTG-only,0.1
+3,3,72,0.1588,unfiltered,20.0,RF CTG-only,0.1
+3,4,72,0.1902,unfiltered,20.0,RF CTG-only,0.1
+3,5,72,0.218,unfiltered,20.0,RF CTG-only,0.1
+1,1,72,0.1236,unfiltered,20.0,RF CTG-only,0.2
+1,2,72,0.1352,unfiltered,20.0,RF CTG-only,0.2
+1,3,72,0.1312,unfiltered,20.0,RF CTG-only,0.2
+1,4,72,0.1068,unfiltered,20.0,RF CTG-only,0.2
+1,5,72,0.1348,unfiltered,20.0,RF CTG-only,0.2
+2,1,72,0.114,unfiltered,20.0,RF CTG-only,0.2
+2,2,72,0.1068,unfiltered,20.0,RF CTG-only,0.2
+2,3,72,0.1184,unfiltered,20.0,RF CTG-only,0.2
+2,4,72,0.1172,unfiltered,20.0,RF CTG-only,0.2
+2,5,72,0.1176,unfiltered,20.0,RF CTG-only,0.2
+3,1,72,0.1652,unfiltered,20.0,RF CTG-only,0.2
+3,2,72,0.1688,unfiltered,20.0,RF CTG-only,0.2
+3,3,72,0.1112,unfiltered,20.0,RF CTG-only,0.2
+3,4,72,0.1188,unfiltered,20.0,RF CTG-only,0.2
+3,5,72,0.1688,unfiltered,20.0,RF CTG-only,0.2
+1,1,72,0.1818,unfiltered,20.0,RF CTG+maternal,0.1
+1,2,72,0.178,unfiltered,20.0,RF CTG+maternal,0.1
+1,3,72,0.222,unfiltered,20.0,RF CTG+maternal,0.1
+1,4,72,0.1498,unfiltered,20.0,RF CTG+maternal,0.1
+1,5,72,0.2034,unfiltered,20.0,RF CTG+maternal,0.1
+2,1,72,0.166,unfiltered,20.0,RF CTG+maternal,0.1
+2,2,72,0.1674,unfiltered,20.0,RF CTG+maternal,0.1
+2,3,72,0.146,unfiltered,20.0,RF CTG+maternal,0.1
+2,4,72,0.184,unfiltered,20.0,RF CTG+maternal,0.1
+2,5,72,0.1828,unfiltered,20.0,RF CTG+maternal,0.1
+3,1,72,0.2408,unfiltered,20.0,RF CTG+maternal,0.1
+3,2,72,0.1814,unfiltered,20.0,RF CTG+maternal,0.1
+3,3,72,0.1592,unfiltered,20.0,RF CTG+maternal,0.1
+3,4,72,0.1712,unfiltered,20.0,RF CTG+maternal,0.1
+3,5,72,0.2314,unfiltered,20.0,RF CTG+maternal,0.1
+1,1,72,0.1396,unfiltered,20.0,RF CTG+maternal,0.2
+1,2,72,0.1296,unfiltered,20.0,RF CTG+maternal,0.2
+1,3,72,0.13,unfiltered,20.0,RF CTG+maternal,0.2
+1,4,72,0.114,unfiltered,20.0,RF CTG+maternal,0.2
+1,5,72,0.1212,unfiltered,20.0,RF CTG+maternal,0.2
+2,1,72,0.1176,unfiltered,20.0,RF CTG+maternal,0.2
+2,2,72,0.11,unfiltered,20.0,RF CTG+maternal,0.2
+2,3,72,0.1132,unfiltered,20.0,RF CTG+maternal,0.2
+2,4,72,0.1376,unfiltered,20.0,RF CTG+maternal,0.2
+2,5,72,0.1156,unfiltered,20.0,RF CTG+maternal,0.2
+3,1,72,0.1536,unfiltered,20.0,RF CTG+maternal,0.2
+3,2,72,0.1372,unfiltered,20.0,RF CTG+maternal,0.2
+3,3,72,0.102,unfiltered,20.0,RF CTG+maternal,0.2
+3,4,72,0.1152,unfiltered,20.0,RF CTG+maternal,0.2
+3,5,72,0.1324,unfiltered,20.0,RF CTG+maternal,0.2
+1,1,72,0.483189,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,2,72,0.570697,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,3,72,0.528659,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,4,72,0.553286,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,5,72,0.521185,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,1,72,0.569335,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,2,72,0.512725,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,3,72,0.500518,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,4,72,0.609218,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,5,72,0.547017,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,1,72,0.672909,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,2,72,0.589856,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,3,72,0.481828,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,4,72,0.543558,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,5,72,0.498511,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,1,72,0.471615,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,2,72,0.516484,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,3,72,0.477619,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,4,72,0.499659,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,5,72,0.480584,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,1,72,0.496239,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,2,72,0.437868,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,3,72,0.470857,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,4,72,0.575656,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,5,72,0.514775,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,1,72,0.585531,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,2,72,0.512505,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,3,72,0.450793,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,4,72,0.456907,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,5,72,0.480492,unfiltered,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,1,72,0.5191,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,2,72,0.54433,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,3,72,0.446309,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,4,72,0.581585,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,5,72,0.489813,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,1,72,0.55358,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,2,72,0.477354,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,3,72,0.487511,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,4,72,0.626813,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,5,72,0.522306,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,1,72,0.543947,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,2,72,0.644303,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,3,72,0.534108,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,4,72,0.573978,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,5,72,0.552681,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,1,72,0.495505,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,2,72,0.496632,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,3,72,0.435856,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,4,72,0.552049,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,5,72,0.465746,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,1,72,0.508494,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,2,72,0.460745,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,3,72,0.439898,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,4,72,0.567395,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,5,72,0.497859,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,1,72,0.522074,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,2,72,0.584917,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,3,72,0.499376,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,4,72,0.49717,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,5,72,0.519409,unfiltered,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,1,72,0.752497,unfiltered,30.0,LR CTG-only,0.1
+1,2,72,0.718471,unfiltered,30.0,LR CTG-only,0.1
+1,3,72,0.764823,unfiltered,30.0,LR CTG-only,0.1
+1,4,72,0.639255,unfiltered,30.0,LR CTG-only,0.1
+1,5,72,0.702143,unfiltered,30.0,LR CTG-only,0.1
+2,1,72,0.675832,unfiltered,30.0,LR CTG-only,0.1
+2,2,72,0.700182,unfiltered,30.0,LR CTG-only,0.1
+2,3,72,0.692338,unfiltered,30.0,LR CTG-only,0.1
+2,4,72,0.749209,unfiltered,30.0,LR CTG-only,0.1
+2,5,72,0.818329,unfiltered,30.0,LR CTG-only,0.1
+3,1,72,0.68721,unfiltered,30.0,LR CTG-only,0.1
+3,2,72,0.634249,unfiltered,30.0,LR CTG-only,0.1
+3,3,72,0.641766,unfiltered,30.0,LR CTG-only,0.1
+3,4,72,0.746215,unfiltered,30.0,LR CTG-only,0.1
+3,5,72,0.664745,unfiltered,30.0,LR CTG-only,0.1
+1,1,72,0.680296,unfiltered,30.0,LR CTG-only,0.2
+1,2,72,0.580569,unfiltered,30.0,LR CTG-only,0.2
+1,3,72,0.650936,unfiltered,30.0,LR CTG-only,0.2
+1,4,72,0.496261,unfiltered,30.0,LR CTG-only,0.2
+1,5,72,0.542694,unfiltered,30.0,LR CTG-only,0.2
+2,1,72,0.6068,unfiltered,30.0,LR CTG-only,0.2
+2,2,72,0.575286,unfiltered,30.0,LR CTG-only,0.2
+2,3,72,0.606552,unfiltered,30.0,LR CTG-only,0.2
+2,4,72,0.597729,unfiltered,30.0,LR CTG-only,0.2
+2,5,72,0.662299,unfiltered,30.0,LR CTG-only,0.2
+3,1,72,0.57789,unfiltered,30.0,LR CTG-only,0.2
+3,2,72,0.528121,unfiltered,30.0,LR CTG-only,0.2
+3,3,72,0.576544,unfiltered,30.0,LR CTG-only,0.2
+3,4,72,0.597193,unfiltered,30.0,LR CTG-only,0.2
+3,5,72,0.57985,unfiltered,30.0,LR CTG-only,0.2
+1,1,72,0.800746,unfiltered,30.0,LR CTG+maternal,0.1
+1,2,72,0.744602,unfiltered,30.0,LR CTG+maternal,0.1
+1,3,72,0.819735,unfiltered,30.0,LR CTG+maternal,0.1
+1,4,72,0.695125,unfiltered,30.0,LR CTG+maternal,0.1
+1,5,72,0.730944,unfiltered,30.0,LR CTG+maternal,0.1
+2,1,72,0.68796,unfiltered,30.0,LR CTG+maternal,0.1
+2,2,72,0.761132,unfiltered,30.0,LR CTG+maternal,0.1
+2,3,72,0.713174,unfiltered,30.0,LR CTG+maternal,0.1
+2,4,72,0.842821,unfiltered,30.0,LR CTG+maternal,0.1
+2,5,72,0.784771,unfiltered,30.0,LR CTG+maternal,0.1
+3,1,72,0.724557,unfiltered,30.0,LR CTG+maternal,0.1
+3,2,72,0.576578,unfiltered,30.0,LR CTG+maternal,0.1
+3,3,72,0.7766,unfiltered,30.0,LR CTG+maternal,0.1
+3,4,72,0.769686,unfiltered,30.0,LR CTG+maternal,0.1
+3,5,72,0.812728,unfiltered,30.0,LR CTG+maternal,0.1
+1,1,72,0.696543,unfiltered,30.0,LR CTG+maternal,0.2
+1,2,72,0.615717,unfiltered,30.0,LR CTG+maternal,0.2
+1,3,72,0.672105,unfiltered,30.0,LR CTG+maternal,0.2
+1,4,72,0.418343,unfiltered,30.0,LR CTG+maternal,0.2
+1,5,72,0.584763,unfiltered,30.0,LR CTG+maternal,0.2
+2,1,72,0.601168,unfiltered,30.0,LR CTG+maternal,0.2
+2,2,72,0.623111,unfiltered,30.0,LR CTG+maternal,0.2
+2,3,72,0.627571,unfiltered,30.0,LR CTG+maternal,0.2
+2,4,72,0.596493,unfiltered,30.0,LR CTG+maternal,0.2
+2,5,72,0.643224,unfiltered,30.0,LR CTG+maternal,0.2
+3,1,72,0.612774,unfiltered,30.0,LR CTG+maternal,0.2
+3,2,72,0.42856,unfiltered,30.0,LR CTG+maternal,0.2
+3,3,72,0.635258,unfiltered,30.0,LR CTG+maternal,0.2
+3,4,72,0.590066,unfiltered,30.0,LR CTG+maternal,0.2
+3,5,72,0.682399,unfiltered,30.0,LR CTG+maternal,0.2
+1,1,72,0.2304,unfiltered,30.0,RF CTG-only,0.1
+1,2,72,0.17,unfiltered,30.0,RF CTG-only,0.1
+1,3,72,0.2268,unfiltered,30.0,RF CTG-only,0.1
+1,4,72,0.1536,unfiltered,30.0,RF CTG-only,0.1
+1,5,72,0.2322,unfiltered,30.0,RF CTG-only,0.1
+2,1,72,0.23,unfiltered,30.0,RF CTG-only,0.1
+2,2,72,0.1514,unfiltered,30.0,RF CTG-only,0.1
+2,3,72,0.1898,unfiltered,30.0,RF CTG-only,0.1
+2,4,72,0.1814,unfiltered,30.0,RF CTG-only,0.1
+2,5,72,0.172,unfiltered,30.0,RF CTG-only,0.1
+3,1,72,0.1756,unfiltered,30.0,RF CTG-only,0.1
+3,2,72,0.2176,unfiltered,30.0,RF CTG-only,0.1
+3,3,72,0.1536,unfiltered,30.0,RF CTG-only,0.1
+3,4,72,0.2336,unfiltered,30.0,RF CTG-only,0.1
+3,5,72,0.1968,unfiltered,30.0,RF CTG-only,0.1
+1,1,72,0.142,unfiltered,30.0,RF CTG-only,0.2
+1,2,72,0.1332,unfiltered,30.0,RF CTG-only,0.2
+1,3,72,0.1464,unfiltered,30.0,RF CTG-only,0.2
+1,4,72,0.1156,unfiltered,30.0,RF CTG-only,0.2
+1,5,72,0.1676,unfiltered,30.0,RF CTG-only,0.2
+2,1,72,0.1656,unfiltered,30.0,RF CTG-only,0.2
+2,2,72,0.092,unfiltered,30.0,RF CTG-only,0.2
+2,3,72,0.1228,unfiltered,30.0,RF CTG-only,0.2
+2,4,72,0.1376,unfiltered,30.0,RF CTG-only,0.2
+2,5,72,0.1416,unfiltered,30.0,RF CTG-only,0.2
+3,1,72,0.1192,unfiltered,30.0,RF CTG-only,0.2
+3,2,72,0.1584,unfiltered,30.0,RF CTG-only,0.2
+3,3,72,0.1156,unfiltered,30.0,RF CTG-only,0.2
+3,4,72,0.12,unfiltered,30.0,RF CTG-only,0.2
+3,5,72,0.1352,unfiltered,30.0,RF CTG-only,0.2
+1,1,72,0.1912,unfiltered,30.0,RF CTG+maternal,0.1
+1,2,72,0.1616,unfiltered,30.0,RF CTG+maternal,0.1
+1,3,72,0.2142,unfiltered,30.0,RF CTG+maternal,0.1
+1,4,72,0.1558,unfiltered,30.0,RF CTG+maternal,0.1
+1,5,72,0.196,unfiltered,30.0,RF CTG+maternal,0.1
+2,1,72,0.2108,unfiltered,30.0,RF CTG+maternal,0.1
+2,2,72,0.13,unfiltered,30.0,RF CTG+maternal,0.1
+2,3,72,0.1532,unfiltered,30.0,RF CTG+maternal,0.1
+2,4,72,0.2076,unfiltered,30.0,RF CTG+maternal,0.1
+2,5,72,0.1832,unfiltered,30.0,RF CTG+maternal,0.1
+3,1,72,0.1468,unfiltered,30.0,RF CTG+maternal,0.1
+3,2,72,0.1578,unfiltered,30.0,RF CTG+maternal,0.1
+3,3,72,0.1536,unfiltered,30.0,RF CTG+maternal,0.1
+3,4,72,0.177,unfiltered,30.0,RF CTG+maternal,0.1
+3,5,72,0.223,unfiltered,30.0,RF CTG+maternal,0.1
+1,1,72,0.1428,unfiltered,30.0,RF CTG+maternal,0.2
+1,2,72,0.128,unfiltered,30.0,RF CTG+maternal,0.2
+1,3,72,0.1652,unfiltered,30.0,RF CTG+maternal,0.2
+1,4,72,0.1116,unfiltered,30.0,RF CTG+maternal,0.2
+1,5,72,0.1316,unfiltered,30.0,RF CTG+maternal,0.2
+2,1,72,0.1436,unfiltered,30.0,RF CTG+maternal,0.2
+2,2,72,0.1092,unfiltered,30.0,RF CTG+maternal,0.2
+2,3,72,0.11,unfiltered,30.0,RF CTG+maternal,0.2
+2,4,72,0.1496,unfiltered,30.0,RF CTG+maternal,0.2
+2,5,72,0.1236,unfiltered,30.0,RF CTG+maternal,0.2
+3,1,72,0.1172,unfiltered,30.0,RF CTG+maternal,0.2
+3,2,72,0.134,unfiltered,30.0,RF CTG+maternal,0.2
+3,3,72,0.1172,unfiltered,30.0,RF CTG+maternal,0.2
+3,4,72,0.1096,unfiltered,30.0,RF CTG+maternal,0.2
+3,5,72,0.1424,unfiltered,30.0,RF CTG+maternal,0.2
+1,1,72,0.487976,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,2,72,0.578561,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,3,72,0.563419,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,4,72,0.554522,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,5,72,0.552757,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,1,72,0.595465,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,2,72,0.526031,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,3,72,0.51571,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,4,72,0.627752,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,5,72,0.554109,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,1,72,0.694779,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,2,72,0.634096,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,3,72,0.502993,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,4,72,0.569366,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,5,72,0.514316,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,1,72,0.476325,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,2,72,0.524088,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,3,72,0.510123,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,4,72,0.505565,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,5,72,0.515181,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,1,72,0.525741,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,2,72,0.474226,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,3,72,0.495967,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,4,72,0.582148,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,5,72,0.531593,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,1,72,0.619458,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,2,72,0.577387,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,3,72,0.481549,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,4,72,0.485605,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,5,72,0.487375,unfiltered,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,1,72,0.526263,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,2,72,0.550648,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,3,72,0.462354,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,4,72,0.605564,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,5,72,0.501392,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,1,72,0.574606,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,2,72,0.484243,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,3,72,0.496105,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,4,72,0.658881,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,5,72,0.535431,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,1,72,0.556501,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,2,72,0.655819,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,3,72,0.548345,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,4,72,0.61803,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,5,72,0.568315,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,1,72,0.500751,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,2,72,0.505191,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,3,72,0.450541,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,4,72,0.557765,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,5,72,0.467575,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,1,72,0.523492,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,2,72,0.469776,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,3,72,0.480014,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,4,72,0.609855,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,5,72,0.518855,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,1,72,0.538068,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,2,72,0.578494,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,3,72,0.52973,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,4,72,0.546572,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,5,72,0.525331,unfiltered,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,1,72,0.762248,unfiltered,45.0,LR CTG-only,0.1
+1,2,72,0.621522,unfiltered,45.0,LR CTG-only,0.1
+1,3,72,0.70638,unfiltered,45.0,LR CTG-only,0.1
+1,4,72,0.699399,unfiltered,45.0,LR CTG-only,0.1
+1,5,72,0.685199,unfiltered,45.0,LR CTG-only,0.1
+2,1,72,0.70023,unfiltered,45.0,LR CTG-only,0.1
+2,2,72,0.715321,unfiltered,45.0,LR CTG-only,0.1
+2,3,72,0.650717,unfiltered,45.0,LR CTG-only,0.1
+2,4,72,0.763104,unfiltered,45.0,LR CTG-only,0.1
+2,5,72,0.808459,unfiltered,45.0,LR CTG-only,0.1
+3,1,72,0.688739,unfiltered,45.0,LR CTG-only,0.1
+3,2,72,0.646522,unfiltered,45.0,LR CTG-only,0.1
+3,3,72,0.660031,unfiltered,45.0,LR CTG-only,0.1
+3,4,72,0.764864,unfiltered,45.0,LR CTG-only,0.1
+3,5,72,0.667187,unfiltered,45.0,LR CTG-only,0.1
+1,1,72,0.68624,unfiltered,45.0,LR CTG-only,0.2
+1,2,72,0.558726,unfiltered,45.0,LR CTG-only,0.2
+1,3,72,0.586246,unfiltered,45.0,LR CTG-only,0.2
+1,4,72,0.529159,unfiltered,45.0,LR CTG-only,0.2
+1,5,72,0.610125,unfiltered,45.0,LR CTG-only,0.2
+2,1,72,0.61346,unfiltered,45.0,LR CTG-only,0.2
+2,2,72,0.55429,unfiltered,45.0,LR CTG-only,0.2
+2,3,72,0.577105,unfiltered,45.0,LR CTG-only,0.2
+2,4,72,0.647141,unfiltered,45.0,LR CTG-only,0.2
+2,5,72,0.65588,unfiltered,45.0,LR CTG-only,0.2
+3,1,72,0.57423,unfiltered,45.0,LR CTG-only,0.2
+3,2,72,0.553676,unfiltered,45.0,LR CTG-only,0.2
+3,3,72,0.597031,unfiltered,45.0,LR CTG-only,0.2
+3,4,72,0.686833,unfiltered,45.0,LR CTG-only,0.2
+3,5,72,0.578286,unfiltered,45.0,LR CTG-only,0.2
+1,1,72,0.783358,unfiltered,45.0,LR CTG+maternal,0.1
+1,2,72,0.739252,unfiltered,45.0,LR CTG+maternal,0.1
+1,3,72,0.738953,unfiltered,45.0,LR CTG+maternal,0.1
+1,4,72,0.685377,unfiltered,45.0,LR CTG+maternal,0.1
+1,5,72,0.774202,unfiltered,45.0,LR CTG+maternal,0.1
+2,1,72,0.727121,unfiltered,45.0,LR CTG+maternal,0.1
+2,2,72,0.768766,unfiltered,45.0,LR CTG+maternal,0.1
+2,3,72,0.737101,unfiltered,45.0,LR CTG+maternal,0.1
+2,4,72,0.805945,unfiltered,45.0,LR CTG+maternal,0.1
+2,5,72,0.808065,unfiltered,45.0,LR CTG+maternal,0.1
+3,1,72,0.705727,unfiltered,45.0,LR CTG+maternal,0.1
+3,2,72,0.607317,unfiltered,45.0,LR CTG+maternal,0.1
+3,3,72,0.742224,unfiltered,45.0,LR CTG+maternal,0.1
+3,4,72,0.801612,unfiltered,45.0,LR CTG+maternal,0.1
+3,5,72,0.857981,unfiltered,45.0,LR CTG+maternal,0.1
+1,1,72,0.714847,unfiltered,45.0,LR CTG+maternal,0.2
+1,2,72,0.580022,unfiltered,45.0,LR CTG+maternal,0.2
+1,3,72,0.662553,unfiltered,45.0,LR CTG+maternal,0.2
+1,4,72,0.554228,unfiltered,45.0,LR CTG+maternal,0.2
+1,5,72,0.572662,unfiltered,45.0,LR CTG+maternal,0.2
+2,1,72,0.575501,unfiltered,45.0,LR CTG+maternal,0.2
+2,2,72,0.584043,unfiltered,45.0,LR CTG+maternal,0.2
+2,3,72,0.567044,unfiltered,45.0,LR CTG+maternal,0.2
+2,4,72,0.649808,unfiltered,45.0,LR CTG+maternal,0.2
+2,5,72,0.627681,unfiltered,45.0,LR CTG+maternal,0.2
+3,1,72,0.628964,unfiltered,45.0,LR CTG+maternal,0.2
+3,2,72,0.463237,unfiltered,45.0,LR CTG+maternal,0.2
+3,3,72,0.609158,unfiltered,45.0,LR CTG+maternal,0.2
+3,4,72,0.672623,unfiltered,45.0,LR CTG+maternal,0.2
+3,5,72,0.621081,unfiltered,45.0,LR CTG+maternal,0.2
+1,1,72,0.24,unfiltered,45.0,RF CTG-only,0.1
+1,2,72,0.1558,unfiltered,45.0,RF CTG-only,0.1
+1,3,72,0.2,unfiltered,45.0,RF CTG-only,0.1
+1,4,72,0.1742,unfiltered,45.0,RF CTG-only,0.1
+1,5,72,0.1694,unfiltered,45.0,RF CTG-only,0.1
+2,1,72,0.206,unfiltered,45.0,RF CTG-only,0.1
+2,2,72,0.1538,unfiltered,45.0,RF CTG-only,0.1
+2,3,72,0.171,unfiltered,45.0,RF CTG-only,0.1
+2,4,72,0.2172,unfiltered,45.0,RF CTG-only,0.1
+2,5,72,0.171,unfiltered,45.0,RF CTG-only,0.1
+3,1,72,0.1758,unfiltered,45.0,RF CTG-only,0.1
+3,2,72,0.205,unfiltered,45.0,RF CTG-only,0.1
+3,3,72,0.1918,unfiltered,45.0,RF CTG-only,0.1
+3,4,72,0.1778,unfiltered,45.0,RF CTG-only,0.1
+3,5,72,0.2206,unfiltered,45.0,RF CTG-only,0.1
+1,1,72,0.1656,unfiltered,45.0,RF CTG-only,0.2
+1,2,72,0.134,unfiltered,45.0,RF CTG-only,0.2
+1,3,72,0.136,unfiltered,45.0,RF CTG-only,0.2
+1,4,72,0.0996,unfiltered,45.0,RF CTG-only,0.2
+1,5,72,0.1288,unfiltered,45.0,RF CTG-only,0.2
+2,1,72,0.1384,unfiltered,45.0,RF CTG-only,0.2
+2,2,72,0.1048,unfiltered,45.0,RF CTG-only,0.2
+2,3,72,0.1072,unfiltered,45.0,RF CTG-only,0.2
+2,4,72,0.142,unfiltered,45.0,RF CTG-only,0.2
+2,5,72,0.0992,unfiltered,45.0,RF CTG-only,0.2
+3,1,72,0.1288,unfiltered,45.0,RF CTG-only,0.2
+3,2,72,0.1312,unfiltered,45.0,RF CTG-only,0.2
+3,3,72,0.1252,unfiltered,45.0,RF CTG-only,0.2
+3,4,72,0.1168,unfiltered,45.0,RF CTG-only,0.2
+3,5,72,0.13,unfiltered,45.0,RF CTG-only,0.2
+1,1,72,0.2294,unfiltered,45.0,RF CTG+maternal,0.1
+1,2,72,0.1638,unfiltered,45.0,RF CTG+maternal,0.1
+1,3,72,0.168,unfiltered,45.0,RF CTG+maternal,0.1
+1,4,72,0.1632,unfiltered,45.0,RF CTG+maternal,0.1
+1,5,72,0.152,unfiltered,45.0,RF CTG+maternal,0.1
+2,1,72,0.1748,unfiltered,45.0,RF CTG+maternal,0.1
+2,2,72,0.163,unfiltered,45.0,RF CTG+maternal,0.1
+2,3,72,0.1556,unfiltered,45.0,RF CTG+maternal,0.1
+2,4,72,0.2388,unfiltered,45.0,RF CTG+maternal,0.1
+2,5,72,0.1868,unfiltered,45.0,RF CTG+maternal,0.1
+3,1,72,0.1834,unfiltered,45.0,RF CTG+maternal,0.1
+3,2,72,0.158,unfiltered,45.0,RF CTG+maternal,0.1
+3,3,72,0.1696,unfiltered,45.0,RF CTG+maternal,0.1
+3,4,72,0.1848,unfiltered,45.0,RF CTG+maternal,0.1
+3,5,72,0.2116,unfiltered,45.0,RF CTG+maternal,0.1
+1,1,72,0.1688,unfiltered,45.0,RF CTG+maternal,0.2
+1,2,72,0.12,unfiltered,45.0,RF CTG+maternal,0.2
+1,3,72,0.1352,unfiltered,45.0,RF CTG+maternal,0.2
+1,4,72,0.128,unfiltered,45.0,RF CTG+maternal,0.2
+1,5,72,0.1296,unfiltered,45.0,RF CTG+maternal,0.2
+2,1,72,0.1236,unfiltered,45.0,RF CTG+maternal,0.2
+2,2,72,0.1084,unfiltered,45.0,RF CTG+maternal,0.2
+2,3,72,0.1064,unfiltered,45.0,RF CTG+maternal,0.2
+2,4,72,0.1764,unfiltered,45.0,RF CTG+maternal,0.2
+2,5,72,0.1228,unfiltered,45.0,RF CTG+maternal,0.2
+3,1,72,0.144,unfiltered,45.0,RF CTG+maternal,0.2
+3,2,72,0.112,unfiltered,45.0,RF CTG+maternal,0.2
+3,3,72,0.1156,unfiltered,45.0,RF CTG+maternal,0.2
+3,4,72,0.1088,unfiltered,45.0,RF CTG+maternal,0.2
+3,5,72,0.1424,unfiltered,45.0,RF CTG+maternal,0.2
+1,1,72,0.487399,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,2,72,0.62109,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,3,72,0.616286,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,4,72,0.575625,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,5,72,0.578292,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,1,72,0.62177,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,2,72,0.612512,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,3,72,0.5606,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,4,72,0.641405,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,5,72,0.586871,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,1,72,0.712513,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,2,72,0.669625,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,3,72,0.549808,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,4,72,0.630715,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,5,72,0.531812,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,1,72,0.476911,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,2,72,0.58235,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,3,72,0.552447,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,4,72,0.526104,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,5,72,0.538677,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,1,72,0.558858,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,2,72,0.486824,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,3,72,0.530124,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,4,72,0.605623,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,5,72,0.555855,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,1,72,0.604712,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,2,72,0.628676,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,3,72,0.529471,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,4,72,0.535912,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,5,72,0.491916,unfiltered,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,1,72,0.528816,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,2,72,0.566527,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,3,72,0.483456,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,4,72,0.622626,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,5,72,0.494033,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,1,72,0.604805,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,2,72,0.49223,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,3,72,0.529335,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,4,72,0.702937,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,5,72,0.581371,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,1,72,0.561818,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,2,72,0.662889,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,3,72,0.578533,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,4,72,0.645785,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,5,72,0.579306,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,1,72,0.51045,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,2,72,0.529661,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,3,72,0.474922,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,4,72,0.582729,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,5,72,0.475143,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,1,72,0.554756,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,2,72,0.480589,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,3,72,0.514391,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,4,72,0.672652,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,5,72,0.556509,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,1,72,0.532419,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,2,72,0.606871,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,3,72,0.557613,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,4,72,0.57188,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,5,72,0.54245,unfiltered,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,1,72,0.7616,unfiltered,60.0,LR CTG-only,0.1
+1,2,72,0.725233,unfiltered,60.0,LR CTG-only,0.1
+1,3,72,0.601555,unfiltered,60.0,LR CTG-only,0.1
+1,4,72,0.688068,unfiltered,60.0,LR CTG-only,0.1
+1,5,72,0.718567,unfiltered,60.0,LR CTG-only,0.1
+2,1,72,0.667526,unfiltered,60.0,LR CTG-only,0.1
+2,2,72,0.739541,unfiltered,60.0,LR CTG-only,0.1
+2,3,72,0.675631,unfiltered,60.0,LR CTG-only,0.1
+2,4,72,0.768487,unfiltered,60.0,LR CTG-only,0.1
+2,5,72,0.818816,unfiltered,60.0,LR CTG-only,0.1
+3,1,72,0.676678,unfiltered,60.0,LR CTG-only,0.1
+3,2,72,0.61756,unfiltered,60.0,LR CTG-only,0.1
+3,3,72,0.691431,unfiltered,60.0,LR CTG-only,0.1
+3,4,72,0.682272,unfiltered,60.0,LR CTG-only,0.1
+3,5,72,0.69888,unfiltered,60.0,LR CTG-only,0.1
+1,1,72,0.626444,unfiltered,60.0,LR CTG-only,0.2
+1,2,72,0.5371,unfiltered,60.0,LR CTG-only,0.2
+1,3,72,0.48961,unfiltered,60.0,LR CTG-only,0.2
+1,4,72,0.578968,unfiltered,60.0,LR CTG-only,0.2
+1,5,72,0.616444,unfiltered,60.0,LR CTG-only,0.2
+2,1,72,0.560964,unfiltered,60.0,LR CTG-only,0.2
+2,2,72,0.57955,unfiltered,60.0,LR CTG-only,0.2
+2,3,72,0.596662,unfiltered,60.0,LR CTG-only,0.2
+2,4,72,0.602717,unfiltered,60.0,LR CTG-only,0.2
+2,5,72,0.702563,unfiltered,60.0,LR CTG-only,0.2
+3,1,72,0.560758,unfiltered,60.0,LR CTG-only,0.2
+3,2,72,0.522636,unfiltered,60.0,LR CTG-only,0.2
+3,3,72,0.605786,unfiltered,60.0,LR CTG-only,0.2
+3,4,72,0.534113,unfiltered,60.0,LR CTG-only,0.2
+3,5,72,0.514798,unfiltered,60.0,LR CTG-only,0.2
+1,1,72,0.815866,unfiltered,60.0,LR CTG+maternal,0.1
+1,2,72,0.716608,unfiltered,60.0,LR CTG+maternal,0.1
+1,3,72,0.602377,unfiltered,60.0,LR CTG+maternal,0.1
+1,4,72,0.717468,unfiltered,60.0,LR CTG+maternal,0.1
+1,5,72,0.812441,unfiltered,60.0,LR CTG+maternal,0.1
+2,1,72,0.690073,unfiltered,60.0,LR CTG+maternal,0.1
+2,2,72,0.77569,unfiltered,60.0,LR CTG+maternal,0.1
+2,3,72,0.739047,unfiltered,60.0,LR CTG+maternal,0.1
+2,4,72,0.843832,unfiltered,60.0,LR CTG+maternal,0.1
+2,5,72,0.809809,unfiltered,60.0,LR CTG+maternal,0.1
+3,1,72,0.735468,unfiltered,60.0,LR CTG+maternal,0.1
+3,2,72,0.601136,unfiltered,60.0,LR CTG+maternal,0.1
+3,3,72,0.747932,unfiltered,60.0,LR CTG+maternal,0.1
+3,4,72,0.749417,unfiltered,60.0,LR CTG+maternal,0.1
+3,5,72,0.870403,unfiltered,60.0,LR CTG+maternal,0.1
+1,1,72,0.606364,unfiltered,60.0,LR CTG+maternal,0.2
+1,2,72,0.595795,unfiltered,60.0,LR CTG+maternal,0.2
+1,3,72,0.550078,unfiltered,60.0,LR CTG+maternal,0.2
+1,4,72,0.519272,unfiltered,60.0,LR CTG+maternal,0.2
+1,5,72,0.424332,unfiltered,60.0,LR CTG+maternal,0.2
+2,1,72,0.578206,unfiltered,60.0,LR CTG+maternal,0.2
+2,2,72,0.644279,unfiltered,60.0,LR CTG+maternal,0.2
+2,3,72,0.528307,unfiltered,60.0,LR CTG+maternal,0.2
+2,4,72,0.652985,unfiltered,60.0,LR CTG+maternal,0.2
+2,5,72,0.655809,unfiltered,60.0,LR CTG+maternal,0.2
+3,1,72,0.542022,unfiltered,60.0,LR CTG+maternal,0.2
+3,2,72,0.459417,unfiltered,60.0,LR CTG+maternal,0.2
+3,3,72,0.524846,unfiltered,60.0,LR CTG+maternal,0.2
+3,4,72,0.607683,unfiltered,60.0,LR CTG+maternal,0.2
+3,5,72,0.571728,unfiltered,60.0,LR CTG+maternal,0.2
+1,1,72,0.2606,unfiltered,60.0,RF CTG-only,0.1
+1,2,72,0.2398,unfiltered,60.0,RF CTG-only,0.1
+1,3,72,0.1656,unfiltered,60.0,RF CTG-only,0.1
+1,4,72,0.1736,unfiltered,60.0,RF CTG-only,0.1
+1,5,72,0.1952,unfiltered,60.0,RF CTG-only,0.1
+2,1,72,0.2356,unfiltered,60.0,RF CTG-only,0.1
+2,2,72,0.1472,unfiltered,60.0,RF CTG-only,0.1
+2,3,72,0.184,unfiltered,60.0,RF CTG-only,0.1
+2,4,72,0.1938,unfiltered,60.0,RF CTG-only,0.1
+2,5,72,0.211,unfiltered,60.0,RF CTG-only,0.1
+3,1,72,0.178,unfiltered,60.0,RF CTG-only,0.1
+3,2,72,0.2078,unfiltered,60.0,RF CTG-only,0.1
+3,3,72,0.1636,unfiltered,60.0,RF CTG-only,0.1
+3,4,72,0.1716,unfiltered,60.0,RF CTG-only,0.1
+3,5,72,0.2592,unfiltered,60.0,RF CTG-only,0.1
+1,1,72,0.1692,unfiltered,60.0,RF CTG-only,0.2
+1,2,72,0.188,unfiltered,60.0,RF CTG-only,0.2
+1,3,72,0.1148,unfiltered,60.0,RF CTG-only,0.2
+1,4,72,0.1324,unfiltered,60.0,RF CTG-only,0.2
+1,5,72,0.1536,unfiltered,60.0,RF CTG-only,0.2
+2,1,72,0.1464,unfiltered,60.0,RF CTG-only,0.2
+2,2,72,0.116,unfiltered,60.0,RF CTG-only,0.2
+2,3,72,0.132,unfiltered,60.0,RF CTG-only,0.2
+2,4,72,0.124,unfiltered,60.0,RF CTG-only,0.2
+2,5,72,0.1484,unfiltered,60.0,RF CTG-only,0.2
+3,1,72,0.13,unfiltered,60.0,RF CTG-only,0.2
+3,2,72,0.1208,unfiltered,60.0,RF CTG-only,0.2
+3,3,72,0.1256,unfiltered,60.0,RF CTG-only,0.2
+3,4,72,0.1216,unfiltered,60.0,RF CTG-only,0.2
+3,5,72,0.1368,unfiltered,60.0,RF CTG-only,0.2
+1,1,72,0.2526,unfiltered,60.0,RF CTG+maternal,0.1
+1,2,72,0.2238,unfiltered,60.0,RF CTG+maternal,0.1
+1,3,72,0.1438,unfiltered,60.0,RF CTG+maternal,0.1
+1,4,72,0.17,unfiltered,60.0,RF CTG+maternal,0.1
+1,5,72,0.211,unfiltered,60.0,RF CTG+maternal,0.1
+2,1,72,0.2074,unfiltered,60.0,RF CTG+maternal,0.1
+2,2,72,0.1948,unfiltered,60.0,RF CTG+maternal,0.1
+2,3,72,0.1796,unfiltered,60.0,RF CTG+maternal,0.1
+2,4,72,0.1898,unfiltered,60.0,RF CTG+maternal,0.1
+2,5,72,0.2222,unfiltered,60.0,RF CTG+maternal,0.1
+3,1,72,0.173,unfiltered,60.0,RF CTG+maternal,0.1
+3,2,72,0.1598,unfiltered,60.0,RF CTG+maternal,0.1
+3,3,72,0.1732,unfiltered,60.0,RF CTG+maternal,0.1
+3,4,72,0.1684,unfiltered,60.0,RF CTG+maternal,0.1
+3,5,72,0.2206,unfiltered,60.0,RF CTG+maternal,0.1
+1,1,72,0.176,unfiltered,60.0,RF CTG+maternal,0.2
+1,2,72,0.1568,unfiltered,60.0,RF CTG+maternal,0.2
+1,3,72,0.1088,unfiltered,60.0,RF CTG+maternal,0.2
+1,4,72,0.11,unfiltered,60.0,RF CTG+maternal,0.2
+1,5,72,0.142,unfiltered,60.0,RF CTG+maternal,0.2
+2,1,72,0.1192,unfiltered,60.0,RF CTG+maternal,0.2
+2,2,72,0.104,unfiltered,60.0,RF CTG+maternal,0.2
+2,3,72,0.1312,unfiltered,60.0,RF CTG+maternal,0.2
+2,4,72,0.14,unfiltered,60.0,RF CTG+maternal,0.2
+2,5,72,0.144,unfiltered,60.0,RF CTG+maternal,0.2
+3,1,72,0.1216,unfiltered,60.0,RF CTG+maternal,0.2
+3,2,72,0.1092,unfiltered,60.0,RF CTG+maternal,0.2
+3,3,72,0.1376,unfiltered,60.0,RF CTG+maternal,0.2
+3,4,72,0.1036,unfiltered,60.0,RF CTG+maternal,0.2
+3,5,72,0.1408,unfiltered,60.0,RF CTG+maternal,0.2
+1,1,72,0.490692,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,2,72,0.677886,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,3,72,0.644846,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,4,72,0.597506,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,5,72,0.614976,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,1,72,0.624785,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,2,72,0.639217,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,3,72,0.588967,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,4,72,0.642094,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,5,72,0.620849,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,1,72,0.721247,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,2,72,0.698373,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,3,72,0.591676,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,4,72,0.68111,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,5,72,0.527866,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,1,72,0.474427,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,2,72,0.59459,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,3,72,0.599564,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,4,72,0.545764,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,5,72,0.597524,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,1,72,0.584219,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,2,72,0.581081,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,3,72,0.555786,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,4,72,0.625047,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,5,72,0.578891,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,1,72,0.592022,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,2,72,0.630418,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,3,72,0.562232,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,4,72,0.549774,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,5,72,0.495343,unfiltered,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,1,72,0.534977,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,2,72,0.57783,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,3,72,0.497656,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,4,72,0.629775,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,5,72,0.51028,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,1,72,0.62393,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,2,72,0.501843,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,3,72,0.550036,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,4,72,0.704626,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,5,72,0.605865,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,1,72,0.553382,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,2,72,0.650251,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,3,72,0.59797,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,4,72,0.657701,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,5,72,0.587258,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,1,72,0.496151,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,2,72,0.560196,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,3,72,0.492864,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,4,72,0.613074,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,5,72,0.495288,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,1,72,0.580978,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,2,72,0.495151,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,3,72,0.537922,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,4,72,0.679684,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,5,72,0.591193,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,1,72,0.532244,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,2,72,0.623322,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,3,72,0.580532,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,4,72,0.618881,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,5,72,0.561445,unfiltered,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,1,52,0.777129,primary345_causal,10.0,LR CTG-only,0.1
+1,2,52,0.647315,primary345_causal,10.0,LR CTG-only,0.1
+1,3,52,0.833442,primary345_causal,10.0,LR CTG-only,0.1
+1,4,52,0.698378,primary345_causal,10.0,LR CTG-only,0.1
+1,5,52,0.623742,primary345_causal,10.0,LR CTG-only,0.1
+2,1,52,0.674938,primary345_causal,10.0,LR CTG-only,0.1
+2,2,52,0.639099,primary345_causal,10.0,LR CTG-only,0.1
+2,3,52,0.77891,primary345_causal,10.0,LR CTG-only,0.1
+2,4,52,0.602138,primary345_causal,10.0,LR CTG-only,0.1
+2,5,52,0.571817,primary345_causal,10.0,LR CTG-only,0.1
+3,1,52,0.796561,primary345_causal,10.0,LR CTG-only,0.1
+3,2,52,0.706334,primary345_causal,10.0,LR CTG-only,0.1
+3,3,52,0.594524,primary345_causal,10.0,LR CTG-only,0.1
+3,4,52,0.762568,primary345_causal,10.0,LR CTG-only,0.1
+3,5,52,0.724366,primary345_causal,10.0,LR CTG-only,0.1
+1,1,52,0.617455,primary345_causal,10.0,LR CTG-only,0.2
+1,2,52,0.556371,primary345_causal,10.0,LR CTG-only,0.2
+1,3,52,0.677489,primary345_causal,10.0,LR CTG-only,0.2
+1,4,52,0.58641,primary345_causal,10.0,LR CTG-only,0.2
+1,5,52,0.559245,primary345_causal,10.0,LR CTG-only,0.2
+2,1,52,0.522953,primary345_causal,10.0,LR CTG-only,0.2
+2,2,52,0.555045,primary345_causal,10.0,LR CTG-only,0.2
+2,3,52,0.626136,primary345_causal,10.0,LR CTG-only,0.2
+2,4,52,0.492795,primary345_causal,10.0,LR CTG-only,0.2
+2,5,52,0.544241,primary345_causal,10.0,LR CTG-only,0.2
+3,1,52,0.524411,primary345_causal,10.0,LR CTG-only,0.2
+3,2,52,0.558344,primary345_causal,10.0,LR CTG-only,0.2
+3,3,52,0.554545,primary345_causal,10.0,LR CTG-only,0.2
+3,4,52,0.636812,primary345_causal,10.0,LR CTG-only,0.2
+3,5,52,0.645561,primary345_causal,10.0,LR CTG-only,0.2
+1,1,52,0.750028,primary345_causal,10.0,LR CTG+maternal,0.1
+1,2,52,0.688639,primary345_causal,10.0,LR CTG+maternal,0.1
+1,3,52,0.83238,primary345_causal,10.0,LR CTG+maternal,0.1
+1,4,52,0.743424,primary345_causal,10.0,LR CTG+maternal,0.1
+1,5,52,0.729071,primary345_causal,10.0,LR CTG+maternal,0.1
+2,1,52,0.707155,primary345_causal,10.0,LR CTG+maternal,0.1
+2,2,52,0.658236,primary345_causal,10.0,LR CTG+maternal,0.1
+2,3,52,0.728961,primary345_causal,10.0,LR CTG+maternal,0.1
+2,4,52,0.698332,primary345_causal,10.0,LR CTG+maternal,0.1
+2,5,52,0.625937,primary345_causal,10.0,LR CTG+maternal,0.1
+3,1,52,0.729097,primary345_causal,10.0,LR CTG+maternal,0.1
+3,2,52,0.804142,primary345_causal,10.0,LR CTG+maternal,0.1
+3,3,52,0.671964,primary345_causal,10.0,LR CTG+maternal,0.1
+3,4,52,0.861944,primary345_causal,10.0,LR CTG+maternal,0.1
+3,5,52,0.750739,primary345_causal,10.0,LR CTG+maternal,0.1
+1,1,52,0.628621,primary345_causal,10.0,LR CTG+maternal,0.2
+1,2,52,0.576067,primary345_causal,10.0,LR CTG+maternal,0.2
+1,3,52,0.697897,primary345_causal,10.0,LR CTG+maternal,0.2
+1,4,52,0.628749,primary345_causal,10.0,LR CTG+maternal,0.2
+1,5,52,0.585935,primary345_causal,10.0,LR CTG+maternal,0.2
+2,1,52,0.63381,primary345_causal,10.0,LR CTG+maternal,0.2
+2,2,52,0.509609,primary345_causal,10.0,LR CTG+maternal,0.2
+2,3,52,0.608208,primary345_causal,10.0,LR CTG+maternal,0.2
+2,4,52,0.623349,primary345_causal,10.0,LR CTG+maternal,0.2
+2,5,52,0.555711,primary345_causal,10.0,LR CTG+maternal,0.2
+3,1,52,0.516393,primary345_causal,10.0,LR CTG+maternal,0.2
+3,2,52,0.540125,primary345_causal,10.0,LR CTG+maternal,0.2
+3,3,52,0.59677,primary345_causal,10.0,LR CTG+maternal,0.2
+3,4,52,0.71788,primary345_causal,10.0,LR CTG+maternal,0.2
+3,5,52,0.677569,primary345_causal,10.0,LR CTG+maternal,0.2
+1,1,52,0.195775,primary345_causal,10.0,RF CTG-only,0.1
+1,2,52,0.172302,primary345_causal,10.0,RF CTG-only,0.1
+1,3,52,0.1618,primary345_causal,10.0,RF CTG-only,0.1
+1,4,52,0.232031,primary345_causal,10.0,RF CTG-only,0.1
+1,5,52,0.160241,primary345_causal,10.0,RF CTG-only,0.1
+2,1,52,0.159095,primary345_causal,10.0,RF CTG-only,0.1
+2,2,52,0.1192,primary345_causal,10.0,RF CTG-only,0.1
+2,3,52,0.1478,primary345_causal,10.0,RF CTG-only,0.1
+2,4,52,0.152,primary345_causal,10.0,RF CTG-only,0.1
+2,5,52,0.0986,primary345_causal,10.0,RF CTG-only,0.1
+3,1,52,0.162517,primary345_causal,10.0,RF CTG-only,0.1
+3,2,52,0.146963,primary345_causal,10.0,RF CTG-only,0.1
+3,3,52,0.142918,primary345_causal,10.0,RF CTG-only,0.1
+3,4,52,0.1786,primary345_causal,10.0,RF CTG-only,0.1
+3,5,52,0.193833,primary345_causal,10.0,RF CTG-only,0.1
+1,1,52,0.126555,primary345_causal,10.0,RF CTG-only,0.2
+1,2,52,0.112112,primary345_causal,10.0,RF CTG-only,0.2
+1,3,52,0.1152,primary345_causal,10.0,RF CTG-only,0.2
+1,4,52,0.117,primary345_causal,10.0,RF CTG-only,0.2
+1,5,52,0.101254,primary345_causal,10.0,RF CTG-only,0.2
+2,1,52,0.119996,primary345_causal,10.0,RF CTG-only,0.2
+2,2,52,0.1016,primary345_causal,10.0,RF CTG-only,0.2
+2,3,52,0.1108,primary345_causal,10.0,RF CTG-only,0.2
+2,4,52,0.1056,primary345_causal,10.0,RF CTG-only,0.2
+2,5,52,0.08536,primary345_causal,10.0,RF CTG-only,0.2
+3,1,52,0.098411,primary345_causal,10.0,RF CTG-only,0.2
+3,2,52,0.097502,primary345_causal,10.0,RF CTG-only,0.2
+3,3,52,0.099043,primary345_causal,10.0,RF CTG-only,0.2
+3,4,52,0.1376,primary345_causal,10.0,RF CTG-only,0.2
+3,5,52,0.1232,primary345_causal,10.0,RF CTG-only,0.2
+1,1,52,0.1692,primary345_causal,10.0,RF CTG+maternal,0.1
+1,2,52,0.1344,primary345_causal,10.0,RF CTG+maternal,0.1
+1,3,52,0.1598,primary345_causal,10.0,RF CTG+maternal,0.1
+1,4,52,0.182,primary345_causal,10.0,RF CTG+maternal,0.1
+1,5,52,0.1316,primary345_causal,10.0,RF CTG+maternal,0.1
+2,1,52,0.1312,primary345_causal,10.0,RF CTG+maternal,0.1
+2,2,52,0.163,primary345_causal,10.0,RF CTG+maternal,0.1
+2,3,52,0.1532,primary345_causal,10.0,RF CTG+maternal,0.1
+2,4,52,0.1614,primary345_causal,10.0,RF CTG+maternal,0.1
+2,5,52,0.1016,primary345_causal,10.0,RF CTG+maternal,0.1
+3,1,52,0.1,primary345_causal,10.0,RF CTG+maternal,0.1
+3,2,52,0.1478,primary345_causal,10.0,RF CTG+maternal,0.1
+3,3,52,0.1454,primary345_causal,10.0,RF CTG+maternal,0.1
+3,4,52,0.157,primary345_causal,10.0,RF CTG+maternal,0.1
+3,5,52,0.1518,primary345_causal,10.0,RF CTG+maternal,0.1
+1,1,52,0.124,primary345_causal,10.0,RF CTG+maternal,0.2
+1,2,52,0.1084,primary345_causal,10.0,RF CTG+maternal,0.2
+1,3,52,0.1336,primary345_causal,10.0,RF CTG+maternal,0.2
+1,4,52,0.1216,primary345_causal,10.0,RF CTG+maternal,0.2
+1,5,52,0.0912,primary345_causal,10.0,RF CTG+maternal,0.2
+2,1,52,0.1052,primary345_causal,10.0,RF CTG+maternal,0.2
+2,2,52,0.086,primary345_causal,10.0,RF CTG+maternal,0.2
+2,3,52,0.12,primary345_causal,10.0,RF CTG+maternal,0.2
+2,4,52,0.136,primary345_causal,10.0,RF CTG+maternal,0.2
+2,5,52,0.084,primary345_causal,10.0,RF CTG+maternal,0.2
+3,1,52,0.092,primary345_causal,10.0,RF CTG+maternal,0.2
+3,2,52,0.1228,primary345_causal,10.0,RF CTG+maternal,0.2
+3,3,52,0.1304,primary345_causal,10.0,RF CTG+maternal,0.2
+3,4,52,0.1456,primary345_causal,10.0,RF CTG+maternal,0.2
+3,5,52,0.1104,primary345_causal,10.0,RF CTG+maternal,0.2
+1,1,54,0.472155,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,2,53,0.47182,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,3,48,0.44479,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,4,44,0.492042,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,5,55,0.447923,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,1,51,0.520187,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,2,53,0.381531,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,3,53,0.471054,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,4,47,0.563717,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,5,50,0.477304,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,1,52,0.524908,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,2,51,0.429662,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,3,50,0.446024,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,4,56,0.455075,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,5,52,0.474612,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,1,54,0.454717,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,2,53,0.434029,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,3,48,0.414397,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,4,44,0.458385,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,5,55,0.42567,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,1,51,0.475507,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,2,53,0.348539,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,3,53,0.438734,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,4,47,0.519418,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,5,50,0.442832,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,1,52,0.482776,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,2,51,0.376362,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,3,50,0.402651,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,4,56,0.370239,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,5,52,0.444911,primary345_causal,10.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,1,54,0.517692,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,2,53,0.47184,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,3,48,0.414042,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,4,44,0.530093,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,5,55,0.481986,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,1,51,0.509223,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,2,53,0.449477,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,3,53,0.445536,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,4,47,0.532233,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,5,50,0.468083,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,1,52,0.494982,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,2,51,0.562459,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,3,50,0.495172,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,4,56,0.480126,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,5,52,0.509514,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,1,54,0.50024,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,2,53,0.448925,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,3,48,0.41067,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,4,44,0.484126,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,5,55,0.462053,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,1,51,0.496978,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,2,53,0.446954,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,3,53,0.402393,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,4,47,0.472587,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,5,50,0.450787,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,1,52,0.472306,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,2,51,0.528254,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,3,50,0.440363,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,4,56,0.386457,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,5,52,0.459451,primary345_causal,10.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,1,52,0.731483,primary345_causal,20.0,LR CTG-only,0.1
+1,2,52,0.703417,primary345_causal,20.0,LR CTG-only,0.1
+1,3,52,0.851608,primary345_causal,20.0,LR CTG-only,0.1
+1,4,52,0.698565,primary345_causal,20.0,LR CTG-only,0.1
+1,5,52,0.607489,primary345_causal,20.0,LR CTG-only,0.1
+2,1,52,0.687493,primary345_causal,20.0,LR CTG-only,0.1
+2,2,52,0.760987,primary345_causal,20.0,LR CTG-only,0.1
+2,3,52,0.744786,primary345_causal,20.0,LR CTG-only,0.1
+2,4,52,0.688163,primary345_causal,20.0,LR CTG-only,0.1
+2,5,52,0.604459,primary345_causal,20.0,LR CTG-only,0.1
+3,1,52,0.632162,primary345_causal,20.0,LR CTG-only,0.1
+3,2,52,0.655063,primary345_causal,20.0,LR CTG-only,0.1
+3,3,52,0.633293,primary345_causal,20.0,LR CTG-only,0.1
+3,4,52,0.866718,primary345_causal,20.0,LR CTG-only,0.1
+3,5,52,0.765321,primary345_causal,20.0,LR CTG-only,0.1
+1,1,52,0.608121,primary345_causal,20.0,LR CTG-only,0.2
+1,2,52,0.544911,primary345_causal,20.0,LR CTG-only,0.2
+1,3,52,0.680093,primary345_causal,20.0,LR CTG-only,0.2
+1,4,52,0.589574,primary345_causal,20.0,LR CTG-only,0.2
+1,5,52,0.530248,primary345_causal,20.0,LR CTG-only,0.2
+2,1,52,0.493868,primary345_causal,20.0,LR CTG-only,0.2
+2,2,52,0.615056,primary345_causal,20.0,LR CTG-only,0.2
+2,3,52,0.586419,primary345_causal,20.0,LR CTG-only,0.2
+2,4,52,0.512229,primary345_causal,20.0,LR CTG-only,0.2
+2,5,52,0.563511,primary345_causal,20.0,LR CTG-only,0.2
+3,1,52,0.438866,primary345_causal,20.0,LR CTG-only,0.2
+3,2,52,0.450145,primary345_causal,20.0,LR CTG-only,0.2
+3,3,52,0.547914,primary345_causal,20.0,LR CTG-only,0.2
+3,4,52,0.709086,primary345_causal,20.0,LR CTG-only,0.2
+3,5,52,0.479483,primary345_causal,20.0,LR CTG-only,0.2
+1,1,52,0.830831,primary345_causal,20.0,LR CTG+maternal,0.1
+1,2,52,0.641216,primary345_causal,20.0,LR CTG+maternal,0.1
+1,3,52,0.796116,primary345_causal,20.0,LR CTG+maternal,0.1
+1,4,52,0.715319,primary345_causal,20.0,LR CTG+maternal,0.1
+1,5,52,0.739629,primary345_causal,20.0,LR CTG+maternal,0.1
+2,1,52,0.816822,primary345_causal,20.0,LR CTG+maternal,0.1
+2,2,52,0.825173,primary345_causal,20.0,LR CTG+maternal,0.1
+2,3,52,0.739165,primary345_causal,20.0,LR CTG+maternal,0.1
+2,4,52,0.777367,primary345_causal,20.0,LR CTG+maternal,0.1
+2,5,52,0.656771,primary345_causal,20.0,LR CTG+maternal,0.1
+3,1,52,0.658036,primary345_causal,20.0,LR CTG+maternal,0.1
+3,2,52,0.646127,primary345_causal,20.0,LR CTG+maternal,0.1
+3,3,52,0.599611,primary345_causal,20.0,LR CTG+maternal,0.1
+3,4,52,0.92519,primary345_causal,20.0,LR CTG+maternal,0.1
+3,5,52,0.793374,primary345_causal,20.0,LR CTG+maternal,0.1
+1,1,52,0.574948,primary345_causal,20.0,LR CTG+maternal,0.2
+1,2,52,0.411629,primary345_causal,20.0,LR CTG+maternal,0.2
+1,3,52,0.642469,primary345_causal,20.0,LR CTG+maternal,0.2
+1,4,52,0.419988,primary345_causal,20.0,LR CTG+maternal,0.2
+1,5,52,0.490136,primary345_causal,20.0,LR CTG+maternal,0.2
+2,1,52,0.471902,primary345_causal,20.0,LR CTG+maternal,0.2
+2,2,52,0.599043,primary345_causal,20.0,LR CTG+maternal,0.2
+2,3,52,0.588104,primary345_causal,20.0,LR CTG+maternal,0.2
+2,4,52,0.466064,primary345_causal,20.0,LR CTG+maternal,0.2
+2,5,52,0.53005,primary345_causal,20.0,LR CTG+maternal,0.2
+3,1,52,0.375123,primary345_causal,20.0,LR CTG+maternal,0.2
+3,2,52,0.540001,primary345_causal,20.0,LR CTG+maternal,0.2
+3,3,52,0.472279,primary345_causal,20.0,LR CTG+maternal,0.2
+3,4,52,0.75497,primary345_causal,20.0,LR CTG+maternal,0.2
+3,5,52,0.587026,primary345_causal,20.0,LR CTG+maternal,0.2
+1,1,52,0.1784,primary345_causal,20.0,RF CTG-only,0.1
+1,2,52,0.1348,primary345_causal,20.0,RF CTG-only,0.1
+1,3,52,0.2156,primary345_causal,20.0,RF CTG-only,0.1
+1,4,52,0.1332,primary345_causal,20.0,RF CTG-only,0.1
+1,5,52,0.1252,primary345_causal,20.0,RF CTG-only,0.1
+2,1,52,0.199,primary345_causal,20.0,RF CTG-only,0.1
+2,2,52,0.1972,primary345_causal,20.0,RF CTG-only,0.1
+2,3,52,0.1158,primary345_causal,20.0,RF CTG-only,0.1
+2,4,52,0.1768,primary345_causal,20.0,RF CTG-only,0.1
+2,5,52,0.088,primary345_causal,20.0,RF CTG-only,0.1
+3,1,52,0.1278,primary345_causal,20.0,RF CTG-only,0.1
+3,2,52,0.1574,primary345_causal,20.0,RF CTG-only,0.1
+3,3,52,0.1498,primary345_causal,20.0,RF CTG-only,0.1
+3,4,52,0.2206,primary345_causal,20.0,RF CTG-only,0.1
+3,5,52,0.1114,primary345_causal,20.0,RF CTG-only,0.1
+1,1,52,0.0872,primary345_causal,20.0,RF CTG-only,0.2
+1,2,52,0.0852,primary345_causal,20.0,RF CTG-only,0.2
+1,3,52,0.1592,primary345_causal,20.0,RF CTG-only,0.2
+1,4,52,0.0936,primary345_causal,20.0,RF CTG-only,0.2
+1,5,52,0.0916,primary345_causal,20.0,RF CTG-only,0.2
+2,1,52,0.1076,primary345_causal,20.0,RF CTG-only,0.2
+2,2,52,0.1232,primary345_causal,20.0,RF CTG-only,0.2
+2,3,52,0.0956,primary345_causal,20.0,RF CTG-only,0.2
+2,4,52,0.1,primary345_causal,20.0,RF CTG-only,0.2
+2,5,52,0.056,primary345_causal,20.0,RF CTG-only,0.2
+3,1,52,0.0728,primary345_causal,20.0,RF CTG-only,0.2
+3,2,52,0.1,primary345_causal,20.0,RF CTG-only,0.2
+3,3,52,0.112,primary345_causal,20.0,RF CTG-only,0.2
+3,4,52,0.0996,primary345_causal,20.0,RF CTG-only,0.2
+3,5,52,0.0812,primary345_causal,20.0,RF CTG-only,0.2
+1,1,52,0.1704,primary345_causal,20.0,RF CTG+maternal,0.1
+1,2,52,0.1206,primary345_causal,20.0,RF CTG+maternal,0.1
+1,3,52,0.1788,primary345_causal,20.0,RF CTG+maternal,0.1
+1,4,52,0.1192,primary345_causal,20.0,RF CTG+maternal,0.1
+1,5,52,0.1416,primary345_causal,20.0,RF CTG+maternal,0.1
+2,1,52,0.1584,primary345_causal,20.0,RF CTG+maternal,0.1
+2,2,52,0.232,primary345_causal,20.0,RF CTG+maternal,0.1
+2,3,52,0.1236,primary345_causal,20.0,RF CTG+maternal,0.1
+2,4,52,0.1752,primary345_causal,20.0,RF CTG+maternal,0.1
+2,5,52,0.0966,primary345_causal,20.0,RF CTG+maternal,0.1
+3,1,52,0.0914,primary345_causal,20.0,RF CTG+maternal,0.1
+3,2,52,0.1464,primary345_causal,20.0,RF CTG+maternal,0.1
+3,3,52,0.177,primary345_causal,20.0,RF CTG+maternal,0.1
+3,4,52,0.1926,primary345_causal,20.0,RF CTG+maternal,0.1
+3,5,52,0.1824,primary345_causal,20.0,RF CTG+maternal,0.1
+1,1,52,0.08,primary345_causal,20.0,RF CTG+maternal,0.2
+1,2,52,0.0816,primary345_causal,20.0,RF CTG+maternal,0.2
+1,3,52,0.1112,primary345_causal,20.0,RF CTG+maternal,0.2
+1,4,52,0.0928,primary345_causal,20.0,RF CTG+maternal,0.2
+1,5,52,0.088,primary345_causal,20.0,RF CTG+maternal,0.2
+2,1,52,0.108,primary345_causal,20.0,RF CTG+maternal,0.2
+2,2,52,0.1308,primary345_causal,20.0,RF CTG+maternal,0.2
+2,3,52,0.09,primary345_causal,20.0,RF CTG+maternal,0.2
+2,4,52,0.1212,primary345_causal,20.0,RF CTG+maternal,0.2
+2,5,52,0.0652,primary345_causal,20.0,RF CTG+maternal,0.2
+3,1,52,0.0716,primary345_causal,20.0,RF CTG+maternal,0.2
+3,2,52,0.1044,primary345_causal,20.0,RF CTG+maternal,0.2
+3,3,52,0.1136,primary345_causal,20.0,RF CTG+maternal,0.2
+3,4,52,0.1308,primary345_causal,20.0,RF CTG+maternal,0.2
+3,5,52,0.09,primary345_causal,20.0,RF CTG+maternal,0.2
+1,1,54,0.481634,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,2,53,0.524596,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,3,48,0.472713,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,4,44,0.506501,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,5,55,0.505399,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,1,51,0.569576,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,2,53,0.442709,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,3,53,0.4996,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,4,47,0.606672,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,5,50,0.534094,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,1,52,0.611595,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,2,51,0.518958,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,3,50,0.462107,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,4,56,0.510085,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,5,52,0.489112,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,1,54,0.470164,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,2,53,0.473583,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,3,48,0.452374,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,4,44,0.48109,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,5,55,0.475702,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,1,51,0.482714,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,2,53,0.374737,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,3,53,0.473604,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,4,47,0.535265,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,5,50,0.496764,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,1,52,0.565813,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,2,51,0.456965,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,3,50,0.44371,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,4,56,0.442502,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,5,52,0.467683,primary345_causal,20.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,1,54,0.518311,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,2,53,0.502622,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,3,48,0.440291,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,4,44,0.562564,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,5,55,0.489354,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,1,51,0.55365,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,2,53,0.460745,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,3,53,0.472165,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,4,47,0.63351,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,5,50,0.518589,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,1,52,0.527911,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,2,51,0.625794,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,3,50,0.535633,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,4,56,0.573303,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,5,52,0.527983,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,1,54,0.497474,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,2,53,0.471667,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,3,48,0.428773,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,4,44,0.529779,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,5,55,0.467479,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,1,51,0.504195,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,2,53,0.453911,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,3,53,0.440903,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,4,47,0.537989,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,5,50,0.478915,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,1,52,0.512947,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,2,51,0.550655,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,3,50,0.500521,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,4,56,0.4737,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,5,52,0.49971,primary345_causal,20.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,1,52,0.700378,primary345_causal,30.0,LR CTG-only,0.1
+1,2,52,0.672726,primary345_causal,30.0,LR CTG-only,0.1
+1,3,52,0.80345,primary345_causal,30.0,LR CTG-only,0.1
+1,4,52,0.644912,primary345_causal,30.0,LR CTG-only,0.1
+1,5,52,0.664441,primary345_causal,30.0,LR CTG-only,0.1
+2,1,52,0.648995,primary345_causal,30.0,LR CTG-only,0.1
+2,2,52,0.711979,primary345_causal,30.0,LR CTG-only,0.1
+2,3,52,0.79383,primary345_causal,30.0,LR CTG-only,0.1
+2,4,52,0.67047,primary345_causal,30.0,LR CTG-only,0.1
+2,5,52,0.613308,primary345_causal,30.0,LR CTG-only,0.1
+3,1,52,0.703601,primary345_causal,30.0,LR CTG-only,0.1
+3,2,52,0.723031,primary345_causal,30.0,LR CTG-only,0.1
+3,3,52,0.579664,primary345_causal,30.0,LR CTG-only,0.1
+3,4,52,0.842584,primary345_causal,30.0,LR CTG-only,0.1
+3,5,52,0.791274,primary345_causal,30.0,LR CTG-only,0.1
+1,1,52,0.549345,primary345_causal,30.0,LR CTG-only,0.2
+1,2,52,0.45521,primary345_causal,30.0,LR CTG-only,0.2
+1,3,52,0.671719,primary345_causal,30.0,LR CTG-only,0.2
+1,4,52,0.581793,primary345_causal,30.0,LR CTG-only,0.2
+1,5,52,0.554538,primary345_causal,30.0,LR CTG-only,0.2
+2,1,52,0.565891,primary345_causal,30.0,LR CTG-only,0.2
+2,2,52,0.595103,primary345_causal,30.0,LR CTG-only,0.2
+2,3,52,0.59872,primary345_causal,30.0,LR CTG-only,0.2
+2,4,52,0.51652,primary345_causal,30.0,LR CTG-only,0.2
+2,5,52,0.504613,primary345_causal,30.0,LR CTG-only,0.2
+3,1,52,0.564777,primary345_causal,30.0,LR CTG-only,0.2
+3,2,52,0.618444,primary345_causal,30.0,LR CTG-only,0.2
+3,3,52,0.488519,primary345_causal,30.0,LR CTG-only,0.2
+3,4,52,0.769742,primary345_causal,30.0,LR CTG-only,0.2
+3,5,52,0.637034,primary345_causal,30.0,LR CTG-only,0.2
+1,1,52,0.690008,primary345_causal,30.0,LR CTG+maternal,0.1
+1,2,52,0.667746,primary345_causal,30.0,LR CTG+maternal,0.1
+1,3,52,0.780313,primary345_causal,30.0,LR CTG+maternal,0.1
+1,4,52,0.639661,primary345_causal,30.0,LR CTG+maternal,0.1
+1,5,52,0.723189,primary345_causal,30.0,LR CTG+maternal,0.1
+2,1,52,0.682715,primary345_causal,30.0,LR CTG+maternal,0.1
+2,2,52,0.783979,primary345_causal,30.0,LR CTG+maternal,0.1
+2,3,52,0.777006,primary345_causal,30.0,LR CTG+maternal,0.1
+2,4,52,0.668542,primary345_causal,30.0,LR CTG+maternal,0.1
+2,5,52,0.688387,primary345_causal,30.0,LR CTG+maternal,0.1
+3,1,52,0.629739,primary345_causal,30.0,LR CTG+maternal,0.1
+3,2,52,0.78563,primary345_causal,30.0,LR CTG+maternal,0.1
+3,3,52,0.564543,primary345_causal,30.0,LR CTG+maternal,0.1
+3,4,52,0.938556,primary345_causal,30.0,LR CTG+maternal,0.1
+3,5,52,0.765237,primary345_causal,30.0,LR CTG+maternal,0.1
+1,1,52,0.487081,primary345_causal,30.0,LR CTG+maternal,0.2
+1,2,52,0.489765,primary345_causal,30.0,LR CTG+maternal,0.2
+1,3,52,0.554398,primary345_causal,30.0,LR CTG+maternal,0.2
+1,4,52,0.555886,primary345_causal,30.0,LR CTG+maternal,0.2
+1,5,52,0.527105,primary345_causal,30.0,LR CTG+maternal,0.2
+2,1,52,0.457694,primary345_causal,30.0,LR CTG+maternal,0.2
+2,2,52,0.551335,primary345_causal,30.0,LR CTG+maternal,0.2
+2,3,52,0.604173,primary345_causal,30.0,LR CTG+maternal,0.2
+2,4,52,0.488581,primary345_causal,30.0,LR CTG+maternal,0.2
+2,5,52,0.51993,primary345_causal,30.0,LR CTG+maternal,0.2
+3,1,52,0.504752,primary345_causal,30.0,LR CTG+maternal,0.2
+3,2,52,0.516769,primary345_causal,30.0,LR CTG+maternal,0.2
+3,3,52,0.499942,primary345_causal,30.0,LR CTG+maternal,0.2
+3,4,52,0.828711,primary345_causal,30.0,LR CTG+maternal,0.2
+3,5,52,0.544665,primary345_causal,30.0,LR CTG+maternal,0.2
+1,1,52,0.1194,primary345_causal,30.0,RF CTG-only,0.1
+1,2,52,0.1636,primary345_causal,30.0,RF CTG-only,0.1
+1,3,52,0.1298,primary345_causal,30.0,RF CTG-only,0.1
+1,4,52,0.1328,primary345_causal,30.0,RF CTG-only,0.1
+1,5,52,0.1538,primary345_causal,30.0,RF CTG-only,0.1
+2,1,52,0.122,primary345_causal,30.0,RF CTG-only,0.1
+2,2,52,0.1714,primary345_causal,30.0,RF CTG-only,0.1
+2,3,52,0.1868,primary345_causal,30.0,RF CTG-only,0.1
+2,4,52,0.1218,primary345_causal,30.0,RF CTG-only,0.1
+2,5,52,0.1396,primary345_causal,30.0,RF CTG-only,0.1
+3,1,52,0.1238,primary345_causal,30.0,RF CTG-only,0.1
+3,2,52,0.1394,primary345_causal,30.0,RF CTG-only,0.1
+3,3,52,0.1216,primary345_causal,30.0,RF CTG-only,0.1
+3,4,52,0.1798,primary345_causal,30.0,RF CTG-only,0.1
+3,5,52,0.1534,primary345_causal,30.0,RF CTG-only,0.1
+1,1,52,0.074,primary345_causal,30.0,RF CTG-only,0.2
+1,2,52,0.1028,primary345_causal,30.0,RF CTG-only,0.2
+1,3,52,0.1092,primary345_causal,30.0,RF CTG-only,0.2
+1,4,52,0.1036,primary345_causal,30.0,RF CTG-only,0.2
+1,5,52,0.0796,primary345_causal,30.0,RF CTG-only,0.2
+2,1,52,0.1052,primary345_causal,30.0,RF CTG-only,0.2
+2,2,52,0.0888,primary345_causal,30.0,RF CTG-only,0.2
+2,3,52,0.0996,primary345_causal,30.0,RF CTG-only,0.2
+2,4,52,0.1028,primary345_causal,30.0,RF CTG-only,0.2
+2,5,52,0.0692,primary345_causal,30.0,RF CTG-only,0.2
+3,1,52,0.0952,primary345_causal,30.0,RF CTG-only,0.2
+3,2,52,0.0972,primary345_causal,30.0,RF CTG-only,0.2
+3,3,52,0.0776,primary345_causal,30.0,RF CTG-only,0.2
+3,4,52,0.1208,primary345_causal,30.0,RF CTG-only,0.2
+3,5,52,0.1208,primary345_causal,30.0,RF CTG-only,0.2
+1,1,52,0.1358,primary345_causal,30.0,RF CTG+maternal,0.1
+1,2,52,0.124,primary345_causal,30.0,RF CTG+maternal,0.1
+1,3,52,0.1274,primary345_causal,30.0,RF CTG+maternal,0.1
+1,4,52,0.1278,primary345_causal,30.0,RF CTG+maternal,0.1
+1,5,52,0.1292,primary345_causal,30.0,RF CTG+maternal,0.1
+2,1,52,0.103,primary345_causal,30.0,RF CTG+maternal,0.1
+2,2,52,0.1778,primary345_causal,30.0,RF CTG+maternal,0.1
+2,3,52,0.1472,primary345_causal,30.0,RF CTG+maternal,0.1
+2,4,52,0.157,primary345_causal,30.0,RF CTG+maternal,0.1
+2,5,52,0.1352,primary345_causal,30.0,RF CTG+maternal,0.1
+3,1,52,0.127,primary345_causal,30.0,RF CTG+maternal,0.1
+3,2,52,0.1236,primary345_causal,30.0,RF CTG+maternal,0.1
+3,3,52,0.1354,primary345_causal,30.0,RF CTG+maternal,0.1
+3,4,52,0.1552,primary345_causal,30.0,RF CTG+maternal,0.1
+3,5,52,0.149,primary345_causal,30.0,RF CTG+maternal,0.1
+1,1,52,0.0936,primary345_causal,30.0,RF CTG+maternal,0.2
+1,2,52,0.0892,primary345_causal,30.0,RF CTG+maternal,0.2
+1,3,52,0.098,primary345_causal,30.0,RF CTG+maternal,0.2
+1,4,52,0.1032,primary345_causal,30.0,RF CTG+maternal,0.2
+1,5,52,0.0736,primary345_causal,30.0,RF CTG+maternal,0.2
+2,1,52,0.0892,primary345_causal,30.0,RF CTG+maternal,0.2
+2,2,52,0.108,primary345_causal,30.0,RF CTG+maternal,0.2
+2,3,52,0.1012,primary345_causal,30.0,RF CTG+maternal,0.2
+2,4,52,0.1268,primary345_causal,30.0,RF CTG+maternal,0.2
+2,5,52,0.0792,primary345_causal,30.0,RF CTG+maternal,0.2
+3,1,52,0.0964,primary345_causal,30.0,RF CTG+maternal,0.2
+3,2,52,0.0904,primary345_causal,30.0,RF CTG+maternal,0.2
+3,3,52,0.1084,primary345_causal,30.0,RF CTG+maternal,0.2
+3,4,52,0.13,primary345_causal,30.0,RF CTG+maternal,0.2
+3,5,52,0.1172,primary345_causal,30.0,RF CTG+maternal,0.2
+1,1,54,0.487405,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,2,53,0.553109,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,3,48,0.51979,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,4,44,0.5176,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,5,55,0.535498,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,1,51,0.595698,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,2,53,0.505602,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,3,53,0.515458,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,4,47,0.616062,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,5,50,0.544182,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,1,52,0.638903,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,2,51,0.595075,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,3,50,0.502247,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,4,56,0.511828,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,5,52,0.508556,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,1,54,0.478178,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,2,53,0.471621,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,3,48,0.469919,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,4,44,0.492828,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,5,55,0.502014,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,1,51,0.500993,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,2,53,0.41703,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,3,53,0.498247,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,4,47,0.575098,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,5,50,0.520318,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,1,52,0.597777,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,2,51,0.503244,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,3,50,0.465791,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,4,56,0.44151,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,5,52,0.476228,primary345_causal,30.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,1,54,0.528149,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,2,53,0.524005,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,3,48,0.45897,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,4,44,0.564297,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,5,55,0.495496,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,1,51,0.58112,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,2,53,0.470289,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,3,53,0.495991,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,4,47,0.659268,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,5,50,0.533808,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,1,52,0.549577,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,2,51,0.655722,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,3,50,0.547688,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,4,56,0.603058,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,5,52,0.5603,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,1,54,0.498875,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,2,53,0.491352,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,3,48,0.448771,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,4,44,0.542858,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,5,55,0.464893,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,1,51,0.52307,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,2,53,0.462008,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,3,53,0.479662,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,4,47,0.59565,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,5,50,0.513096,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,1,52,0.528513,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,2,51,0.576219,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,3,50,0.52409,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,4,56,0.531624,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,5,52,0.511049,primary345_causal,30.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,1,52,0.739389,primary345_causal,45.0,LR CTG-only,0.1
+1,2,52,0.587028,primary345_causal,45.0,LR CTG-only,0.1
+1,3,52,0.815756,primary345_causal,45.0,LR CTG-only,0.1
+1,4,52,0.666503,primary345_causal,45.0,LR CTG-only,0.1
+1,5,52,0.646352,primary345_causal,45.0,LR CTG-only,0.1
+2,1,52,0.620508,primary345_causal,45.0,LR CTG-only,0.1
+2,2,52,0.760125,primary345_causal,45.0,LR CTG-only,0.1
+2,3,52,0.747603,primary345_causal,45.0,LR CTG-only,0.1
+2,4,52,0.700744,primary345_causal,45.0,LR CTG-only,0.1
+2,5,52,0.723254,primary345_causal,45.0,LR CTG-only,0.1
+3,1,52,0.757357,primary345_causal,45.0,LR CTG-only,0.1
+3,2,52,0.650116,primary345_causal,45.0,LR CTG-only,0.1
+3,3,52,0.620149,primary345_causal,45.0,LR CTG-only,0.1
+3,4,52,0.883341,primary345_causal,45.0,LR CTG-only,0.1
+3,5,52,0.846894,primary345_causal,45.0,LR CTG-only,0.1
+1,1,52,0.548371,primary345_causal,45.0,LR CTG-only,0.2
+1,2,52,0.444712,primary345_causal,45.0,LR CTG-only,0.2
+1,3,52,0.764442,primary345_causal,45.0,LR CTG-only,0.2
+1,4,52,0.489913,primary345_causal,45.0,LR CTG-only,0.2
+1,5,52,0.553001,primary345_causal,45.0,LR CTG-only,0.2
+2,1,52,0.521648,primary345_causal,45.0,LR CTG-only,0.2
+2,2,52,0.664897,primary345_causal,45.0,LR CTG-only,0.2
+2,3,52,0.646088,primary345_causal,45.0,LR CTG-only,0.2
+2,4,52,0.527234,primary345_causal,45.0,LR CTG-only,0.2
+2,5,52,0.601481,primary345_causal,45.0,LR CTG-only,0.2
+3,1,52,0.562629,primary345_causal,45.0,LR CTG-only,0.2
+3,2,52,0.594567,primary345_causal,45.0,LR CTG-only,0.2
+3,3,52,0.539281,primary345_causal,45.0,LR CTG-only,0.2
+3,4,52,0.754771,primary345_causal,45.0,LR CTG-only,0.2
+3,5,52,0.694751,primary345_causal,45.0,LR CTG-only,0.2
+1,1,52,0.749701,primary345_causal,45.0,LR CTG+maternal,0.1
+1,2,52,0.645903,primary345_causal,45.0,LR CTG+maternal,0.1
+1,3,52,0.863164,primary345_causal,45.0,LR CTG+maternal,0.1
+1,4,52,0.72916,primary345_causal,45.0,LR CTG+maternal,0.1
+1,5,52,0.659433,primary345_causal,45.0,LR CTG+maternal,0.1
+2,1,52,0.590814,primary345_causal,45.0,LR CTG+maternal,0.1
+2,2,52,0.743076,primary345_causal,45.0,LR CTG+maternal,0.1
+2,3,52,0.768128,primary345_causal,45.0,LR CTG+maternal,0.1
+2,4,52,0.640847,primary345_causal,45.0,LR CTG+maternal,0.1
+2,5,52,0.791258,primary345_causal,45.0,LR CTG+maternal,0.1
+3,1,52,0.795005,primary345_causal,45.0,LR CTG+maternal,0.1
+3,2,52,0.772284,primary345_causal,45.0,LR CTG+maternal,0.1
+3,3,52,0.63388,primary345_causal,45.0,LR CTG+maternal,0.1
+3,4,52,0.955775,primary345_causal,45.0,LR CTG+maternal,0.1
+3,5,52,0.781897,primary345_causal,45.0,LR CTG+maternal,0.1
+1,1,52,0.489239,primary345_causal,45.0,LR CTG+maternal,0.2
+1,2,52,0.371619,primary345_causal,45.0,LR CTG+maternal,0.2
+1,3,52,0.621598,primary345_causal,45.0,LR CTG+maternal,0.2
+1,4,52,0.477389,primary345_causal,45.0,LR CTG+maternal,0.2
+1,5,52,0.537731,primary345_causal,45.0,LR CTG+maternal,0.2
+2,1,52,0.441516,primary345_causal,45.0,LR CTG+maternal,0.2
+2,2,52,0.615247,primary345_causal,45.0,LR CTG+maternal,0.2
+2,3,52,0.501646,primary345_causal,45.0,LR CTG+maternal,0.2
+2,4,52,0.512481,primary345_causal,45.0,LR CTG+maternal,0.2
+2,5,52,0.623009,primary345_causal,45.0,LR CTG+maternal,0.2
+3,1,52,0.563135,primary345_causal,45.0,LR CTG+maternal,0.2
+3,2,52,0.596986,primary345_causal,45.0,LR CTG+maternal,0.2
+3,3,52,0.577821,primary345_causal,45.0,LR CTG+maternal,0.2
+3,4,52,0.809814,primary345_causal,45.0,LR CTG+maternal,0.2
+3,5,52,0.627657,primary345_causal,45.0,LR CTG+maternal,0.2
+1,1,52,0.1708,primary345_causal,45.0,RF CTG-only,0.1
+1,2,52,0.1232,primary345_causal,45.0,RF CTG-only,0.1
+1,3,52,0.1616,primary345_causal,45.0,RF CTG-only,0.1
+1,4,52,0.2014,primary345_causal,45.0,RF CTG-only,0.1
+1,5,52,0.1116,primary345_causal,45.0,RF CTG-only,0.1
+2,1,52,0.1764,primary345_causal,45.0,RF CTG-only,0.1
+2,2,52,0.1956,primary345_causal,45.0,RF CTG-only,0.1
+2,3,52,0.1152,primary345_causal,45.0,RF CTG-only,0.1
+2,4,52,0.1282,primary345_causal,45.0,RF CTG-only,0.1
+2,5,52,0.161,primary345_causal,45.0,RF CTG-only,0.1
+3,1,52,0.1886,primary345_causal,45.0,RF CTG-only,0.1
+3,2,52,0.1322,primary345_causal,45.0,RF CTG-only,0.1
+3,3,52,0.125,primary345_causal,45.0,RF CTG-only,0.1
+3,4,52,0.247,primary345_causal,45.0,RF CTG-only,0.1
+3,5,52,0.1838,primary345_causal,45.0,RF CTG-only,0.1
+1,1,52,0.0832,primary345_causal,45.0,RF CTG-only,0.2
+1,2,52,0.08,primary345_causal,45.0,RF CTG-only,0.2
+1,3,52,0.1424,primary345_causal,45.0,RF CTG-only,0.2
+1,4,52,0.0956,primary345_causal,45.0,RF CTG-only,0.2
+1,5,52,0.0996,primary345_causal,45.0,RF CTG-only,0.2
+2,1,52,0.0976,primary345_causal,45.0,RF CTG-only,0.2
+2,2,52,0.1,primary345_causal,45.0,RF CTG-only,0.2
+2,3,52,0.0928,primary345_causal,45.0,RF CTG-only,0.2
+2,4,52,0.09,primary345_causal,45.0,RF CTG-only,0.2
+2,5,52,0.0956,primary345_causal,45.0,RF CTG-only,0.2
+3,1,52,0.1348,primary345_causal,45.0,RF CTG-only,0.2
+3,2,52,0.0752,primary345_causal,45.0,RF CTG-only,0.2
+3,3,52,0.0908,primary345_causal,45.0,RF CTG-only,0.2
+3,4,52,0.1856,primary345_causal,45.0,RF CTG-only,0.2
+3,5,52,0.1248,primary345_causal,45.0,RF CTG-only,0.2
+1,1,52,0.1676,primary345_causal,45.0,RF CTG+maternal,0.1
+1,2,52,0.1022,primary345_causal,45.0,RF CTG+maternal,0.1
+1,3,52,0.163,primary345_causal,45.0,RF CTG+maternal,0.1
+1,4,52,0.1692,primary345_causal,45.0,RF CTG+maternal,0.1
+1,5,52,0.1376,primary345_causal,45.0,RF CTG+maternal,0.1
+2,1,52,0.135,primary345_causal,45.0,RF CTG+maternal,0.1
+2,2,52,0.1624,primary345_causal,45.0,RF CTG+maternal,0.1
+2,3,52,0.1292,primary345_causal,45.0,RF CTG+maternal,0.1
+2,4,52,0.144,primary345_causal,45.0,RF CTG+maternal,0.1
+2,5,52,0.1402,primary345_causal,45.0,RF CTG+maternal,0.1
+3,1,52,0.1566,primary345_causal,45.0,RF CTG+maternal,0.1
+3,2,52,0.1344,primary345_causal,45.0,RF CTG+maternal,0.1
+3,3,52,0.121,primary345_causal,45.0,RF CTG+maternal,0.1
+3,4,52,0.2192,primary345_causal,45.0,RF CTG+maternal,0.1
+3,5,52,0.1738,primary345_causal,45.0,RF CTG+maternal,0.1
+1,1,52,0.096,primary345_causal,45.0,RF CTG+maternal,0.2
+1,2,52,0.0716,primary345_causal,45.0,RF CTG+maternal,0.2
+1,3,52,0.1128,primary345_causal,45.0,RF CTG+maternal,0.2
+1,4,52,0.0832,primary345_causal,45.0,RF CTG+maternal,0.2
+1,5,52,0.098,primary345_causal,45.0,RF CTG+maternal,0.2
+2,1,52,0.0916,primary345_causal,45.0,RF CTG+maternal,0.2
+2,2,52,0.118,primary345_causal,45.0,RF CTG+maternal,0.2
+2,3,52,0.0836,primary345_causal,45.0,RF CTG+maternal,0.2
+2,4,52,0.1112,primary345_causal,45.0,RF CTG+maternal,0.2
+2,5,52,0.0804,primary345_causal,45.0,RF CTG+maternal,0.2
+3,1,52,0.1116,primary345_causal,45.0,RF CTG+maternal,0.2
+3,2,52,0.074,primary345_causal,45.0,RF CTG+maternal,0.2
+3,3,52,0.076,primary345_causal,45.0,RF CTG+maternal,0.2
+3,4,52,0.168,primary345_causal,45.0,RF CTG+maternal,0.2
+3,5,52,0.1144,primary345_causal,45.0,RF CTG+maternal,0.2
+1,1,54,0.490994,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,2,53,0.606362,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,3,48,0.56493,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,4,44,0.529158,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,5,55,0.576429,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,1,51,0.625579,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,2,53,0.518775,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,3,53,0.560391,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,4,47,0.628021,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,5,50,0.587783,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,1,52,0.665131,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,2,51,0.657,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,3,50,0.540042,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,4,56,0.614921,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,5,52,0.517696,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,1,54,0.47981,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,2,53,0.525259,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,3,48,0.530459,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,4,44,0.507854,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,5,55,0.526076,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,1,51,0.561269,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,2,53,0.439387,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,3,53,0.531038,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,4,47,0.605264,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,5,50,0.54944,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,1,52,0.593387,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,2,51,0.582594,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,3,50,0.508451,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,4,56,0.454281,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,5,52,0.483932,primary345_causal,45.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,1,54,0.528778,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,2,53,0.553062,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,3,48,0.477696,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,4,44,0.596366,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,5,55,0.493591,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,1,51,0.613781,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,2,53,0.481653,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,3,53,0.529278,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,4,47,0.695831,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,5,50,0.56326,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,1,52,0.558128,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,2,51,0.664155,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,3,50,0.564691,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,4,56,0.63886,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,5,52,0.560494,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,1,54,0.513257,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,2,53,0.507663,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,3,48,0.469455,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,4,44,0.577543,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,5,55,0.465457,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,1,51,0.55016,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,2,53,0.479019,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,3,53,0.519586,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,4,47,0.663774,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,5,50,0.551482,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,1,52,0.518551,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,2,51,0.602025,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,3,50,0.551397,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,4,56,0.556337,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,5,52,0.523681,primary345_causal,45.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,1,52,0.651959,primary345_causal,60.0,LR CTG-only,0.1
+1,2,52,0.64985,primary345_causal,60.0,LR CTG-only,0.1
+1,3,52,0.855564,primary345_causal,60.0,LR CTG-only,0.1
+1,4,52,0.715085,primary345_causal,60.0,LR CTG-only,0.1
+1,5,52,0.638104,primary345_causal,60.0,LR CTG-only,0.1
+2,1,52,0.562237,primary345_causal,60.0,LR CTG-only,0.1
+2,2,52,0.673084,primary345_causal,60.0,LR CTG-only,0.1
+2,3,52,0.63534,primary345_causal,60.0,LR CTG-only,0.1
+2,4,52,0.757548,primary345_causal,60.0,LR CTG-only,0.1
+2,5,52,0.707366,primary345_causal,60.0,LR CTG-only,0.1
+3,1,52,0.751212,primary345_causal,60.0,LR CTG-only,0.1
+3,2,52,0.802504,primary345_causal,60.0,LR CTG-only,0.1
+3,3,52,0.657303,primary345_causal,60.0,LR CTG-only,0.1
+3,4,52,0.839903,primary345_causal,60.0,LR CTG-only,0.1
+3,5,52,0.832003,primary345_causal,60.0,LR CTG-only,0.1
+1,1,52,0.46628,primary345_causal,60.0,LR CTG-only,0.2
+1,2,52,0.526632,primary345_causal,60.0,LR CTG-only,0.2
+1,3,52,0.685994,primary345_causal,60.0,LR CTG-only,0.2
+1,4,52,0.512899,primary345_causal,60.0,LR CTG-only,0.2
+1,5,52,0.555552,primary345_causal,60.0,LR CTG-only,0.2
+2,1,52,0.500341,primary345_causal,60.0,LR CTG-only,0.2
+2,2,52,0.625102,primary345_causal,60.0,LR CTG-only,0.2
+2,3,52,0.548933,primary345_causal,60.0,LR CTG-only,0.2
+2,4,52,0.466092,primary345_causal,60.0,LR CTG-only,0.2
+2,5,52,0.631653,primary345_causal,60.0,LR CTG-only,0.2
+3,1,52,0.5488,primary345_causal,60.0,LR CTG-only,0.2
+3,2,52,0.598202,primary345_causal,60.0,LR CTG-only,0.2
+3,3,52,0.462637,primary345_causal,60.0,LR CTG-only,0.2
+3,4,52,0.567834,primary345_causal,60.0,LR CTG-only,0.2
+3,5,52,0.634015,primary345_causal,60.0,LR CTG-only,0.2
+1,1,52,0.704578,primary345_causal,60.0,LR CTG+maternal,0.1
+1,2,52,0.60178,primary345_causal,60.0,LR CTG+maternal,0.1
+1,3,52,0.867824,primary345_causal,60.0,LR CTG+maternal,0.1
+1,4,52,0.562889,primary345_causal,60.0,LR CTG+maternal,0.1
+1,5,52,0.605334,primary345_causal,60.0,LR CTG+maternal,0.1
+2,1,52,0.581073,primary345_causal,60.0,LR CTG+maternal,0.1
+2,2,52,0.782002,primary345_causal,60.0,LR CTG+maternal,0.1
+2,3,52,0.541175,primary345_causal,60.0,LR CTG+maternal,0.1
+2,4,52,0.571187,primary345_causal,60.0,LR CTG+maternal,0.1
+2,5,52,0.839024,primary345_causal,60.0,LR CTG+maternal,0.1
+3,1,52,0.89452,primary345_causal,60.0,LR CTG+maternal,0.1
+3,2,52,0.748053,primary345_causal,60.0,LR CTG+maternal,0.1
+3,3,52,0.603675,primary345_causal,60.0,LR CTG+maternal,0.1
+3,4,52,0.850213,primary345_causal,60.0,LR CTG+maternal,0.1
+3,5,52,0.688815,primary345_causal,60.0,LR CTG+maternal,0.1
+1,1,52,0.425824,primary345_causal,60.0,LR CTG+maternal,0.2
+1,2,52,0.326491,primary345_causal,60.0,LR CTG+maternal,0.2
+1,3,52,0.636016,primary345_causal,60.0,LR CTG+maternal,0.2
+1,4,52,0.439297,primary345_causal,60.0,LR CTG+maternal,0.2
+1,5,52,0.375722,primary345_causal,60.0,LR CTG+maternal,0.2
+2,1,52,0.422291,primary345_causal,60.0,LR CTG+maternal,0.2
+2,2,52,0.469395,primary345_causal,60.0,LR CTG+maternal,0.2
+2,3,52,0.321661,primary345_causal,60.0,LR CTG+maternal,0.2
+2,4,52,0.320868,primary345_causal,60.0,LR CTG+maternal,0.2
+2,5,52,0.668752,primary345_causal,60.0,LR CTG+maternal,0.2
+3,1,52,0.440534,primary345_causal,60.0,LR CTG+maternal,0.2
+3,2,52,0.60929,primary345_causal,60.0,LR CTG+maternal,0.2
+3,3,52,0.481559,primary345_causal,60.0,LR CTG+maternal,0.2
+3,4,52,0.668832,primary345_causal,60.0,LR CTG+maternal,0.2
+3,5,52,0.538488,primary345_causal,60.0,LR CTG+maternal,0.2
+1,1,52,0.1484,primary345_causal,60.0,RF CTG-only,0.1
+1,2,52,0.1356,primary345_causal,60.0,RF CTG-only,0.1
+1,3,52,0.2634,primary345_causal,60.0,RF CTG-only,0.1
+1,4,52,0.1176,primary345_causal,60.0,RF CTG-only,0.1
+1,5,52,0.1666,primary345_causal,60.0,RF CTG-only,0.1
+2,1,52,0.1694,primary345_causal,60.0,RF CTG-only,0.1
+2,2,52,0.1742,primary345_causal,60.0,RF CTG-only,0.1
+2,3,52,0.0998,primary345_causal,60.0,RF CTG-only,0.1
+2,4,52,0.1982,primary345_causal,60.0,RF CTG-only,0.1
+2,5,52,0.1196,primary345_causal,60.0,RF CTG-only,0.1
+3,1,52,0.2048,primary345_causal,60.0,RF CTG-only,0.1
+3,2,52,0.16,primary345_causal,60.0,RF CTG-only,0.1
+3,3,52,0.1156,primary345_causal,60.0,RF CTG-only,0.1
+3,4,52,0.2148,primary345_causal,60.0,RF CTG-only,0.1
+3,5,52,0.2074,primary345_causal,60.0,RF CTG-only,0.1
+1,1,52,0.0732,primary345_causal,60.0,RF CTG-only,0.2
+1,2,52,0.1064,primary345_causal,60.0,RF CTG-only,0.2
+1,3,52,0.1256,primary345_causal,60.0,RF CTG-only,0.2
+1,4,52,0.1,primary345_causal,60.0,RF CTG-only,0.2
+1,5,52,0.1216,primary345_causal,60.0,RF CTG-only,0.2
+2,1,52,0.1172,primary345_causal,60.0,RF CTG-only,0.2
+2,2,52,0.13,primary345_causal,60.0,RF CTG-only,0.2
+2,3,52,0.0732,primary345_causal,60.0,RF CTG-only,0.2
+2,4,52,0.1192,primary345_causal,60.0,RF CTG-only,0.2
+2,5,52,0.0956,primary345_causal,60.0,RF CTG-only,0.2
+3,1,52,0.1236,primary345_causal,60.0,RF CTG-only,0.2
+3,2,52,0.1252,primary345_causal,60.0,RF CTG-only,0.2
+3,3,52,0.0636,primary345_causal,60.0,RF CTG-only,0.2
+3,4,52,0.1324,primary345_causal,60.0,RF CTG-only,0.2
+3,5,52,0.1392,primary345_causal,60.0,RF CTG-only,0.2
+1,1,52,0.1256,primary345_causal,60.0,RF CTG+maternal,0.1
+1,2,52,0.1324,primary345_causal,60.0,RF CTG+maternal,0.1
+1,3,52,0.151,primary345_causal,60.0,RF CTG+maternal,0.1
+1,4,52,0.1,primary345_causal,60.0,RF CTG+maternal,0.1
+1,5,52,0.1546,primary345_causal,60.0,RF CTG+maternal,0.1
+2,1,52,0.1494,primary345_causal,60.0,RF CTG+maternal,0.1
+2,2,52,0.1732,primary345_causal,60.0,RF CTG+maternal,0.1
+2,3,52,0.0998,primary345_causal,60.0,RF CTG+maternal,0.1
+2,4,52,0.1578,primary345_causal,60.0,RF CTG+maternal,0.1
+2,5,52,0.1018,primary345_causal,60.0,RF CTG+maternal,0.1
+3,1,52,0.1494,primary345_causal,60.0,RF CTG+maternal,0.1
+3,2,52,0.1752,primary345_causal,60.0,RF CTG+maternal,0.1
+3,3,52,0.1016,primary345_causal,60.0,RF CTG+maternal,0.1
+3,4,52,0.1554,primary345_causal,60.0,RF CTG+maternal,0.1
+3,5,52,0.2402,primary345_causal,60.0,RF CTG+maternal,0.1
+1,1,52,0.074,primary345_causal,60.0,RF CTG+maternal,0.2
+1,2,52,0.0572,primary345_causal,60.0,RF CTG+maternal,0.2
+1,3,52,0.1112,primary345_causal,60.0,RF CTG+maternal,0.2
+1,4,52,0.0832,primary345_causal,60.0,RF CTG+maternal,0.2
+1,5,52,0.104,primary345_causal,60.0,RF CTG+maternal,0.2
+2,1,52,0.1076,primary345_causal,60.0,RF CTG+maternal,0.2
+2,2,52,0.1224,primary345_causal,60.0,RF CTG+maternal,0.2
+2,3,52,0.0712,primary345_causal,60.0,RF CTG+maternal,0.2
+2,4,52,0.0976,primary345_causal,60.0,RF CTG+maternal,0.2
+2,5,52,0.076,primary345_causal,60.0,RF CTG+maternal,0.2
+3,1,52,0.1204,primary345_causal,60.0,RF CTG+maternal,0.2
+3,2,52,0.0996,primary345_causal,60.0,RF CTG+maternal,0.2
+3,3,52,0.0848,primary345_causal,60.0,RF CTG+maternal,0.2
+3,4,52,0.1332,primary345_causal,60.0,RF CTG+maternal,0.2
+3,5,52,0.126,primary345_causal,60.0,RF CTG+maternal,0.2
+1,1,54,0.493503,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,2,53,0.681567,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,3,48,0.624469,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,4,44,0.567611,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,5,55,0.610402,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,1,51,0.634534,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,2,53,0.592161,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,3,53,0.58882,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,4,47,0.641446,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+2,5,50,0.623199,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,1,52,0.656216,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,2,51,0.691066,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,3,50,0.574967,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,4,56,0.671469,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+3,5,52,0.525119,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.1
+1,1,54,0.479209,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,2,53,0.562633,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,3,48,0.5776,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,4,44,0.543787,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,5,55,0.569303,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,1,51,0.586897,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,2,53,0.521359,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,3,53,0.554662,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,4,47,0.624174,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+2,5,50,0.58305,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,1,52,0.589062,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,2,51,0.578,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,3,50,0.543952,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,4,56,0.532494,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+3,5,52,0.486984,primary345_causal,60.0,"Deep CTG-only (reduced, 5 seeds)",0.2
+1,1,54,0.528233,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,2,53,0.577704,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,3,48,0.494531,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,4,44,0.615761,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,5,55,0.510125,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,1,51,0.638693,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,2,53,0.50051,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,3,53,0.550014,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,4,47,0.705673,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+2,5,50,0.607558,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,1,52,0.546097,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,2,51,0.650368,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,3,50,0.584404,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,4,56,0.658275,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+3,5,52,0.575669,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.1
+1,1,54,0.50245,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,2,53,0.537422,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,3,48,0.488253,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,4,44,0.610916,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+1,5,55,0.491737,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,1,51,0.581685,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,2,53,0.491929,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,3,53,0.539653,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,4,47,0.679684,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+2,5,50,0.581283,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,1,52,0.521119,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,2,51,0.625577,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,3,50,0.57512,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,4,56,0.617901,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.2
+3,5,52,0.528696,primary345_causal,60.0,"Deep fusion (reduced, 5 seeds)",0.2

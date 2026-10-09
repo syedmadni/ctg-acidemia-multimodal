@@ -1,0 +1,11 @@
+label,variant,checkpoint_minutes,n,cases,parous_cases,parous_cases_of_total,nulliparous_cases,nulliparous_controls,parous_controls,nulliparity_OR,OR_ci_low,OR_ci_high,fisher_p,haldane_used,fragility_OR_one_parous_control_to_case,fragility_ci_low,fragility_ci_high,fragility_fisher_p
+"POST HOC, descriptive",ckfilter,10.0,377,28,4,4/28,24,230,119,3.1043,1.0527,9.1542,0.0355,False,2.4626,0.9162,6.6192,0.0971
+"POST HOC, descriptive",ckfilter,20.0,397,27,3,3/27,24,244,126,4.1311,1.2204,13.984,0.0174,False,3.0738,1.0436,9.0535,0.036
+"POST HOC, descriptive",ckfilter,30.0,425,29,3,3/29,26,262,134,4.4326,1.3177,14.9107,0.0072,False,3.2996,1.1282,9.6502,0.0246
+"POST HOC, descriptive",ckfilter,45.0,461,31,3,3/31,28,283,147,4.8481,1.4497,16.2132,0.0046,False,3.6113,1.243,10.4919,0.0108
+"POST HOC, descriptive",ckfilter,60.0,474,33,3,3/33,30,287,154,5.3659,1.6115,17.8666,0.0017,False,3.9983,1.383,11.5587,0.0045
+"POST HOC, descriptive",unfiltered,10.0,487,40,5,5/40,35,290,157,3.7897,1.4554,9.8675,0.0027,False,3.1379,1.2917,7.6232,0.0086
+"POST HOC, descriptive",unfiltered,20.0,487,40,5,5/40,35,290,157,3.7897,1.4554,9.8675,0.0027,False,3.1379,1.2917,7.6232,0.0086
+"POST HOC, descriptive",unfiltered,30.0,487,40,5,5/40,35,290,157,3.7897,1.4554,9.8675,0.0027,False,3.1379,1.2917,7.6232,0.0086
+"POST HOC, descriptive",unfiltered,45.0,487,40,5,5/40,35,290,157,3.7897,1.4554,9.8675,0.0027,False,3.1379,1.2917,7.6232,0.0086
+"POST HOC, descriptive",unfiltered,60.0,487,40,5,5/40,35,290,157,3.7897,1.4554,9.8675,0.0027,False,3.1379,1.2917,7.6232,0.0086

@@ -1,0 +1,60 @@
+base_config: configs/baseline.yaml
+
+# Phase 6d (flagship): DeepCTG 2.0-style auxiliary pretraining on the shrunk
+# encoder. The CTG encoder first regresses the 8 clinical CTG features
+# (decelerations, variability, baseline, UC rate) from the raw signal -- a task
+# with a target for every record -- then is fine-tuned on acidemia.
+# Compared against anytime_cap64 (same encoder, no pretraining) this isolates
+# the effect of pretraining.
+
+label:
+  name: y_acidemia_705
+  short_name: "705"
+
+quality_filtering:
+  predefined_thresholds: [0.60]
+  audit_source: outputs/audit/primary_705_label_by_exclusion_type.csv
+  label_dependent: true
+  interpretation_note: >
+    Phase-6d auxiliary pretraining (20 epochs, MSE on 8 standardized clinical CTG
+    features) of the d_model=64/transformer_layers=1 encoder, followed by the
+    standard anytime acidemia fine-tune. Pretraining targets are derived from the
+    input signal only (never from the label) and are standardized on inner-train
+    rows only, so no label leakage and no cross-fold contamination.
+
+deep_model:
+  encoder:
+    d_model: 64
+    transformer_layers: 1
+    n_heads: 4
+    dropout: 0.3
+  pretrain:
+    epochs: 20
+    learning_rate: 0.001
+
+cohorts:
+  - name: anytime_cap64_pretrain
+    suffix: _705_anytime_vr060
+    min_valid_ratio: 0.60
+    window_minutes: 90
+    window_position: first
+
+checkpoints_minutes: [10, 20, 30, 45, 60, 90]
+
+anytime_training:
+  min_crop_minutes: 8
+  max_crop_minutes: 90
+
+cross_validation:
+  n_splits: 5
+  n_repeats: 3
+  seed: 42
+  bootstrap_iterations: 1000
+
+models:
+  - ctg_only
+  - fusion
+  - gated_fusion
+
+output:
+  base_dir: outputs/quality_cohorts

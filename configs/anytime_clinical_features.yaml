@@ -1,0 +1,53 @@
+base_config: configs/baseline.yaml
+
+# Phase 4 experiment: does adding FIGO/NICE-style clinical CTG features
+# (decelerations, variability, baseline FHR, UC rate) to the tabular feature set
+# improve the classical models over the plain mean/std/min/max/median baseline?
+# Only logistic_regression / random_forest are affected -- the deep models read
+# the raw signal, so they are not re-run here. Reuses the SAME processed arrays
+# (_705_anytime_vr060) as the headline cohort; writes to a new cohort dir so the
+# original results are never touched.
+
+label:
+  name: y_acidemia_705
+  short_name: "705"
+
+quality_filtering:
+  predefined_thresholds: [0.60]
+  audit_source: outputs/audit/primary_705_label_by_exclusion_type.csv
+  label_dependent: true
+  interpretation_note: >
+    Phase-4 clinical-feature variant of primary_705_anytime_vr060. Identical
+    cohort/arrays; the only change is clinical_features: true, which appends the
+    8 clinical CTG features (src/data/clinical_ctg_features.py) after the existing
+    10 CTG summary stats + 8 maternal features for the LR/RF models. Computed on
+    the checkpoint-cropped signal's active (non-zero) prefix only, so the crop
+    boundary is never read as a fake deceleration.
+
+clinical_features: true
+
+cohorts:
+  - name: primary_705_anytime_vr060_clinfeat
+    suffix: _705_anytime_vr060
+    min_valid_ratio: 0.60
+    window_minutes: 90
+    window_position: first
+
+checkpoints_minutes: [10, 20, 30, 45, 60, 90]
+
+anytime_training:
+  min_crop_minutes: 8
+  max_crop_minutes: 90
+
+cross_validation:
+  n_splits: 5
+  n_repeats: 3
+  seed: 42
+  bootstrap_iterations: 1000
+
+models:
+  - logistic_regression
+  - random_forest
+
+output:
+  base_dir: outputs/quality_cohorts

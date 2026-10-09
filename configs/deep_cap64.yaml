@@ -1,0 +1,50 @@
+base_config: configs/baseline.yaml
+
+# Phase 3: shrink the deep encoder to d_model=64, transformer_layers=1
+# (~82k params vs the 449k default, ~5.5x smaller). Tests the core diagnosis:
+# is the model too large for 23 positives? Deep models only; reuses the same
+# _705_anytime_vr060 arrays, writes to a new cohort dir.
+
+label:
+  name: y_acidemia_705
+  short_name: "705"
+
+quality_filtering:
+  predefined_thresholds: [0.60]
+  audit_source: outputs/audit/primary_705_label_by_exclusion_type.csv
+  label_dependent: true
+  interpretation_note: "Phase-3 capacity sweep (d_model=64, transformer_layers=1) of the anytime deep models."
+
+deep_model:
+  encoder:
+    d_model: 64
+    transformer_layers: 1
+    n_heads: 4
+    dropout: 0.3
+
+cohorts:
+  - name: anytime_cap64
+    suffix: _705_anytime_vr060
+    min_valid_ratio: 0.60
+    window_minutes: 90
+    window_position: first
+
+checkpoints_minutes: [10, 20, 30, 45, 60, 90]
+
+anytime_training:
+  min_crop_minutes: 8
+  max_crop_minutes: 90
+
+cross_validation:
+  n_splits: 5
+  n_repeats: 3
+  seed: 42
+  bootstrap_iterations: 1000
+
+models:
+  - ctg_only
+  - fusion
+  - gated_fusion
+
+output:
+  base_dir: outputs/quality_cohorts

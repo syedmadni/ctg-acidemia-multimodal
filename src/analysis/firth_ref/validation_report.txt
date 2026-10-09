@@ -1,0 +1,54 @@
+sex2: n=239, p=7 (incl. intercept), positives=130
+columns: ['(Intercept)', 'age', 'oc', 'vic', 'vicl', 'vis', 'dia']
+
+=== 1. Full model: coefficients, SE ===
+PASS  coef[(Intercept)]                             python= 0.120254  R= 0.120254  (round3d)
+PASS  se[(Intercept)]                               python= 0.476343  R= 0.476343  (round3d)
+PASS  coef[age]                                     python=-1.105981  R=-1.105981  (round3d)
+PASS  se[age]                                       python= 0.414902  R= 0.414902  (round3d)
+PASS  coef[oc]                                      python=-0.068817  R=-0.068817  (round3d)
+PASS  se[oc]                                        python= 0.434403  R= 0.434403  (round3d)
+PASS  coef[vic]                                     python= 2.268875  R= 2.268875  (round3d)
+PASS  se[vic]                                       python= 0.538487  R= 0.538487  (round3d)
+PASS  coef[vicl]                                    python=-2.111408  R=-2.111408  (round3d)
+PASS  se[vicl]                                      python= 0.532040  R= 0.532039  (round3d)
+PASS  coef[vis]                                     python=-0.788317  R=-0.788317  (round3d)
+PASS  se[vis]                                       python= 0.408962  R= 0.408962  (round3d)
+PASS  coef[dia]                                     python= 3.096012  R= 3.096012  (round3d)
+PASS  se[dia]                                       python= 1.505221  R= 1.505220  (round3d)
+PASS  penalized_loglik (full)                       python=-132.539380  R=-132.539380  (round3d)
+Python iterations to converge: 13; converged=True; max|score|=7.079e-10; warnings=[]
+
+=== 2. Restricted LRT: dia = 0 (single coefficient) ===
+PASS  restricted penalized_loglik                   python=-136.487845  R=-136.487845  (round3d)
+PASS  LR statistic                                  python= 7.896931  R= 7.896931  (round3d)
+PASS  df: python=1 R=1
+PASS  p-value: python=4.951873e-03 R=4.951873e-03 (round3d on raw value)
+
+=== 3. Restricted LRT: vic = 0 AND vicl = 0 (joint) ===
+PASS  restricted penalized_loglik                   python=-146.559645  R=-146.559645  (round3d)
+PASS  LR statistic                                  python= 28.040531  R= 28.040531  (round3d)
+PASS  df: python=2 R=2
+PASS  p-value: python=8.148469e-07 R=8.148469e-07 (round3d on raw value)
+
+=== 4. SECONDARY cross-check vs firthlogist README (does not block) ===
+Source: https://github.com/jzluo/firthlogist README.md, commit 0a4df9cf78a08bcab9acfd0b98148d2642ddf82e (2025-12-05), fetched 2026-09-20.
+  coef[(Intercept) ] python= 0.120254  firthlogist= 0.120254  diff=+0.000000
+  coef[age         ] python=-1.105981  firthlogist=-1.105980  diff=-0.000001
+  coef[oc          ] python=-0.068817  firthlogist=-0.068817  diff=-0.000000
+  coef[vic         ] python= 2.268875  firthlogist= 2.268870  diff=+0.000005
+  coef[vicl        ] python=-2.111408  firthlogist=-2.111410  diff=+0.000002
+  coef[vis         ] python=-0.788317  firthlogist=-0.788317  diff=+0.000000
+  coef[dia         ] python= 3.096012  firthlogist= 3.096010  diff=+0.000002
+  loglik: python=-132.5394  firthlogist=-132.5394  diff=+0.0000
+  NOTE: firthlogist's reported SEs/p-values differ from logistf's (different SE/inference method -- firthlogist does not use profile-likelihood CIs by default); coefficients and log-likelihood agree closely. Reported for completeness; does not gate.
+
+=== 5. Internal check: scipy.optimize.minimize on penalized log-likelihood ===
+scipy converged: False, message: Desired error not necessarily achieved due to precision loss.
+PASS  max|beta_scipy - beta_newton| = 8.849e-08 (gate: round to 4dp == 0)
+PASS  ||gradient|| at scipy solution = 9.804e-07 (gate: < 1e-6)
+scipy penalized loglik = -132.539380  (Newton-Raphson = -132.539380)
+
+======================================================================
+GATE VERDICT (Steps 1-4, 3 decimals): PASS -- proceed to Step 1
+======================================================================

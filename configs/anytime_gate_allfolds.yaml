@@ -1,0 +1,75 @@
+# All-folds gated_fusion rerun, for the properly-powered gate interpretability
+# analysis (src/analysis/run_anytime_disagreement_pooled.py).
+#
+# WHY A SEPARATE COHORT: run_anytime_cohort() keeps only the best-val-PR-AUC
+# fold checkpoint per model unless --save-all-fold-models is passed, so the
+# original gate finding rests on ONE fold (n=69, 5 positives). Pooling across
+# all 15 folds requires every checkpoint retained. The original cohort
+# primary_705_anytime_vr060 is NOT re-run and NOT overwritten -- its numbers are
+# cited in the Midterm Report and manuscript draft. Same precedent as
+# primary_705_vr060_gated_ab vs primary_705_vr060.
+#
+# IDENTICAL to configs/anytime_cohort.yaml except:
+#   - cohorts[0].name  (new output dir; suffix is deliberately the SAME, so the
+#                       underlying data arrays and therefore the splits match)
+#   - models           (gated_fusion only -- ctg_only/maternal_only OOF are
+#                       already full-power and are reused from the original)
+#
+# Seed, n_splits, n_repeats, checkpoints and anytime_training are unchanged, so
+# the splits are bit-identical to the original cohort's. That makes the
+# determinism cross-check possible: gated_fusion's OOF predictions here MUST
+# match the original cohort's gated_fusion rows exactly, because
+# train_deep_fold_anytime() re-seeds per (model, fold) and is therefore
+# independent of which other models ran alongside it.
+#
+# Run:
+#   python -m src.training.train_cv --anytime-cohort \
+#     --config configs/anytime_gate_allfolds.yaml \
+#     --cohort primary_705_anytime_vr060_allfolds \
+#     --save-all-fold-models
+base_config: configs/baseline.yaml
+
+label:
+  name: y_acidemia_705
+  short_name: "705"
+
+quality_filtering:
+  predefined_thresholds: [0.60]
+  audit_source: outputs/audit/primary_705_label_by_exclusion_type.csv
+  label_dependent: true
+  interpretation_note: >
+    All-folds rerun of gated_fusion ONLY on the identical anytime cohort data
+    (suffix _705_anytime_vr060, vr060 threshold, first 90 minutes zero-padded),
+    with every fold checkpoint retained so per-record gate values can be pooled
+    across all 15 folds instead of read from a single best fold. Training,
+    splits, seed and checkpoints are unchanged from
+    configs/anytime_cohort.yaml, so gated_fusion's metrics here are expected to
+    reproduce the original cohort's gated_fusion metrics exactly; any deviation
+    indicates a determinism regression and invalidates the comparison. This
+    cohort exists for the interpretability analysis, not to restate headline
+    performance -- cite primary_705_anytime_vr060 for those.
+
+cohorts:
+  - name: primary_705_anytime_vr060_allfolds
+    suffix: _705_anytime_vr060
+    min_valid_ratio: 0.60
+    window_minutes: 90
+    window_position: first
+
+checkpoints_minutes: [10, 20, 30, 45, 60, 90]
+
+anytime_training:
+  min_crop_minutes: 8
+  max_crop_minutes: 90
+
+cross_validation:
+  n_splits: 5
+  n_repeats: 3
+  seed: 42
+  bootstrap_iterations: 1000
+
+models:
+  - gated_fusion
+
+output:
+  base_dir: outputs/quality_cohorts

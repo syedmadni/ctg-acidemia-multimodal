@@ -1,0 +1,5 @@
+check,max_abs_diff,pass
+"class-weighted OOF == Task A OOF (ckfilter, combined)",0.0,True
+"class-weighted OOF == Task A OOF (ckfilter, ctg_only)",0.0,True
+"class-weighted OOF == Task A OOF (unfiltered, combined)",0.0,True
+"class-weighted OOF == Task A OOF (unfiltered, ctg_only)",0.0,True

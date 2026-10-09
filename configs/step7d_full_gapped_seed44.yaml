@@ -1,0 +1,49 @@
+base_config: configs/baseline.yaml
+
+# Step 7d SEED VARIANCE (training_seed=44): identical folds (seed 42), identical
+# cutoff rule; only weight init / crop sampling differ. ctg_only + fusion only.
+# Original header:
+# Step 7d PRIMARY: full-size encoder (the architectures reported in the paper),
+# gapped label, 0.60 cohort, duration-aware training cutoffs [8, min(90, duration)].
+# Spec: outputs/quality_cohorts/primary_705_anytime_vr060/maternal_value/STEP7D_SPEC.md
+# Everything except the cutoff bound matches primary_705_anytime_vr060 exactly, so the
+# old-vs-retrained comparison isolates the cutoff change.
+
+label:
+  name: y_acidemia_705
+  short_name: "705"
+
+quality_filtering:
+  predefined_thresholds: [0.60]
+  audit_source: outputs/audit/primary_705_label_by_exclusion_type.csv
+  label_dependent: true
+  interpretation_note: "Step 7d primary: full-size deep models retrained with duration-aware training cutoffs."
+
+duration_aware_cutoffs: true
+
+cohorts:
+  - name: step7d_full_gapped_seed44
+    suffix: _705_anytime_vr060
+    min_valid_ratio: 0.60
+    window_minutes: 90
+    window_position: first
+
+checkpoints_minutes: [10, 20, 30, 45, 60]
+
+anytime_training:
+  min_crop_minutes: 8
+  max_crop_minutes: 90
+
+cross_validation:
+  n_splits: 5
+  n_repeats: 3
+  seed: 42
+  training_seed: 44
+  bootstrap_iterations: 1000
+
+models:
+  - ctg_only
+  - fusion
+
+output:
+  base_dir: outputs/quality_cohorts

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+# data are downloaded from PhysioNet, never committed
+/data/
+# record-level and bulky regenerated outputs
+/results/revision/oof/
+/results/revision/valpred/
+/results/revision/cache/
+/results/revision/deep/
+*.pt

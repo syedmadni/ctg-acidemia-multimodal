@@ -1,0 +1,56 @@
+base_config: configs/baseline.yaml
+
+label:
+  name: y_acidemia_705
+  short_name: "705"
+
+quality_filtering:
+  predefined_thresholds: [0.60]
+  audit_source: outputs/audit/primary_705_label_by_exclusion_type.csv
+  label_dependent: true
+  interpretation_note: >
+    Anytime cohort stores the first 90 minutes of the recorded trace per
+    record (window_position: first, window_minutes: 90), zero-padded at the
+    tail for any recording shorter than 90 minutes -- extract_first_window()'s
+    existing behavior, unchanged. This is NOT a fixed-window cohort: training
+    uses AnyTimeCTGDataset to randomly crop-and-zero each sample to a random
+    elapsed-time length every epoch, so one model learns to predict from
+    however much signal is available. Valid-ratio filtering (threshold 0.60,
+    matching primary_705_vr060) is computed on this same 90-minute stored
+    array. Outer-test evaluation crops this cohort's held-out arrays to fixed
+    checkpoints (10/20/30/45/60/90 min) to report clean, reproducible
+    per-checkpoint metrics for the SAME trained model -- not six separate
+    models. CTU-UHB has no labor-onset timestamp, so "elapsed time" here means
+    elapsed time in the recorded trace, not elapsed time since true labor
+    onset -- same limitation already documented for the (now-superseded, kept
+    only as a fallback) early-window cohorts.
+
+cohorts:
+  - name: primary_705_anytime_vr060
+    suffix: _705_anytime_vr060
+    min_valid_ratio: 0.60
+    window_minutes: 90
+    window_position: first
+
+checkpoints_minutes: [10, 20, 30, 45, 60, 90]
+
+anytime_training:
+  min_crop_minutes: 8
+  max_crop_minutes: 90
+
+cross_validation:
+  n_splits: 5
+  n_repeats: 3
+  seed: 42
+  bootstrap_iterations: 1000
+
+models:
+  - ctg_only
+  - maternal_only
+  - fusion
+  - gated_fusion
+  - logistic_regression
+  - random_forest
+
+output:
+  base_dir: outputs/quality_cohorts

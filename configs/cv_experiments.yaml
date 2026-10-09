@@ -1,0 +1,23 @@
+base_config: configs/baseline.yaml
+
+experiments:
+  labels:
+    - y_acidemia_705
+    - y_acidemia_710
+  valid_ratio_thresholds:
+    - 0.50
+    - 0.60
+    - 0.70
+
+cross_validation:
+  n_splits: 5
+  n_repeats: 5
+  seed: 42
+
+models:
+  - logistic_regression
+  - random_forest
+  - maternal_only
+  - ctg_only
+  - fusion
+

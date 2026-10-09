@@ -1,0 +1,6 @@
+check,n,max_abs_diff_min,of_known,rho,p
+"Pos. II.st. == length - II.stage*240 (samples), known records",506,0.08333333333333393,,,
+second stage starts at exactly 60.0 min (Pos. II.st. == 14400),493,,506.0,,
+second stage starts before 60 min,0,,506.0,,
+"published Spearman reproduced: 345 records, II.stage -1 (unknown) kept as a value",345,,,0.8509390035812693,6.21262999745069e-98
+"corrected: 345 records, II.stage -1 excluded",326,,,0.9911582869110632,2.7810100536530904e-286

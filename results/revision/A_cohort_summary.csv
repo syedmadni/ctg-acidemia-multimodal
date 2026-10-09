@@ -1,0 +1,16 @@
+variant,checkpoint_minutes,n,cases,prevalence,records_no_valid_fhr_in_window,records_no_valid_uc_in_window,cases_nulliparous,controls_nulliparous,median_quality_ratio
+ckfilter,10.0,377,28,0.0743,0,2,24,230,0.9854
+ckfilter,20.0,397,27,0.068,0,1,24,244,0.9592
+ckfilter,30.0,425,29,0.0682,0,1,26,262,0.9343
+ckfilter,45.0,461,31,0.0672,0,1,28,283,0.8939
+ckfilter,60.0,474,33,0.0696,0,1,30,287,0.8742
+unfiltered,10.0,487,40,0.0821,38,36,35,290,0.955
+unfiltered,20.0,487,40,0.0821,2,3,35,290,0.9263
+unfiltered,30.0,487,40,0.0821,0,1,35,290,0.9094
+unfiltered,45.0,487,40,0.0821,0,1,35,290,0.8834
+unfiltered,60.0,487,40,0.0821,0,1,35,290,0.8698
+primary345_causal,10.0,345,23,0.0667,12,13,22,227,0.9762
+primary345_causal,20.0,345,23,0.0667,0,1,22,227,0.9621
+primary345_causal,30.0,345,23,0.0667,0,1,22,227,0.9536
+primary345_causal,45.0,345,23,0.0667,0,1,22,227,0.935
+primary345_causal,60.0,345,23,0.0667,0,1,22,227,0.9204

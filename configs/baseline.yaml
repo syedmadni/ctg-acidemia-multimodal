@@ -1,0 +1,50 @@
+project_name: ctg_acidemia_research
+seed: 42
+
+paths:
+  # Put the PhysioNet CTU-UHB v1.0.0 WFDB files here.
+  # Expected files: RECORDS, *.hea, *.dat
+  raw_data_dir: data/raw/ctu-uhb-ctgdb
+  processed_dir: data/processed
+  splits_dir: data/splits
+  outputs_dir: outputs
+
+labels:
+  primary_name: y_acidemia_705
+  primary_positive_ph_lt: 7.05
+  normal_ph_gte: 7.15
+  secondary_name: y_acidemia_710
+  secondary_positive_ph_lt: 7.10
+
+signals:
+  fhr_channel: 0
+  uc_channel: 1
+  source_sample_rate_hz: 4
+  target_sample_rate_hz: 1
+  window_minutes: 30
+  min_fhr_valid_ratio: 0.70
+  window_position: last
+  channels: [FHR, UC]
+
+maternal_features:
+  # Safe/static features preferred for early prediction. Avoid post-delivery leakage fields.
+  columns:
+    - age
+    - gravidity
+    - parity
+    - gest_weeks
+    - diabetes
+    - hypertension
+    - preeclampsia
+    - induced
+
+training:
+  test_size: 0.20
+  val_size: 0.20
+  batch_size: 32
+  epochs: 40
+  learning_rate: 0.0005
+  weight_decay: 0.0001
+  early_stopping_patience: 8
+  threshold: 0.50
+  device: auto

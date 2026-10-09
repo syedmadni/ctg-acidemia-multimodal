@@ -1,0 +1,11 @@
+check,checkpoint_minutes,reproduced,published,match_4dp
+"Firth maternal chi2, v2 features, published 345",10.0,12.4938,12.4938,True
+"LR CTG+maternal AUC, v2 features, published 345, splits from disk",10.0,0.6165,0.6165,True
+"Firth maternal chi2, v2 features, published 345",20.0,14.7479,14.7479,True
+"LR CTG+maternal AUC, v2 features, published 345, splits from disk",20.0,0.7432,0.7432,True
+"Firth maternal chi2, v2 features, published 345",30.0,13.2336,13.2336,True
+"LR CTG+maternal AUC, v2 features, published 345, splits from disk",30.0,0.6998,0.6998,True
+"Firth maternal chi2, v2 features, published 345",45.0,13.8769,13.8769,True
+"LR CTG+maternal AUC, v2 features, published 345, splits from disk",45.0,0.716,0.716,True
+"Firth maternal chi2, v2 features, published 345",60.0,13.9808,13.9808,True
+"LR CTG+maternal AUC, v2 features, published 345, splits from disk",60.0,0.8169,0.8169,True

@@ -1,0 +1,11 @@
+# Table 3. Combined minus CTG-only AUC by fusion strategy (primary cohort)
+
+| fusion_strategy | 10 min | 20 min | 30 min | 45 min | 60 min |
+|---|---|---|---|---|---|
+| Logistic regression | +0.032 (-0.066 to 0.127) p = 1.00 | -0.009 (-0.077 to 0.063) p = 1.00 | +0.010 (-0.079 to 0.096) p = 1.00 | +0.001 (-0.084 to 0.076) p = 1.00 | -0.033 (-0.106 to 0.032) p = 1.00 |
+| Random forest | -0.003 (-0.049 to 0.043) p = 1.00 | +0.023 (-0.018 to 0.061) p = 1.00 | -0.003 (-0.042 to 0.036) p = 1.00 | +0.028 (-0.013 to 0.066) p = 0.92 | +0.012 (-0.019 to 0.043) p = 1.00 |
+| Deep fusion, reduced encoder (5 seeds) | +0.007 (-0.083 to 0.085) p = 1.00 | +0.015 (-0.039 to 0.070) p = 1.00 | +0.006 (-0.034 to 0.047) p = 1.00 | -0.000 (-0.036 to 0.037) p = 1.00 | -0.003 (-0.038 to 0.034) p = 1.00 |
+| Deep fusion, full-size encoder | not re-estimated (DEVIATIONS A2) | not re-estimated (DEVIATIONS A2) | not re-estimated (DEVIATIONS A2) | not re-estimated (DEVIATIONS A2) | not re-estimated (DEVIATIONS A2) |
+| Deep gated fusion (both encoder sizes) | not re-estimated (DEVIATIONS A2) | not re-estimated (DEVIATIONS A2) | not re-estimated (DEVIATIONS A2) | not re-estimated (DEVIATIONS A2) | not re-estimated (DEVIATIONS A2) |
+
+Combined (CTG + maternal) minus CTG-only ROC-AUC, primary cohort. Paired stratified bootstrap 95 % CI (2000); p = paired DeLong, Holm across the five checkpoints. Deep fusion is compared with the seed-averaged deep CTG-only network; both are trained on the unfiltered cohort and evaluated on the primary cohort.

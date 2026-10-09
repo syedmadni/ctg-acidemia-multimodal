@@ -1,0 +1,53 @@
+base_config: configs/baseline.yaml
+
+# Phase 6b on top of the shrunk encoder: focal loss instead of BCE + pos_weight.
+# Compared against anytime_cap64 this isolates the effect of the loss change at
+# the same capacity.
+
+label:
+  name: y_acidemia_705
+  short_name: "705"
+
+quality_filtering:
+  predefined_thresholds: [0.60]
+  audit_source: outputs/audit/primary_705_label_by_exclusion_type.csv
+  label_dependent: true
+  interpretation_note: "Phase-6b focal loss (alpha=0.25, gamma=2.0) on the d_model=64/tl=1 encoder."
+
+deep_model:
+  encoder:
+    d_model: 64
+    transformer_layers: 1
+    n_heads: 4
+    dropout: 0.3
+  loss:
+    type: focal
+    focal_alpha: 0.25
+    focal_gamma: 2.0
+
+cohorts:
+  - name: anytime_cap64_focal
+    suffix: _705_anytime_vr060
+    min_valid_ratio: 0.60
+    window_minutes: 90
+    window_position: first
+
+checkpoints_minutes: [10, 20, 30, 45, 60, 90]
+
+anytime_training:
+  min_crop_minutes: 8
+  max_crop_minutes: 90
+
+cross_validation:
+  n_splits: 5
+  n_repeats: 3
+  seed: 42
+  bootstrap_iterations: 1000
+
+models:
+  - ctg_only
+  - fusion
+  - gated_fusion
+
+output:
+  base_dir: outputs/quality_cohorts

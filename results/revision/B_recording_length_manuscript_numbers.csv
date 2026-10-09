@@ -1,0 +1,4 @@
+variant,cohort_at,n,cases,median_length_min,length_auc,length_auc_ci_low,length_auc_ci_high,spearman_length_vs_ii_stage,spearman_p,n_ii_stage_known,label
+ckfilter,t=60,474,33,70.0,0.7065,0.6203,0.7922,0.9774,0.0,428,CONFOUNDING CHECK - time to delivery is unknown at prediction time; not a deployable predictor
+unfiltered,fixed,487,40,70.0,0.675,0.5904,0.7537,0.9776,0.0,441,CONFOUNDING CHECK - time to delivery is unknown at prediction time; not a deployable predictor
+primary345_causal,fixed,345,23,75.0,0.7197,0.631,0.8008,0.9912,0.0,326,CONFOUNDING CHECK - time to delivery is unknown at prediction time; not a deployable predictor

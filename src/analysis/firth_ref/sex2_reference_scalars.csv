@@ -1,0 +1,13 @@
+"quantity","value"
+"loglik_full",-132.539379532844
+"loglik_null",-157.084700928862
+"single_test_restricted_loglik",-136.487845226261
+"single_test_full_loglik",-132.539379532844
+"single_test_LR_stat",7.89693138683265
+"single_test_df",1
+"single_test_p",0.00495187338639058
+"joint_test_restricted_loglik",-146.559645112535
+"joint_test_full_loglik",-132.539379532844
+"joint_test_LR_stat",28.0405311593818
+"joint_test_df",2
+"joint_test_p",8.14846911723066e-07

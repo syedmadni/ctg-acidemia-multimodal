@@ -1,0 +1,38 @@
+base_config: configs/baseline.yaml
+
+label:
+  name: y_acidemia_705
+  short_name: "705"
+
+quality_filtering:
+  predefined_thresholds: [0.50, 0.60, 0.70]
+  audit_source: outputs/audit/primary_705_label_by_exclusion_type.csv
+  label_dependent: true
+  interpretation_note: >
+    Signal-quality filtering is label-dependent in the audit; across-cohort
+    metric differences are sensitivity analyses, not direct model superiority.
+
+cohorts:
+  - name: primary_705_vr050
+    suffix: _705_vr050
+    min_valid_ratio: 0.50
+  - name: primary_705_vr060
+    suffix: _705_vr060
+    min_valid_ratio: 0.60
+  - name: primary_705_vr070
+    suffix: _705_vr070
+    min_valid_ratio: 0.70
+
+cross_validation:
+  n_splits: 5
+  n_repeats: 3
+  seed: 42
+  bootstrap_iterations: 1000
+
+models:
+  - ctg_only
+  - maternal_only
+  - fusion
+
+output:
+  base_dir: outputs/quality_cohorts

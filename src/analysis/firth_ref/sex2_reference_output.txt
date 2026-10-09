@@ -1,0 +1,110 @@
+R version: R version 4.6.1 (2026-06-24 ucrt) 
+logistf version: 1.26.1 
+sex2 (bundled with logistf) identical to sex2 fetched from GitHub raw: TRUE 
+
+=== Model: case ~ age + oc + vic + vicl + vis + dia ===
+
+--- summary(fit) ---
+logistf(formula = case ~ age + oc + vic + vicl + vis + dia, data = sex2)
+
+Model fitted by Penalized ML
+Coefficients:
+                   coef  se(coef) lower 0.95  upper 0.95       Chisq
+(Intercept)  0.12025405 0.4763429 -0.8185591  1.07315122  0.06286298
+age         -1.10598131 0.4149021 -1.9737884 -0.30742514  7.50773092
+oc          -0.06881673 0.4344026 -0.9414363  0.78920202  0.02467044
+vic          2.26887464 0.5384872  1.2730216  3.43543273 22.93139022
+vicl        -2.11140817 0.5320395 -3.2608611 -1.11773495 19.10407252
+vis         -0.78831694 0.4089620 -1.6080879  0.01518468  3.69740975
+dia          3.09601166 1.5052197  0.7745682  8.03029352  7.89693139
+                       p method
+(Intercept) 8.020268e-01      2
+age         6.143472e-03      2
+oc          8.751911e-01      2
+vic         1.678877e-06      2
+vicl        1.237805e-05      2
+vis         5.449701e-02      2
+dia         4.951873e-03      2
+
+Method: 1-Wald, 2-Profile penalized log-likelihood, 3-None
+
+Likelihood ratio test=49.09064 on 6 df, p=7.15089e-09, n=239
+Wald test = 31.96835 on 6 df, p = 1.654713e-05logistf(formula = case ~ age + oc + vic + vicl + vis + dia, data = sex2)
+Model fitted by Penalized ML
+Confidence intervals and p-values by Profile Likelihood 
+
+Coefficients:
+(Intercept)         age          oc         vic        vicl         vis 
+ 0.12025405 -1.10598131 -0.06881673  2.26887464 -2.11140817 -0.78831694 
+        dia 
+ 3.09601166 
+
+Likelihood ratio test=49.09064 on 6 df, p=7.15089e-09, n=239
+
+
+--- print(fit) (includes overall penalized LRT) ---
+logistf(formula = case ~ age + oc + vic + vicl + vis + dia, data = sex2)
+Model fitted by Penalized ML
+Confidence intervals and p-values by Profile Likelihood 
+
+Coefficients:
+(Intercept)         age          oc         vic        vicl         vis 
+ 0.12025405 -1.10598131 -0.06881673  2.26887464 -2.11140817 -0.78831694 
+        dia 
+ 3.09601166 
+
+Likelihood ratio test=49.09064 on 6 df, p=7.15089e-09, n=239
+
+
+--- coefficients ---
+(Intercept)         age          oc         vic        vicl         vis 
+ 0.12025405 -1.10598131 -0.06881673  2.26887464 -2.11140817 -0.78831694 
+        dia 
+ 3.09601166 
+
+--- standard errors, sqrt(diag(fit$var)) ---
+[1] 0.4763429 0.4149021 0.4344026 0.5384872 0.5320395 0.4089620 1.5052197
+
+--- penalized log-likelihoods (fit$loglik) ---
+     full      null 
+-132.5394 -157.0847 
+
+--- per-coefficient penalized profile-LR p-values (fit$prob) ---
+ (Intercept)          age           oc          vic         vicl          vis 
+8.020268e-01 6.143472e-03 8.751911e-01 1.678877e-06 1.237805e-05 5.449701e-02 
+         dia 
+4.951873e-03 
+
+
+=== logistftest: single coefficient, dia = 0 ===
+logistftest(object = fit, test = ~dia - 1)
+Model fitted by Penalized ML 
+
+Factors fixed as follows:
+(Intercept)         age          oc         vic        vicl         vis 
+         NA          NA          NA          NA          NA          NA 
+        dia 
+          0 
+
+Likelihoods:
+Restricted model       Full model       difference 
+     -136.487845      -132.539380         3.948466 
+
+Likelihood ratio test=7.896931 on 1 df, p=0.004951873
+
+
+=== logistftest: joint, vic = 0 AND vicl = 0 ===
+logistftest(object = fit, test = ~vic + vicl - 1)
+Model fitted by Penalized ML 
+
+Factors fixed as follows:
+(Intercept)         age          oc         vic        vicl         vis 
+         NA          NA          NA           0           0          NA 
+        dia 
+         NA 
+
+Likelihoods:
+Restricted model       Full model       difference 
+      -146.55965       -132.53938         14.02027 
+
+Likelihood ratio test=28.04053 on 2 df, p=8.148469e-07

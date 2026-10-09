@@ -1,0 +1,12 @@
+variable,cases,controls,p_value,missing
+"Maternal age (years), mean",29.73,29.63,-,0
+"Gravidity, mean",1.27,1.43,-,4
+"Parity, mean",0.12,0.45,-,0
+"Gestational age (weeks), mean",40.03,39.98,-,0
+"Nulliparous, n (%)",30 (90.9 %),287 (65.1 %),0.002,0
+"Diabetes, n (%)",3 (9.1 %),33 (7.5 %),0.73,0
+"Hypertension, n (%)",2 (6.1 %),35 (7.9 %),1.0,0
+"Pre-eclampsia, n (%)",0 (0.0 %),14 (3.2 %),0.613,0
+"Induced labour, n (%)",10 (30.3 %),177 (40.1 %),0.356,0
+"Newborn sex code 1, n (%)",19 (57.6 %),226 (51.2 %),0.589,0
+"Newborn sex code 2, n (%)",14 (42.4 %),215 (48.8 %),0.589,0

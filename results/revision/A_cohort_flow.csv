@@ -1,0 +1,36 @@
+variant,checkpoint_minutes,step_order,step,n_excluded_at_step,excl_cases_at_step,n_remaining,cases_remaining,prevalence_remaining
+ckfilter,10.0,0,source records,,,552,,
+ckfilter,10.0,1,excluded: pH 7.05-7.15 or missing (gapped label),65.0,,487,40.0,0.0821
+ckfilter,10.0,2,excluded: recording shorter than 10 min,0.0,0,487,40.0,0.0821
+ckfilter,10.0,3,"excluded: FHR valid ratio in [0,10) < 0.60",110.0,12,377,28.0,0.0743
+unfiltered,10.0,0,source records,,,552,,
+unfiltered,10.0,1,excluded: pH 7.05-7.15 or missing (gapped label),65.0,,487,40.0,0.0821
+unfiltered,10.0,2,excluded: recording shorter than 10 min,0.0,0,487,40.0,0.0821
+ckfilter,20.0,0,source records,,,552,,
+ckfilter,20.0,1,excluded: pH 7.05-7.15 or missing (gapped label),65.0,,487,40.0,0.0821
+ckfilter,20.0,2,excluded: recording shorter than 20 min,0.0,0,487,40.0,0.0821
+ckfilter,20.0,3,"excluded: FHR valid ratio in [0,20) < 0.60",90.0,13,397,27.0,0.068
+unfiltered,20.0,0,source records,,,552,,
+unfiltered,20.0,1,excluded: pH 7.05-7.15 or missing (gapped label),65.0,,487,40.0,0.0821
+unfiltered,20.0,2,excluded: recording shorter than 20 min,0.0,0,487,40.0,0.0821
+ckfilter,30.0,0,source records,,,552,,
+ckfilter,30.0,1,excluded: pH 7.05-7.15 or missing (gapped label),65.0,,487,40.0,0.0821
+ckfilter,30.0,2,excluded: recording shorter than 30 min,0.0,0,487,40.0,0.0821
+ckfilter,30.0,3,"excluded: FHR valid ratio in [0,30) < 0.60",62.0,11,425,29.0,0.0682
+unfiltered,30.0,0,source records,,,552,,
+unfiltered,30.0,1,excluded: pH 7.05-7.15 or missing (gapped label),65.0,,487,40.0,0.0821
+unfiltered,30.0,2,excluded: recording shorter than 30 min,0.0,0,487,40.0,0.0821
+ckfilter,45.0,0,source records,,,552,,
+ckfilter,45.0,1,excluded: pH 7.05-7.15 or missing (gapped label),65.0,,487,40.0,0.0821
+ckfilter,45.0,2,excluded: recording shorter than 45 min,0.0,0,487,40.0,0.0821
+ckfilter,45.0,3,"excluded: FHR valid ratio in [0,45) < 0.60",26.0,9,461,31.0,0.0672
+unfiltered,45.0,0,source records,,,552,,
+unfiltered,45.0,1,excluded: pH 7.05-7.15 or missing (gapped label),65.0,,487,40.0,0.0821
+unfiltered,45.0,2,excluded: recording shorter than 45 min,0.0,0,487,40.0,0.0821
+ckfilter,60.0,0,source records,,,552,,
+ckfilter,60.0,1,excluded: pH 7.05-7.15 or missing (gapped label),65.0,,487,40.0,0.0821
+ckfilter,60.0,2,excluded: recording shorter than 60 min,0.0,0,487,40.0,0.0821
+ckfilter,60.0,3,"excluded: FHR valid ratio in [0,60) < 0.60",13.0,7,474,33.0,0.0696
+unfiltered,60.0,0,source records,,,552,,
+unfiltered,60.0,1,excluded: pH 7.05-7.15 or missing (gapped label),65.0,,487,40.0,0.0821
+unfiltered,60.0,2,excluded: recording shorter than 60 min,0.0,0,487,40.0,0.0821

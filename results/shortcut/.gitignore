@@ -1,0 +1,6 @@
+# Record-level outputs and logs: kept out of git, shipped in results_shortcut.zip.
+progress/
+reference/
+predictions.csv
+occlusion.csv
+run_log.txt

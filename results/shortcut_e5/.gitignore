@@ -1,0 +1,8 @@
+# Record-level outputs and logs: kept out of git, shipped in results_shortcut_e5.zip.
+progress/
+reference/
+predictions.csv
+occlusion.csv
+run_log.txt
+cohort.csv
+training_log.csv
